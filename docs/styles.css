@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1em 2em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    font-size: 1.8em;
+    margin: 0;
+    color: #111;
+  }
+  
+  /* Scrollytelling Layout */
+  .scrollytelling {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-panel {
+    padding: 2em;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .text-panel h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .visual-panel {
+    height: 400px;
+    margin: auto;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    font-size: 1.5em;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    background-color: #fff;
+    color: #777;
+  }
+  
