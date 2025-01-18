@@ -1,68 +1,54 @@
+// Set up dimensions for the SVG
 const width = 800;
 const height = 600;
 
-const nodes = [];
-const links = [];
+// Debugging: Confirm script is running
+console.log("Simple bar chart script loaded");
 
-// Transform raw data into nodes and links
-Object.keys(rawData).forEach((incomeGroup) => {
-  nodes.push({ name: incomeGroup });
-
-  Object.keys(rawData[incomeGroup]).forEach((mentalState) => {
-    if (!nodes.find((n) => n.name === mentalState)) {
-      nodes.push({ name: mentalState });
-    }
-
-    links.push({
-      source: incomeGroup,
-      target: mentalState,
-      value: rawData[incomeGroup][mentalState].males + rawData[incomeGroup][mentalState].females,
-    });
-  });
-});
-
-// Create the Sankey layout
-const sankey = d3
-  .sankey()
-  .nodeId((d) => d.name)
-  .nodeWidth(20)
-  .nodePadding(15)
-  .size([width, height]);
-
-const sankeyData = sankey({
-  nodes: nodes.map((d) => Object.assign({}, d)),
-  links: links.map((d) => Object.assign({}, d)),
-});
-
-// Draw the SVG container
+// Append SVG to the container
 const svg = d3
   .select("#sankey-container")
   .append("svg")
   .attr("width", width)
-  .attr("height", height);
+  .attr("height", height)
+  .style("background-color", "lightgray"); // Background color for visibility
 
-// Draw links
-svg
-  .append("g")
-  .selectAll("path")
-  .data(sankeyData.links)
-  .join("path")
-  .attr("d", d3.sankeyLinkHorizontal())
-  .attr("fill", "none")
-  .attr("stroke", "#ccc")
-  .attr("stroke-width", (d) => Math.max(1, d.width));
+// Define simple static data
+const data = [
+  { name: "A", value: 30 },
+  { name: "B", value: 80 },
+  { name: "C", value: 45 },
+  { name: "D", value: 60 },
+  { name: "E", value: 20 },
+];
 
-// Draw nodes
+// Set up scales
+const xScale = d3
+  .scaleBand()
+  .domain(data.map((d) => d.name))
+  .range([0, width])
+  .padding(0.2);
+
+const yScale = d3.scaleLinear().domain([0, 100]).range([height, 0]);
+
+// Draw bars
 svg
-  .append("g")
   .selectAll("rect")
-  .data(sankeyData.nodes)
+  .data(data)
   .join("rect")
-  .attr("x", (d) => d.x0)
-  .attr("y", (d) => d.y0)
-  .attr("height", (d) => d.y1 - d.y0)
-  .attr("width", (d) => d.x1 - d.x0)
-  .attr("fill", "steelblue")
-  .attr("stroke", "#000")
-  .append("title")
-  .text((d) => `${d.name}\n${d.value}`);
+  .attr("x", (d) => xScale(d.name))
+  .attr("y", (d) => yScale(d.value))
+  .attr("width", xScale.bandwidth())
+  .attr("height", (d) => height - yScale(d.value))
+  .attr("fill", "steelblue");
+
+// Add labels
+svg
+  .selectAll("text")
+  .data(data)
+  .join("text")
+  .attr("x", (d) => xScale(d.name) + xScale.bandwidth() / 2)
+  .attr("y", (d) => yScale(d.value) - 5)
+  .attr("text-anchor", "middle")
+  .text((d) => d.value)
+  .attr("fill", "#000");
