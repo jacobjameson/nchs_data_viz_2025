@@ -3,46 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mental Health and Suicide in Older Adults</title>
+  <title>Animated Sankey Diagram</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header>
     <h1>Mental Health and Suicide in Older Adults</h1>
   </header>
-
   <main>
-    <section class="scrollytelling">
-      <div class="text-panel" id="section-1">
-        <h2>Introduction</h2>
-        <p>Set the stage: Explain the importance of mental health in older adults.</p>
-      </div>
-      <div class="visual-panel" id="visual-1">
-        <!-- Placeholder for your first visualization -->
-      </div>
-
-      <div class="text-panel" id="section-2">
-        <h2>Risk Factors</h2>
-        <p>Highlight key risk factors using NCHS and external datasets.</p>
-      </div>
-      <div class="visual-panel" id="visual-2">
-        <!-- Placeholder for your second visualization -->
-      </div>
-
-      <div class="text-panel" id="section-3">
-        <h2>Policy Implications</h2>
-        <p>Discuss findings and provide actionable insights for policymakers.</p>
-      </div>
-      <div class="visual-panel" id="visual-3">
-        <!-- Placeholder for your final visualization -->
-      </div>
-    </section>
+    <div id="sankey-container"></div>
   </main>
-
   <footer>
     <p>&copy; 2025 Jacob Jameson</p>
   </footer>
-
-  <script src="js/scripts.js"></script>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="data/rawData.js"></script>
+  <script src="js/sankey.js"></script>
 </body>
 </html>
