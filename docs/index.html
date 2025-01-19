@@ -1,186 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Sankey Diagram with Animation</title>
-  <style>
-    .node rect {
-      cursor: move;
-      fill-opacity: 0.9;
-      shape-rendering: crispEdges;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intergenerational Educational Mobility by Race and Gender</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Intergenerational Educational Mobility by Race and Gender</h1>
+      <div class="introduction">
+        <p>
+          Follow the lives of&nbsp;
+          <select
+            name="category-0"
+            id="category-select-0"
+            class="select-css category-select category-0"
+          ></select>
+          &nbsp;and&nbsp;
+          <select
+            name="category-1"
+            id="category-select-1"
+            class="select-css category-select category-1"
+          ></select>
+          &nbsp;from their parents' educational attainment to their own
+          educational attainment.
+        </p>
+      </div>
+      <div class="chart-wrapper"></div>
+      <ul class="source">
+        <li>
+          Data source:
+          <a href="https://opportunityinsights.org/">Opportunity Insight</a>
+          <a
+            href="https://opportunityinsights.org/wp-content/uploads/2019/08/table_7.csv"
+            >Intergenerational Transition Matrices of Educational Attainment by
+            Race and Gender</a
+          >
+        </li>
+        <li>
+          Visualization inspiration:
+          <a
+            href="https://www.nytimes.com/interactive/2018/03/19/upshot/race-class-white-and-black-men.html"
+            >Extensive Data Shows Punishing Reach of Racism for Black Boys</a
+          >
+        </li>
+        <li>
+          Code inspiration:
+          <a href="https://observablehq.com/@chekos/animated-sankey"
+            >Animated Sankey</a
+          >
+        </li>
+      </ul>
+    </div>
 
-    .node text {
-      pointer-events: none;
-      text-shadow: 0 1px 0 #fff;
-    }
-
-    .link {
-      fill: none;
-      stroke: #000;
-      stroke-opacity: 0.05;
-    }
-
-    .link:hover {
-      stroke-opacity: 0.25;
-    }
-
-    svg {
-      position: absolute;
-    }
-
-    canvas {
-      position: absolute;
-    }
-  </style>
-</head>
-<body>
-  <canvas width="1000" height="1000"></canvas>
-  <svg width="1000" height="1000"></svg>
-
-  <script src="d3.min.js"></script>
-  <script src="d3.sankey.js"></script>
-
-  <script>
-    // Set up dimensions
-    const margin = { top: 1, right: 1, bottom: 6, left: 1 };
-    const width = 960 - margin.left - margin.right;
-    const height = 500 - margin.top - margin.bottom;
-
-    const formatNumber = d3.format(",.0f");
-    const format = (d) => formatNumber(d) + " TWh";
-    const color = d3.scale.category20();
-
-    // Set up SVG and Sankey
-    const svg = d3
-      .select("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-    const sankey = d3.sankey()
-      .nodeWidth(15)
-      .nodePadding(10)
-      .size([width, height]);
-
-    const path = sankey.link();
-
-    // Load energy data
-    d3.json("energy.json", function (error, energy) {
-      if (error) throw error;
-
-      sankey.nodes(energy.nodes).links(energy.links).layout(32);
-
-      const link = svg
-        .append("g")
-        .selectAll(".link")
-        .data(energy.links)
-        .enter()
-        .append("path")
-        .attr("class", "link")
-        .attr("d", path)
-        .style("stroke-width", (d) => Math.max(1, d.dy))
-        .sort((a, b) => b.dy - a.dy);
-
-      link.append("title").text(
-        (d) => `${d.source.name} → ${d.target.name}\n${format(d.value)}`
-      );
-
-      const node = svg
-        .append("g")
-        .selectAll(".node")
-        .data(energy.nodes)
-        .enter()
-        .append("g")
-        .attr("class", "node")
-        .attr("transform", (d) => `translate(${d.x},${d.y})`)
-        .call(
-          d3.behavior
-            .drag()
-            .origin((d) => d)
-            .on("dragstart", function () {
-              this.parentNode.appendChild(this);
-            })
-            .on("drag", dragmove)
-        );
-
-      node
-        .append("rect")
-        .attr("height", (d) => d.dy)
-        .attr("width", sankey.nodeWidth())
-        .style("fill", (d) => (d.color = color(d.name.replace(/ .*/, ""))))
-        .style("stroke", "none")
-        .append("title")
-        .text((d) => `${d.name}\n${format(d.value)}`);
-
-      node
-        .append("text")
-        .attr("x", -6)
-        .attr("y", (d) => d.dy / 2)
-        .attr("dy", ".35em")
-        .attr("text-anchor", "end")
-        .text((d) => d.name)
-        .filter((d) => d.x < width / 2)
-        .attr("x", 6 + sankey.nodeWidth())
-        .attr("text-anchor", "start");
-
-      function dragmove(d) {
-        d3.select(this).attr(
-          "transform",
-          "translate(" +
-            d.x +
-            "," +
-            (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) +
-            ")"
-        );
-        sankey.relayout();
-        link.attr("d", path);
-      }
-
-      // Add particle animation
-      const linkExtent = d3.extent(energy.links, (d) => d.value);
-      const frequencyScale = d3.scale
-        .linear()
-        .domain(linkExtent)
-        .range([1, 100]);
-      const particleSize = d3.scale
-        .linear()
-        .domain(linkExtent)
-        .range([1, 5]);
-
-      energy.links.forEach((link) => {
-        link.freq = frequencyScale(link.value);
-        link.particleSize = particleSize(link.value);
-      });
-
-      const particles = [];
-
-      d3.timer((elapsed) => {
-        particles.push(
-          ...energy.links.map((link) => ({
-            link,
-            time: elapsed,
-            offset: (Math.random() - 0.5) * link.dy,
-          }))
-        );
-
-        const context = d3.select("canvas").node().getContext("2d");
-        context.clearRect(0, 0, width, height);
-
-        particles.forEach((particle) => {
-          const currentTime = elapsed - particle.time;
-          const length = particle.link.path.getTotalLength();
-          const percent = (currentTime % 1000) / 1000;
-          const point = particle.link.path.getPointAtLength(length * percent);
-
-          context.beginPath();
-          context.arc(point.x, point.y, particle.link.particleSize, 0, 2 * Math.PI);
-          context.fillStyle = particle.link.source.color;
-          context.fill();
-        });
-      });
-    });
-  </script>
-</body>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script src="https://d3js.org/d3-random.v2.min.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
