@@ -212,8 +212,8 @@ function animatedSankey({
 
   // Simulation data
   const itemCountMax = 10000;
-  const itemCountIncrement = 1;
-  const itemFlowDuration = 15000;
+  const itemCountIncrement = 2;
+  const itemFlowDuration = 10000;
   let items;
   let selectedCategories;
   let timer;
@@ -397,12 +397,10 @@ function animatedSankey({
           .attr("class", "path-label end-label")
           .attr("dy", "0.32em")
           .attr("y", (d) => yEndScale(d))
-          .style("font-weight", "bold") // Make bolder
           .attr("x", xScale.range()[1] - 10)
           .attr("text-anchor", "end")
           .text((d) => d)
       );
-      svg.selectAll(".path-label").raise();
     // Finished stats
     svg
       .selectAll(".end")
