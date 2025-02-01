@@ -1,0 +1,701 @@
+gender,deaths,agegroup,pop,deaths_100k,strictness,method,mode
+Female,77,15,5445450,1.4140245526081408,Permissive,Suicide,Firearm
+Female,86,16,5399546,1.5927264995982997,Permissive,Suicide,Firearm
+Female,84,17,5403151,1.5546483894305378,Permissive,Suicide,Firearm
+Female,112,18,5333910,2.099772962048479,Permissive,Suicide,Firearm
+Female,104,19,5411640,1.9217834150091284,Permissive,Suicide,Firearm
+Female,108,20,5496036,1.9650526306596245,Permissive,Suicide,Firearm
+Female,147,21,5564901,2.641556426610285,Permissive,Suicide,Firearm
+Female,166,22,5555492,2.988034183111055,Permissive,Suicide,Firearm
+Female,183,23,5517038,3.316997272811969,Permissive,Suicide,Firearm
+Female,157,24,5495051,2.8571163397755543,Permissive,Suicide,Firearm
+Female,194,25,5507629,3.5223868564857947,Permissive,Suicide,Firearm
+Female,162,26,5580610,2.902908463411706,Permissive,Suicide,Firearm
+Female,187,27,5689603,3.2866968046803966,Permissive,Suicide,Firearm
+Female,161,28,5784148,2.7834695792707933,Permissive,Suicide,Firearm
+Female,219,29,5803835,3.773367092620655,Permissive,Suicide,Firearm
+Female,186,30,5765391,3.2261471945267894,Permissive,Suicide,Firearm
+Female,182,31,5685614,3.2010614860593773,Permissive,Suicide,Firearm
+Female,185,32,5604516,3.300909480854368,Permissive,Suicide,Firearm
+Female,162,33,5547415,2.9202790849431675,Permissive,Suicide,Firearm
+Female,147,34,5503111,2.6712163356326997,Permissive,Suicide,Firearm
+Female,181,35,5501301,3.2901308254174784,Permissive,Suicide,Firearm
+Female,206,36,5507026,3.740676001892855,Permissive,Suicide,Firearm
+Female,222,37,5509301,4.029549302171001,Permissive,Suicide,Firearm
+Female,184,38,5524201,3.3307984267770125,Permissive,Suicide,Firearm
+Female,191,39,5491393,3.4781702930385787,Permissive,Suicide,Firearm
+Female,207,40,5413580,3.8237173921877945,Permissive,Suicide,Firearm
+Female,189,41,5309520,3.559643809609908,Permissive,Suicide,Firearm
+Female,171,42,5204953,3.2853322594843792,Permissive,Suicide,Firearm
+Female,200,43,5125380,3.9021496942665714,Permissive,Suicide,Firearm
+Female,190,44,5060863,3.7543004029154714,Permissive,Suicide,Firearm
+Female,193,45,5031897,3.8355316096494025,Permissive,Suicide,Firearm
+Female,209,46,5039633,4.147127380108829,Permissive,Suicide,Firearm
+Female,197,47,5147571,3.8270477473744413,Permissive,Suicide,Firearm
+Female,208,48,5235105,3.9731772333124167,Permissive,Suicide,Firearm
+Female,260,49,5282669,4.921754514621302,Permissive,Suicide,Firearm
+Female,223,50,5291329,4.2144421562144405,Permissive,Suicide,Firearm
+Female,232,51,5236561,4.430388569903034,Permissive,Suicide,Firearm
+Female,236,52,5163021,4.570967268969078,Permissive,Suicide,Firearm
+Female,239,53,5182429,4.611737083132253,Permissive,Suicide,Firearm
+Female,253,54,5278617,4.792922085462916,Permissive,Suicide,Firearm
+Female,222,55,5399038,4.111843628438993,Permissive,Suicide,Firearm
+Female,242,56,5498088,4.4015301319295,Permissive,Suicide,Firearm
+Female,240,57,5596059,4.288732481197928,Permissive,Suicide,Firearm
+Female,244,58,5650300,4.318354777622427,Permissive,Suicide,Firearm
+Female,235,59,5648299,4.160544617060817,Permissive,Suicide,Firearm
+Female,221,60,5621813,3.931116171953781,Permissive,Suicide,Firearm
+Female,215,61,5557010,3.8689870991774353,Permissive,Suicide,Firearm
+Female,186,62,5473005,3.3984986310080108,Permissive,Suicide,Firearm
+Female,189,63,5403148,3.497960818396979,Permissive,Suicide,Firearm
+Female,187,64,5305032,3.5249551746341963,Permissive,Suicide,Firearm
+Female,167,65,5166731,3.2322178181910384,Permissive,Suicide,Firearm
+Female,151,66,4997789,3.021336034794586,Permissive,Suicide,Firearm
+Female,144,67,4846226,2.9713843308174237,Permissive,Suicide,Firearm
+Female,135,68,4689267,2.878914764290453,Permissive,Suicide,Firearm
+Female,140,69,4540636,3.083268511283441,Permissive,Suicide,Firearm
+Female,110,70,4403898,2.4977871876233286,Permissive,Suicide,Firearm
+Female,114,71,4320560,2.63854685503731,Permissive,Suicide,Firearm
+Female,105,72,4038446,2.6000100038480145,Permissive,Suicide,Firearm
+Female,99,73,3787306,2.6139952779099445,Permissive,Suicide,Firearm
+Female,108,74,3545226,3.046350218575628,Permissive,Suicide,Firearm
+Female,69,75,3321574,2.077328399126438,Permissive,Suicide,Firearm
+Female,83,76,2965182,2.799153643857274,Permissive,Suicide,Firearm
+Female,79,77,2802980,2.818428957752107,Permissive,Suicide,Firearm
+Female,67,78,2627500,2.5499524262607043,Permissive,Suicide,Firearm
+Female,55,79,2431407,2.2620647221958317,Permissive,Suicide,Firearm
+Female,41,80,2208891,1.8561350469534261,Permissive,Suicide,Firearm
+Female,43,81,2024411,2.1240746073796277,Permissive,Suicide,Firearm
+Female,35,82,1869100,1.8725589856080467,Permissive,Suicide,Firearm
+Female,31,83,1728855,1.7930942733774666,Permissive,Suicide,Firearm
+Female,25,84,1575532,1.5867656131389272,Permissive,Suicide,Firearm
+Male,415,15,5685214,7.2996372695909075,Permissive,Suicide,Firearm
+Male,525,16,5630614,9.32402753944774,Permissive,Suicide,Firearm
+Male,608,17,5635856,10.788068396353632,Permissive,Suicide,Firearm
+Male,755,18,5617238,13.440769289106141,Permissive,Suicide,Firearm
+Male,965,19,5701363,16.92577722204322,Permissive,Suicide,Firearm
+Male,949,20,5744440,16.52032225943695,Permissive,Suicide,Firearm
+Male,1395,21,5815068,23.98940132772308,Permissive,Suicide,Firearm
+Male,1340,22,5822375,23.014663260267504,Permissive,Suicide,Firearm
+Male,1322,23,5797246,22.80393138397094,Permissive,Suicide,Firearm
+Male,1241,24,5775920,21.48575465034142,Permissive,Suicide,Firearm
+Male,1187,25,5785242,20.517724236946353,Permissive,Suicide,Firearm
+Male,1197,26,5840961,20.4932030876426,Permissive,Suicide,Firearm
+Male,1114,27,5907467,18.857490020680608,Permissive,Suicide,Firearm
+Male,1097,28,5957160,18.414815113241882,Permissive,Suicide,Firearm
+Male,1099,29,5935388,18.51605994418562,Permissive,Suicide,Firearm
+Male,1140,30,5863968,19.44076093184683,Permissive,Suicide,Firearm
+Male,1026,31,5765849,17.79443062071171,Permissive,Suicide,Firearm
+Male,1053,32,5680329,18.537658646180528,Permissive,Suicide,Firearm
+Male,974,33,5615916,17.343564255590717,Permissive,Suicide,Firearm
+Male,981,34,5559082,17.646798518172606,Permissive,Suicide,Firearm
+Male,952,35,5539603,17.18534703660172,Permissive,Suicide,Firearm
+Male,941,36,5526274,17.027747809826295,Permissive,Suicide,Firearm
+Male,963,37,5514402,17.46336230111624,Permissive,Suicide,Firearm
+Male,985,38,5526061,17.824631324192765,Permissive,Suicide,Firearm
+Male,986,39,5490049,17.95976684361105,Permissive,Suicide,Firearm
+Male,934,40,5407126,17.273501671682887,Permissive,Suicide,Firearm
+Male,945,41,5288659,17.8684237346367,Permissive,Suicide,Firearm
+Male,891,42,5169625,17.235292695311554,Permissive,Suicide,Firearm
+Male,881,43,5083818,17.329495273040852,Permissive,Suicide,Firearm
+Male,878,44,5007839,17.532512526860387,Permissive,Suicide,Firearm
+Male,928,45,4962665,18.699630138242256,Permissive,Suicide,Firearm
+Male,891,46,4958220,17.970158645642993,Permissive,Suicide,Firearm
+Male,884,47,5063010,17.459969464804534,Permissive,Suicide,Firearm
+Male,1000,48,5152421,19.408351918447657,Permissive,Suicide,Firearm
+Male,960,49,5207121,18.43629137867163,Permissive,Suicide,Firearm
+Male,1008,50,5224924,19.292146641750197,Permissive,Suicide,Firearm
+Male,1010,51,5167167,19.546494239493324,Permissive,Suicide,Firearm
+Male,994,52,5077787,19.575456788557695,Permissive,Suicide,Firearm
+Male,1008,53,5073881,19.86644937080708,Permissive,Suicide,Firearm
+Male,1047,54,5136852,20.382132870481765,Permissive,Suicide,Firearm
+Male,1113,55,5215326,21.340947814192248,Permissive,Suicide,Firearm
+Male,1072,56,5270599,20.339244173195492,Permissive,Suicide,Firearm
+Male,1152,57,5330279,21.612377138232354,Permissive,Suicide,Firearm
+Male,1202,58,5360727,22.422331896401367,Permissive,Suicide,Firearm
+Male,1203,59,5329950,22.570568204204545,Permissive,Suicide,Firearm
+Male,1124,60,5277114,21.299520912377485,Permissive,Suicide,Firearm
+Male,1137,61,5181136,21.944994302407814,Permissive,Suicide,Firearm
+Male,1058,62,5065760,20.885316319762484,Permissive,Suicide,Firearm
+Male,1069,63,4964849,21.531369836222613,Permissive,Suicide,Firearm
+Male,1029,64,4835688,21.279288490076283,Permissive,Suicide,Firearm
+Male,947,65,4667009,20.291368626030078,Permissive,Suicide,Firearm
+Male,910,66,4475071,20.334872899223274,Permissive,Suicide,Firearm
+Male,975,67,4309072,22.62668156856047,Permissive,Suicide,Firearm
+Male,952,68,4144467,22.97038437029418,Permissive,Suicide,Firearm
+Male,955,69,3992747,23.918369984374166,Permissive,Suicide,Firearm
+Male,948,70,3859161,24.56492486320213,Permissive,Suicide,Firearm
+Male,875,71,3774118,23.18422476456751,Permissive,Suicide,Firearm
+Male,863,72,3511694,24.575034157304138,Permissive,Suicide,Firearm
+Male,865,73,3273718,26.422556860425974,Permissive,Suicide,Firearm
+Male,870,74,3049942,28.525132609079122,Permissive,Suicide,Firearm
+Male,904,75,2823492,32.017090893121,Permissive,Suicide,Firearm
+Male,828,76,2472035,33.49467139421569,Permissive,Suicide,Firearm
+Male,794,77,2302307,34.48714702253001,Permissive,Suicide,Firearm
+Male,741,78,2125082,34.869242692752564,Permissive,Suicide,Firearm
+Male,698,79,1937031,36.03452913247129,Permissive,Suicide,Firearm
+Male,644,80,1725674,37.31875197748822,Permissive,Suicide,Firearm
+Male,608,81,1548682,39.259189426880404,Permissive,Suicide,Firearm
+Male,566,82,1395864,40.54836287775886,Permissive,Suicide,Firearm
+Male,552,83,1257587,43.89358350555469,Permissive,Suicide,Firearm
+Male,506,84,1111832,45.51047280524396,Permissive,Suicide,Firearm
+Female,26,15,4945281,0.5257537438216352,Strict,Suicide,Firearm
+Female,27,16,4927552,0.5479394230644344,Strict,Suicide,Firearm
+Female,51,17,4956073,1.029040532695947,Strict,Suicide,Firearm
+Female,43,18,5107401,0.8419154869570649,Strict,Suicide,Firearm
+Female,48,19,5063043,0.9480464613869565,Strict,Suicide,Firearm
+Female,44,20,5107793,0.8614288010496902,Strict,Suicide,Firearm
+Female,58,21,5166226,1.12267639859348,Strict,Suicide,Firearm
+Female,72,22,5138971,1.401058694435131,Strict,Suicide,Firearm
+Female,69,23,5160232,1.3371491824398594,Strict,Suicide,Firearm
+Female,77,24,5254939,1.4652881793680193,Strict,Suicide,Firearm
+Female,94,25,5358659,1.7541702131074213,Strict,Suicide,Firearm
+Female,72,26,5474141,1.3152748531687437,Strict,Suicide,Firearm
+Female,80,27,5602608,1.4279064321473143,Strict,Suicide,Firearm
+Female,97,28,5710139,1.6987327278722988,Strict,Suicide,Firearm
+Female,89,29,5745950,1.5489170633228624,Strict,Suicide,Firearm
+Female,90,30,5736556,1.5688855822204122,Strict,Suicide,Firearm
+Female,78,31,5679225,1.3734268320061276,Strict,Suicide,Firearm
+Female,76,32,5616232,1.3532204510070096,Strict,Suicide,Firearm
+Female,100,33,5554963,1.8001920084796244,Strict,Suicide,Firearm
+Female,78,34,5496609,1.4190567311591564,Strict,Suicide,Firearm
+Female,85,35,5462556,1.5560481210627406,Strict,Suicide,Firearm
+Female,94,36,5429611,1.7312474134887381,Strict,Suicide,Firearm
+Female,59,37,5394548,1.0936968213092182,Strict,Suicide,Firearm
+Female,85,38,5377585,1.5806351735955821,Strict,Suicide,Firearm
+Female,81,39,5320305,1.5224691065643794,Strict,Suicide,Firearm
+Female,79,40,5227340,1.5112848982465268,Strict,Suicide,Firearm
+Female,78,41,5108208,1.5269542665451368,Strict,Suicide,Firearm
+Female,80,42,5004704,1.5984961348363458,Strict,Suicide,Firearm
+Female,70,43,4931037,1.419579694899876,Strict,Suicide,Firearm
+Female,62,44,4865681,1.274230678090076,Strict,Suicide,Firearm
+Female,85,45,4833656,1.7585032944007601,Strict,Suicide,Firearm
+Female,83,46,4838444,1.7154275217404604,Strict,Suicide,Firearm
+Female,87,47,4947533,1.758452141703754,Strict,Suicide,Firearm
+Female,85,48,5065891,1.6778884504226403,Strict,Suicide,Firearm
+Female,86,49,5155701,1.6680563903919174,Strict,Suicide,Firearm
+Female,87,50,5214506,1.6684226655410885,Strict,Suicide,Firearm
+Female,115,51,5200978,2.2111226004032316,Strict,Suicide,Firearm
+Female,83,52,5161086,1.6081886641687428,Strict,Suicide,Firearm
+Female,117,53,5187829,2.2552786531707194,Strict,Suicide,Firearm
+Female,108,54,5268910,2.049759817495459,Strict,Suicide,Firearm
+Female,112,55,5362532,2.0885656253426554,Strict,Suicide,Firearm
+Female,97,56,5425651,1.787803896712118,Strict,Suicide,Firearm
+Female,119,57,5493587,2.1661621086550555,Strict,Suicide,Firearm
+Female,113,58,5533718,2.0420267169378707,Strict,Suicide,Firearm
+Female,92,59,5520805,1.6664236465515445,Strict,Suicide,Firearm
+Female,81,60,5484106,1.4769955212390133,Strict,Suicide,Firearm
+Female,109,61,5405342,2.016523653822459,Strict,Suicide,Firearm
+Female,80,62,5307847,1.507202449505421,Strict,Suicide,Firearm
+Female,91,63,5213536,1.7454564426139958,Strict,Suicide,Firearm
+Female,84,64,5091698,1.6497443485454166,Strict,Suicide,Firearm
+Female,81,65,4937698,1.6404405453715476,Strict,Suicide,Firearm
+Female,68,66,4746247,1.4327109398225588,Strict,Suicide,Firearm
+Female,61,67,4583019,1.331000373334695,Strict,Suicide,Firearm
+Female,76,68,4420471,1.7192738058908204,Strict,Suicide,Firearm
+Female,68,69,4266168,1.593936291304046,Strict,Suicide,Firearm
+Female,59,70,4125622,1.4300873904589417,Strict,Suicide,Firearm
+Female,58,71,4034836,1.4374809781611941,Strict,Suicide,Firearm
+Female,45,72,3776262,1.191654604473948,Strict,Suicide,Firearm
+Female,58,73,3536139,1.6402070167490588,Strict,Suicide,Firearm
+Female,47,74,3308199,1.420712599211837,Strict,Suicide,Firearm
+Female,43,75,3097084,1.3884027685396974,Strict,Suicide,Firearm
+Female,46,76,2771621,1.6596785779873944,Strict,Suicide,Firearm
+Female,31,77,2615159,1.1853963755167467,Strict,Suicide,Firearm
+Female,32,78,2449826,1.3062152169174464,Strict,Suicide,Firearm
+Female,23,79,2271047,1.012748745402451,Strict,Suicide,Firearm
+Female,26,80,2070847,1.2555249132359851,Strict,Suicide,Firearm
+Female,19,81,1907101,0.9962765474927652,Strict,Suicide,Firearm
+Female,17,82,1773041,0.9588046751315958,Strict,Suicide,Firearm
+Female,23,83,1652725,1.3916410776142432,Strict,Suicide,Firearm
+Female,13,84,1518633,0.8560330244371089,Strict,Suicide,Firearm
+Male,180,15,5169144,3.482201308379105,Strict,Suicide,Firearm
+Male,245,16,5147596,4.759503271041472,Strict,Suicide,Firearm
+Male,277,17,5178615,5.34892051253086,Strict,Suicide,Firearm
+Male,352,18,5296279,6.646175550797079,Strict,Suicide,Firearm
+Male,426,19,5258212,8.101613248001412,Strict,Suicide,Firearm
+Male,421,20,5324493,7.906856108177812,Strict,Suicide,Firearm
+Male,650,21,5378814,12.084448356087421,Strict,Suicide,Firearm
+Male,693,22,5352093,12.948205496429155,Strict,Suicide,Firearm
+Male,633,23,5376009,11.774533859597332,Strict,Suicide,Firearm
+Male,673,24,5487913,12.263313941019108,Strict,Suicide,Firearm
+Male,595,25,5610269,10.605552068893665,Strict,Suicide,Firearm
+Male,609,26,5738639,10.61227235238181,Strict,Suicide,Firearm
+Male,608,27,5877604,10.344351201612087,Strict,Suicide,Firearm
+Male,585,28,5978609,9.7848847449298,Strict,Suicide,Firearm
+Male,562,29,5998995,9.3682358461709,Strict,Suicide,Firearm
+Male,571,30,5974455,9.557357114582,Strict,Suicide,Firearm
+Male,610,31,5905150,10.329966215930162,Strict,Suicide,Firearm
+Male,564,32,5832730,9.669571538541987,Strict,Suicide,Firearm
+Male,565,33,5754903,9.81771543325752,Strict,Suicide,Firearm
+Male,512,34,5674476,9.02285955566646,Strict,Suicide,Firearm
+Male,525,35,5624971,9.33338145209993,Strict,Suicide,Firearm
+Male,497,36,5569241,8.924016755604578,Strict,Suicide,Firearm
+Male,530,37,5506348,9.625254342805794,Strict,Suicide,Firearm
+Male,512,38,5478026,9.346432455778778,Strict,Suicide,Firearm
+Male,509,39,5403877,9.419163315523281,Strict,Suicide,Firearm
+Male,487,40,5298120,9.191939782413385,Strict,Suicide,Firearm
+Male,479,41,5148252,9.304128857717144,Strict,Suicide,Firearm
+Male,446,42,5025688,8.874406847380895,Strict,Suicide,Firearm
+Male,486,43,4936152,9.845725982506211,Strict,Suicide,Firearm
+Male,486,44,4859219,10.001607254169857,Strict,Suicide,Firearm
+Male,457,45,4809147,9.502724703570092,Strict,Suicide,Firearm
+Male,503,46,4797882,10.483792640169142,Strict,Suicide,Firearm
+Male,546,47,4888825,11.168327767919694,Strict,Suicide,Firearm
+Male,523,48,5009296,10.4405888571967,Strict,Suicide,Firearm
+Male,527,49,5094413,10.344665813313526,Strict,Suicide,Firearm
+Male,588,50,5163131,11.388438526932593,Strict,Suicide,Firearm
+Male,545,51,5133545,10.616445360856874,Strict,Suicide,Firearm
+Male,597,52,5079169,11.753891236932656,Strict,Suicide,Firearm
+Male,572,53,5087007,11.244332866064466,Strict,Suicide,Firearm
+Male,602,54,5142986,11.705262273706365,Strict,Suicide,Firearm
+Male,603,55,5210428,11.572945639014684,Strict,Suicide,Firearm
+Male,630,56,5243677,12.01446999881953,Strict,Suicide,Firearm
+Male,698,57,5284996,13.20720015682131,Strict,Suicide,Firearm
+Male,714,58,5308100,13.451140709481736,Strict,Suicide,Firearm
+Male,738,59,5273644,13.994118677711274,Strict,Suicide,Firearm
+Male,693,60,5219703,13.276617462717706,Strict,Suicide,Firearm
+Male,696,61,5109886,13.620656116398683,Strict,Suicide,Firearm
+Male,651,62,4981911,13.067274786723408,Strict,Suicide,Firearm
+Male,607,63,4855673,12.500841798860836,Strict,Suicide,Firearm
+Male,624,64,4703291,13.267305807784378,Strict,Suicide,Firearm
+Male,608,65,4518976,13.454375504539081,Strict,Suicide,Firearm
+Male,547,66,4303514,12.710543058533098,Strict,Suicide,Firearm
+Male,533,67,4119671,12.93792635382777,Strict,Suicide,Firearm
+Male,523,68,3941864,13.26783470967035,Strict,Suicide,Firearm
+Male,559,69,3774660,14.809280835889854,Strict,Suicide,Firearm
+Male,530,70,3619440,14.643149216453374,Strict,Suicide,Firearm
+Male,539,71,3506739,15.370405382322437,Strict,Suicide,Firearm
+Male,504,72,3250971,15.503060470241044,Strict,Suicide,Firearm
+Male,521,73,3014713,17.28191041734321,Strict,Suicide,Firearm
+Male,522,74,2801415,18.633440600553648,Strict,Suicide,Firearm
+Male,558,75,2586266,21.575506927748343,Strict,Suicide,Firearm
+Male,479,76,2265472,21.14349680772925,Strict,Suicide,Firearm
+Male,495,77,2103209,23.535464140748733,Strict,Suicide,Firearm
+Male,469,78,1938354,24.195786734518048,Strict,Suicide,Firearm
+Male,465,79,1765705,26.335089949906695,Strict,Suicide,Firearm
+Male,443,80,1579851,28.040619020401287,Strict,Suicide,Firearm
+Male,358,81,1421104,25.191681959941,Strict,Suicide,Firearm
+Male,381,82,1289000,29.5577967416602,Strict,Suicide,Firearm
+Male,362,83,1168701,30.97456064468157,Strict,Suicide,Firearm
+Male,300,84,1042649,28.77286603641302,Strict,Suicide,Firearm
+Female,199,15,5445450,3.6544270905067533,Permissive,Suicide,Non-Firearm
+Female,203,16,5399546,3.759575342075056,Permissive,Suicide,Non-Firearm
+Female,196,17,5403151,3.6275129086712554,Permissive,Suicide,Non-Firearm
+Female,214,18,5333910,4.012066195342628,Permissive,Suicide,Non-Firearm
+Female,215,19,5411640,3.9729176367977175,Permissive,Suicide,Non-Firearm
+Female,235,20,5496036,4.27580896486122,Permissive,Suicide,Non-Firearm
+Female,253,21,5564901,4.546352217227224,Permissive,Suicide,Non-Firearm
+Female,224,22,5555492,4.032046126607688,Permissive,Suicide,Non-Firearm
+Female,246,23,5517038,4.458914366730843,Permissive,Suicide,Non-Firearm
+Female,235,24,5495051,4.276575413039843,Permissive,Suicide,Non-Firearm
+Female,229,25,5507629,4.157869021315706,Permissive,Suicide,Non-Firearm
+Female,264,26,5580610,4.730665644078336,Permissive,Suicide,Non-Firearm
+Female,256,27,5689603,4.499435197851239,Permissive,Suicide,Non-Firearm
+Female,282,28,5784148,4.875393921455675,Permissive,Suicide,Non-Firearm
+Female,285,29,5803835,4.910546216424141,Permissive,Suicide,Non-Firearm
+Female,290,30,5765391,5.030014443079403,Permissive,Suicide,Non-Firearm
+Female,290,31,5685614,5.100592477786919,Permissive,Suicide,Non-Firearm
+Female,320,32,5604516,5.709681264180529,Permissive,Suicide,Non-Firearm
+Female,292,33,5547415,5.263712918539536,Permissive,Suicide,Non-Firearm
+Female,256,34,5503111,4.651914162734497,Permissive,Suicide,Non-Firearm
+Female,288,35,5501301,5.23512529127201,Permissive,Suicide,Non-Firearm
+Female,277,36,5507026,5.029938119050101,Permissive,Suicide,Non-Firearm
+Female,324,37,5509301,5.880963846411731,Permissive,Suicide,Non-Firearm
+Female,298,38,5524201,5.394445278149727,Permissive,Suicide,Non-Firearm
+Female,272,39,5491393,4.953205862337662,Permissive,Suicide,Non-Firearm
+Female,312,40,5413580,5.763284185326531,Permissive,Suicide,Non-Firearm
+Female,287,41,5309520,5.405385044222453,Permissive,Suicide,Non-Firearm
+Female,292,42,5204953,5.610041051283268,Permissive,Suicide,Non-Firearm
+Female,256,43,5125380,4.994751608661211,Permissive,Suicide,Non-Firearm
+Female,306,44,5060863,6.046399596274391,Permissive,Suicide,Non-Firearm
+Female,303,45,5031897,6.021585894941808,Permissive,Suicide,Non-Firearm
+Female,288,46,5039633,5.7147018443604916,Permissive,Suicide,Non-Firearm
+Female,328,47,5147571,6.371937366186887,Permissive,Suicide,Non-Firearm
+Female,343,48,5235105,6.551922072241149,Permissive,Suicide,Non-Firearm
+Female,305,49,5282669,5.773596642151912,Permissive,Suicide,Non-Firearm
+Female,300,50,5291329,5.669653124952162,Permissive,Suicide,Non-Firearm
+Female,302,51,5236561,5.767143741856535,Permissive,Suicide,Non-Firearm
+Female,337,52,5163021,6.527186312044828,Permissive,Suicide,Non-Firearm
+Female,338,53,5182429,6.522038217986199,Permissive,Suicide,Non-Firearm
+Female,310,54,5278617,5.872750381397248,Permissive,Suicide,Non-Firearm
+Female,317,55,5399038,5.8714163523205425,Permissive,Suicide,Non-Firearm
+Female,316,56,5498088,5.747452568965794,Permissive,Suicide,Non-Firearm
+Female,294,57,5596059,5.253697289467462,Permissive,Suicide,Non-Firearm
+Female,345,58,5650300,6.105870484753022,Permissive,Suicide,Non-Firearm
+Female,286,59,5648299,5.06347132118891,Permissive,Suicide,Non-Firearm
+Female,288,60,5621813,5.122902522727099,Permissive,Suicide,Non-Firearm
+Female,279,61,5557010,5.0206855845139735,Permissive,Suicide,Non-Firearm
+Female,216,62,5473005,3.9466435714931745,Permissive,Suicide,Non-Firearm
+Female,227,63,5403148,4.201254527915948,Permissive,Suicide,Non-Firearm
+Female,215,64,5305032,4.052755949445734,Permissive,Suicide,Non-Firearm
+Female,186,65,5166731,3.599955174751695,Permissive,Suicide,Non-Firearm
+Female,175,66,4997789,3.5015483846957123,Permissive,Suicide,Non-Firearm
+Female,171,67,4846226,3.5285188928456908,Permissive,Suicide,Non-Firearm
+Female,152,68,4689267,3.2414447716455475,Permissive,Suicide,Non-Firearm
+Female,157,69,4540636,3.4576654019392876,Permissive,Suicide,Non-Firearm
+Female,158,70,4403898,3.587730687677144,Permissive,Suicide,Non-Firearm
+Female,131,71,4320560,3.0320143685077863,Permissive,Suicide,Non-Firearm
+Female,101,72,4038446,2.500962003701424,Permissive,Suicide,Non-Firearm
+Female,106,73,3787306,2.7988232268530715,Permissive,Suicide,Non-Firearm
+Female,102,74,3545226,2.8771085397658713,Permissive,Suicide,Non-Firearm
+Female,81,75,3321574,2.4386029033223404,Permissive,Suicide,Non-Firearm
+Female,88,76,2965182,2.9677773573426522,Permissive,Suicide,Non-Firearm
+Female,59,77,2802980,2.1049026393338517,Permissive,Suicide,Non-Firearm
+Female,78,78,2627500,2.9686013320647007,Permissive,Suicide,Non-Firearm
+Female,62,79,2431407,2.549963868657119,Permissive,Suicide,Non-Firearm
+Female,50,80,2208891,2.2635793255529584,Permissive,Suicide,Non-Firearm
+Female,39,81,2024411,1.92648627180943,Permissive,Suicide,Non-Firearm
+Female,39,82,1869100,2.0865657268203948,Permissive,Suicide,Non-Firearm
+Female,32,83,1728855,1.8509360241315784,Permissive,Suicide,Non-Firearm
+Female,30,84,1575532,1.9041187357667124,Permissive,Suicide,Non-Firearm
+Male,274,15,5685214,4.8195195466696585,Permissive,Suicide,Non-Firearm
+Male,325,16,5630614,5.772017048229554,Permissive,Suicide,Non-Firearm
+Male,372,17,5635856,6.600594479347947,Permissive,Suicide,Non-Firearm
+Male,518,18,5617238,9.221613896366861,Permissive,Suicide,Non-Firearm
+Male,578,19,5701363,10.137926667710861,Permissive,Suicide,Non-Firearm
+Male,619,20,5744440,10.775636963742333,Permissive,Suicide,Non-Firearm
+Male,620,21,5815068,10.661956145654703,Permissive,Suicide,Non-Firearm
+Male,707,22,5822375,12.142811138066511,Permissive,Suicide,Non-Firearm
+Male,655,23,5797246,11.29846827269362,Permissive,Suicide,Non-Firearm
+Male,753,24,5775920,13.036884167370738,Permissive,Suicide,Non-Firearm
+Male,794,25,5785242,13.724577122270771,Permissive,Suicide,Non-Firearm
+Male,764,26,5840961,13.08003939762652,Permissive,Suicide,Non-Firearm
+Male,872,27,5907467,14.76097962121498,Permissive,Suicide,Non-Firearm
+Male,862,28,5957160,14.469982340578396,Permissive,Suicide,Non-Firearm
+Male,922,29,5935388,15.533946559180293,Permissive,Suicide,Non-Firearm
+Male,912,30,5863968,15.552608745477464,Permissive,Suicide,Non-Firearm
+Male,936,31,5765849,16.233515653982614,Permissive,Suicide,Non-Firearm
+Male,973,32,5680329,17.12928951826558,Permissive,Suicide,Non-Firearm
+Male,984,33,5615916,17.521629597023885,Permissive,Suicide,Non-Firearm
+Male,927,34,5559082,16.675415113502552,Permissive,Suicide,Non-Firearm
+Male,932,35,5539603,16.824310334152106,Permissive,Suicide,Non-Firearm
+Male,903,36,5526274,16.340123562458178,Permissive,Suicide,Non-Firearm
+Male,863,37,5514402,15.649929040356506,Permissive,Suicide,Non-Firearm
+Male,831,38,5526061,15.037836172999178,Permissive,Suicide,Non-Firearm
+Male,854,39,5490049,15.555416718502876,Permissive,Suicide,Non-Firearm
+Male,811,40,5407126,14.998725755604735,Permissive,Suicide,Non-Firearm
+Male,830,41,5288659,15.693959470633294,Permissive,Suicide,Non-Firearm
+Male,786,42,5169625,15.204197596537465,Permissive,Suicide,Non-Firearm
+Male,772,43,5083818,15.185437401574958,Permissive,Suicide,Non-Firearm
+Male,712,44,5007839,14.21770947508496,Permissive,Suicide,Non-Firearm
+Male,716,45,4962665,14.42773187390243,Permissive,Suicide,Non-Firearm
+Male,707,46,4958220,14.25914945282783,Permissive,Suicide,Non-Firearm
+Male,746,47,5063010,14.73431812301378,Permissive,Suicide,Non-Firearm
+Male,726,48,5152421,14.090463492792999,Permissive,Suicide,Non-Firearm
+Male,727,49,5207121,13.961649825306537,Permissive,Suicide,Non-Firearm
+Male,658,50,5224924,12.59348461336471,Permissive,Suicide,Non-Firearm
+Male,653,51,5167167,12.637485879593209,Permissive,Suicide,Non-Firearm
+Male,649,52,5077787,12.78115840621121,Permissive,Suicide,Non-Firearm
+Male,621,53,5073881,12.239151844515076,Permissive,Suicide,Non-Firearm
+Male,619,54,5136852,12.050181706617204,Permissive,Suicide,Non-Firearm
+Male,594,55,5215326,11.389508536954354,Permissive,Suicide,Non-Firearm
+Male,650,56,5270599,12.33256409755324,Permissive,Suicide,Non-Firearm
+Male,662,57,5330279,12.41961255686616,Permissive,Suicide,Non-Firearm
+Male,622,58,5360727,11.602903859868261,Permissive,Suicide,Non-Firearm
+Male,573,59,5329950,10.75056989277573,Permissive,Suicide,Non-Firearm
+Male,578,60,5277114,10.952956483411198,Permissive,Suicide,Non-Firearm
+Male,491,61,5181136,9.476686193915775,Permissive,Suicide,Non-Firearm
+Male,466,62,5065760,9.199014560500299,Permissive,Suicide,Non-Firearm
+Male,398,63,4964849,8.016356590099718,Permissive,Suicide,Non-Firearm
+Male,400,64,4835688,8.271832260476689,Permissive,Suicide,Non-Firearm
+Male,329,65,4667009,7.049482870078031,Permissive,Suicide,Non-Firearm
+Male,328,66,4475071,7.329492649390367,Permissive,Suicide,Non-Firearm
+Male,283,67,4309072,6.567539368105243,Permissive,Suicide,Non-Firearm
+Male,265,68,4144467,6.3940670778655,Permissive,Suicide,Non-Firearm
+Male,228,69,3992747,5.710354299934356,Permissive,Suicide,Non-Firearm
+Male,209,70,3859161,5.415684911824099,Permissive,Suicide,Non-Firearm
+Male,203,71,3774118,5.378740145379663,Permissive,Suicide,Non-Firearm
+Male,201,72,3511694,5.7237333321183455,Permissive,Suicide,Non-Firearm
+Male,191,73,3273718,5.834344925250128,Permissive,Suicide,Non-Firearm
+Male,134,74,3049942,4.3935261719731065,Permissive,Suicide,Non-Firearm
+Male,145,75,2823492,5.135484711839099,Permissive,Suicide,Non-Firearm
+Male,137,76,2472035,5.541992730685447,Permissive,Suicide,Non-Firearm
+Male,129,77,2302307,5.60307552381155,Permissive,Suicide,Non-Firearm
+Male,125,78,2125082,5.882125960315884,Permissive,Suicide,Non-Firearm
+Male,111,79,1937031,5.730419389261194,Permissive,Suicide,Non-Firearm
+Male,93,80,1725674,5.389198655134168,Permissive,Suicide,Non-Firearm
+Male,86,81,1548682,5.553109030775847,Permissive,Suicide,Non-Firearm
+Male,80,82,1395864,5.731217367881111,Permissive,Suicide,Non-Firearm
+Male,81,83,1257587,6.440906275271611,Permissive,Suicide,Non-Firearm
+Male,63,84,1111832,5.666323689190453,Permissive,Suicide,Non-Firearm
+Female,163,15,4945281,3.296071547804867,Strict,Suicide,Non-Firearm
+Female,203,16,4927552,4.119692699336303,Strict,Suicide,Non-Firearm
+Female,202,17,4956073,4.07580760008983,Strict,Suicide,Non-Firearm
+Female,193,18,5107401,3.7788299763421747,Strict,Suicide,Non-Firearm
+Female,214,19,5063043,4.226707140350181,Strict,Suicide,Non-Firearm
+Female,217,20,5107793,4.2484102233586984,Strict,Suicide,Non-Firearm
+Female,235,21,5166226,4.548775063266686,Strict,Suicide,Non-Firearm
+Female,250,22,5138971,4.864787133455317,Strict,Suicide,Non-Firearm
+Female,235,23,5160232,4.554058809758941,Strict,Suicide,Non-Firearm
+Female,254,24,5254939,4.833548020252947,Strict,Suicide,Non-Firearm
+Female,245,25,5358659,4.572039385226789,Strict,Suicide,Non-Firearm
+Female,260,26,5474141,4.749603636442686,Strict,Suicide,Non-Firearm
+Female,237,27,5602608,4.2301728052364185,Strict,Suicide,Non-Firearm
+Female,280,28,5710139,4.903558389734471,Strict,Suicide,Non-Firearm
+Female,275,29,5745950,4.785979690042551,Strict,Suicide,Non-Firearm
+Female,273,30,5736556,4.758952932735251,Strict,Suicide,Non-Firearm
+Female,311,31,5679225,5.476099291716739,Strict,Suicide,Non-Firearm
+Female,290,32,5616232,5.163604352526748,Strict,Suicide,Non-Firearm
+Female,263,33,5554963,4.734504982301412,Strict,Suicide,Non-Firearm
+Female,305,34,5496609,5.5488756795326,Strict,Suicide,Non-Firearm
+Female,263,35,5462556,4.81459595105295,Strict,Suicide,Non-Firearm
+Female,291,36,5429611,5.359499971544922,Strict,Suicide,Non-Firearm
+Female,291,37,5394548,5.394335169508178,Strict,Suicide,Non-Firearm
+Female,276,38,5377585,5.132415387204479,Strict,Suicide,Non-Firearm
+Female,287,39,5320305,5.394427575110825,Strict,Suicide,Non-Firearm
+Female,260,40,5227340,4.973849032203759,Strict,Suicide,Non-Firearm
+Female,267,41,5108208,5.226881912404506,Strict,Suicide,Non-Firearm
+Female,265,42,5004704,5.295018446645396,Strict,Suicide,Non-Firearm
+Female,295,43,4931037,5.9825144285066205,Strict,Suicide,Non-Firearm
+Female,270,44,4865681,5.54906908200517,Strict,Suicide,Non-Firearm
+Female,251,45,4833656,5.192756786995186,Strict,Suicide,Non-Firearm
+Female,329,46,4838444,6.799706682561584,Strict,Suicide,Non-Firearm
+Female,267,47,4947533,5.396628986608073,Strict,Suicide,Non-Firearm
+Female,333,48,5065891,6.573374752832226,Strict,Suicide,Non-Firearm
+Female,325,49,5155701,6.3037014753182925,Strict,Suicide,Non-Firearm
+Female,337,50,5214506,6.462740669969504,Strict,Suicide,Non-Firearm
+Female,364,51,5200978,6.998683709102404,Strict,Suicide,Non-Firearm
+Female,339,52,5161086,6.568385025942214,Strict,Suicide,Non-Firearm
+Female,351,53,5187829,6.765835959512158,Strict,Suicide,Non-Firearm
+Female,371,54,5268910,7.0413045582482905,Strict,Suicide,Non-Firearm
+Female,384,55,5362532,7.160796429746247,Strict,Suicide,Non-Firearm
+Female,359,56,5425651,6.61671751463557,Strict,Suicide,Non-Firearm
+Female,363,57,5493587,6.607704583544412,Strict,Suicide,Non-Firearm
+Female,340,58,5533718,6.144151183706867,Strict,Suicide,Non-Firearm
+Female,316,59,5520805,5.723802959894436,Strict,Suicide,Non-Firearm
+Female,318,60,5484106,5.798575009308719,Strict,Suicide,Non-Firearm
+Female,297,61,5405342,5.494564451241013,Strict,Suicide,Non-Firearm
+Female,283,62,5307847,5.331728665125427,Strict,Suicide,Non-Firearm
+Female,263,63,5213536,5.044560927554735,Strict,Suicide,Non-Firearm
+Female,238,64,5091698,4.674275654212014,Strict,Suicide,Non-Firearm
+Female,232,65,4937698,4.6985457595827045,Strict,Suicide,Non-Firearm
+Female,206,66,4746247,4.340271376521281,Strict,Suicide,Non-Firearm
+Female,220,67,4583019,4.800329215305457,Strict,Suicide,Non-Firearm
+Female,199,68,4420471,4.501782728582542,Strict,Suicide,Non-Firearm
+Female,171,69,4266168,4.0082809678381155,Strict,Suicide,Non-Firearm
+Female,170,70,4125622,4.120590786068137,Strict,Suicide,Non-Firearm
+Female,157,71,4034836,3.891112302953577,Strict,Suicide,Non-Firearm
+Female,141,72,3776262,3.7338510940183705,Strict,Suicide,Non-Firearm
+Female,123,73,3536139,3.478370052760935,Strict,Suicide,Non-Firearm
+Female,97,74,3308199,2.9321089813520893,Strict,Suicide,Non-Firearm
+Female,116,75,3097084,3.7454586314094165,Strict,Suicide,Non-Firearm
+Female,101,76,2771621,3.6440768777549315,Strict,Suicide,Non-Firearm
+Female,85,77,2615159,3.2502803844814023,Strict,Suicide,Non-Firearm
+Female,81,78,2449826,3.3063572678222863,Strict,Suicide,Non-Firearm
+Female,68,79,2271047,2.99421368205942,Strict,Suicide,Non-Firearm
+Female,55,80,2070847,2.655918085691507,Strict,Suicide,Non-Firearm
+Female,58,81,1907101,3.041265250241073,Strict,Suicide,Non-Firearm
+Female,51,82,1773041,2.8764140253947876,Strict,Suicide,Non-Firearm
+Female,38,83,1652725,2.299233084753967,Strict,Suicide,Non-Firearm
+Female,57,84,1518633,3.7533755686857853,Strict,Suicide,Non-Firearm
+Male,243,15,5169144,4.700971766311792,Strict,Suicide,Non-Firearm
+Male,308,16,5147596,5.983375540737851,Strict,Suicide,Non-Firearm
+Male,358,17,5178615,6.913045283343132,Strict,Suicide,Non-Firearm
+Male,422,18,5296279,7.9678581887396795,Strict,Suicide,Non-Firearm
+Male,531,19,5258212,10.098489752790492,Strict,Suicide,Non-Firearm
+Male,610,20,5324493,11.456489847953598,Strict,Suicide,Non-Firearm
+Male,666,21,5378814,12.381911700237264,Strict,Suicide,Non-Firearm
+Male,654,22,5352093,12.219518607019722,Strict,Suicide,Non-Firearm
+Male,710,23,5376009,13.206823128458304,Strict,Suicide,Non-Firearm
+Male,682,24,5487913,12.427310709918325,Strict,Suicide,Non-Firearm
+Male,741,25,5610269,13.207922828655809,Strict,Suicide,Non-Firearm
+Male,790,26,5738639,13.766330309329442,Strict,Suicide,Non-Firearm
+Male,814,27,5877604,13.849180720579339,Strict,Suicide,Non-Firearm
+Male,835,28,5978609,13.966459422250226,Strict,Suicide,Non-Firearm
+Male,831,29,5998995,13.85232026364416,Strict,Suicide,Non-Firearm
+Male,895,30,5974455,14.980445915150419,Strict,Suicide,Non-Firearm
+Male,879,31,5905150,14.885311973446907,Strict,Suicide,Non-Firearm
+Male,859,32,5832730,14.727237502850295,Strict,Suicide,Non-Firearm
+Male,858,33,5754903,14.909026268557438,Strict,Suicide,Non-Firearm
+Male,819,34,5674476,14.433050734552406,Strict,Suicide,Non-Firearm
+Male,837,35,5624971,14.880076715062177,Strict,Suicide,Non-Firearm
+Male,851,36,5569241,15.280358670059348,Strict,Suicide,Non-Firearm
+Male,737,37,5506348,13.384551793675227,Strict,Suicide,Non-Firearm
+Male,755,38,5478026,13.78233692209566,Strict,Suicide,Non-Firearm
+Male,813,39,5403877,15.04475397941145,Strict,Suicide,Non-Firearm
+Male,761,40,5298120,14.36358557375069,Strict,Suicide,Non-Firearm
+Male,702,41,5148252,13.635696154733683,Strict,Suicide,Non-Firearm
+Male,678,42,5025688,13.490690229874994,Strict,Suicide,Non-Firearm
+Male,636,43,4936152,12.884530298094548,Strict,Suicide,Non-Firearm
+Male,639,44,4859219,13.15026138974185,Strict,Suicide,Non-Firearm
+Male,658,45,4809147,13.6822600764751,Strict,Suicide,Non-Firearm
+Male,661,46,4797882,13.776912395928036,Strict,Suicide,Non-Firearm
+Male,677,47,4888825,13.84790823970995,Strict,Suicide,Non-Firearm
+Male,693,48,5009296,13.834279307910734,Strict,Suicide,Non-Firearm
+Male,747,49,5094413,14.663122130066801,Strict,Suicide,Non-Firearm
+Male,725,50,5163131,14.041867231336953,Strict,Suicide,Non-Firearm
+Male,725,51,5133545,14.12279428737841,Strict,Suicide,Non-Firearm
+Male,779,52,5079169,15.337154562094705,Strict,Suicide,Non-Firearm
+Male,751,53,5087007,14.763101367857367,Strict,Suicide,Non-Firearm
+Male,753,54,5142986,14.641299820765603,Strict,Suicide,Non-Firearm
+Male,729,55,5210428,13.991173085972974,Strict,Suicide,Non-Firearm
+Male,775,56,5243677,14.779705157277995,Strict,Suicide,Non-Firearm
+Male,784,57,5284996,14.834448313678951,Strict,Suicide,Non-Firearm
+Male,766,58,5308100,14.430775607091048,Strict,Suicide,Non-Firearm
+Male,716,59,5273644,13.576949828240206,Strict,Suicide,Non-Firearm
+Male,654,60,5219703,12.529448514599393,Strict,Suicide,Non-Firearm
+Male,671,61,5109886,13.131408411068271,Strict,Suicide,Non-Firearm
+Male,618,62,4981911,12.404878368963233,Strict,Suicide,Non-Firearm
+Male,498,63,4855673,10.25604483662718,Strict,Suicide,Non-Firearm
+Male,508,64,4703291,10.800947676850104,Strict,Suicide,Non-Firearm
+Male,479,65,4518976,10.599746491240493,Strict,Suicide,Non-Firearm
+Male,427,66,4303514,9.922124106021265,Strict,Suicide,Non-Firearm
+Male,383,67,4119671,9.29685889965485,Strict,Suicide,Non-Firearm
+Male,346,68,3941864,8.777573249609828,Strict,Suicide,Non-Firearm
+Male,310,69,3774660,8.212660213105288,Strict,Suicide,Non-Firearm
+Male,289,70,3619440,7.984660610481178,Strict,Suicide,Non-Firearm
+Male,266,71,3506739,7.58539486400328,Strict,Suicide,Non-Firearm
+Male,240,72,3250971,7.382409747733831,Strict,Suicide,Non-Firearm
+Male,199,73,3014713,6.600960025050478,Strict,Suicide,Non-Firearm
+Male,192,74,2801415,6.853679301353067,Strict,Suicide,Non-Firearm
+Male,201,75,2586266,7.77182238795236,Strict,Suicide,Non-Firearm
+Male,182,76,2265472,8.033645968698796,Strict,Suicide,Non-Firearm
+Male,172,77,2103209,8.17797945900764,Strict,Suicide,Non-Firearm
+Male,136,78,1938354,7.016262251374105,Strict,Suicide,Non-Firearm
+Male,139,79,1765705,7.872209683950603,Strict,Suicide,Non-Firearm
+Male,120,80,1579851,7.595653007783646,Strict,Suicide,Non-Firearm
+Male,113,81,1421104,7.9515644175232785,Strict,Suicide,Non-Firearm
+Male,101,82,1289000,7.835531419705198,Strict,Suicide,Non-Firearm
+Male,92,83,1168701,7.871987788151118,Strict,Suicide,Non-Firearm
+Male,82,84,1042649,7.8645833832862255,Strict,Suicide,Non-Firearm
+NA,914,15,21245089,4.302170727550259,All States,Homicide,Firearm
+NA,1422,16,21105308,6.7376415449611065,All States,Homicide,Firearm
+NA,2220,17,21173695,10.48470755812814,All States,Homicide,Firearm
+NA,3116,18,21354828,14.591548103314155,All States,Homicide,Firearm
+NA,3329,19,21434258,15.531211763896842,All States,Homicide,Firearm
+NA,3157,20,21672762,14.566671289981405,All States,Homicide,Firearm
+NA,3228,21,21925009,14.722912998576192,All States,Homicide,Firearm
+NA,3043,22,21868931,13.914717642119772,All States,Homicide,Firearm
+NA,3055,23,21850525,13.981357427338704,All States,Homicide,Firearm
+NA,2949,24,22013823,13.396128423491003,All States,Homicide,Firearm
+NA,2967,25,22261799,13.327763852328376,All States,Homicide,Firearm
+NA,2924,26,22634351,12.918417674091915,All States,Homicide,Firearm
+NA,3060,27,23077282,13.259793766007627,All States,Homicide,Firearm
+NA,2992,28,23430056,12.769922530274789,All States,Homicide,Firearm
+NA,2968,29,23484168,12.638301684777593,All States,Homicide,Firearm
+NA,2892,30,23340370,12.390549078699268,All States,Homicide,Firearm
+NA,2710,31,23035838,11.764277904715252,All States,Homicide,Firearm
+NA,2459,32,22733807,10.816490172543473,All States,Homicide,Firearm
+NA,2323,33,22473197,10.336758050045127,All States,Homicide,Firearm
+NA,2224,34,22233278,10.00302339583034,All States,Homicide,Firearm
+NA,2024,35,22128431,9.146604203434034,All States,Homicide,Firearm
+NA,1977,36,22032152,8.973249639889922,All States,Homicide,Firearm
+NA,1932,37,21924599,8.812019777419874,All States,Homicide,Firearm
+NA,1832,38,21905873,8.36305405404295,All States,Homicide,Firearm
+NA,1761,39,21705624,8.11310469581524,All States,Homicide,Firearm
+NA,1565,40,21346166,7.331527357184424,All States,Homicide,Firearm
+NA,1554,41,20854639,7.451579478311756,All States,Homicide,Firearm
+NA,1444,42,20404970,7.076707292390041,All States,Homicide,Firearm
+NA,1329,43,20076387,6.619716983937399,All States,Homicide,Firearm
+NA,1143,44,19793602,5.774593224618743,All States,Homicide,Firearm
+NA,1044,45,19637365,5.316395555106299,All States,Homicide,Firearm
+NA,1027,46,19634179,5.230674529350068,All States,Homicide,Firearm
+NA,985,47,20046939,4.9134683354900215,All States,Homicide,Firearm
+NA,959,48,20462713,4.686573085396839,All States,Homicide,Firearm
+NA,919,49,20739904,4.431071619232182,All States,Homicide,Firearm
+NA,787,50,20893890,3.766651399045367,All States,Homicide,Firearm
+NA,762,51,20738251,3.6743696466977855,All States,Homicide,Firearm
+NA,744,52,20481063,3.6326239512080014,All States,Homicide,Firearm
+NA,650,53,20531146,3.16592166847384,All States,Homicide,Firearm
+NA,618,54,20827365,2.9672500577965577,All States,Homicide,Firearm
+NA,613,55,21187324,2.8932393727494796,All States,Homicide,Firearm
+NA,601,56,21438015,2.803431194539233,All States,Homicide,Firearm
+NA,565,57,21704921,2.603096320875805,All States,Homicide,Firearm
+NA,570,58,21852845,2.608356028700153,All States,Homicide,Firearm
+NA,476,59,21772698,2.1862242336709947,All States,Homicide,Firearm
+NA,457,60,21602736,2.115472780855166,All States,Homicide,Firearm
+NA,450,61,21253374,2.1173108796749167,All States,Homicide,Firearm
+NA,410,62,20828523,1.968454508272142,All States,Homicide,Firearm
+NA,336,63,20437206,1.6440603475837159,All States,Homicide,Firearm
+NA,316,64,19935709,1.5850953683162208,All States,Homicide,Firearm
+NA,312,65,19290414,1.617383639355796,All States,Homicide,Firearm
+NA,244,66,18522621,1.3173081714515456,All States,Homicide,Firearm
+NA,224,67,17857988,1.2543406345664472,All States,Homicide,Firearm
+NA,179,68,17196069,1.040935576613469,All States,Homicide,Firearm
+NA,183,69,16574211,1.1041249565363926,All States,Homicide,Firearm
+NA,159,70,16008121,0.9932458656453184,All States,Homicide,Firearm
+NA,138,71,15636253,0.8825643841910207,All States,Homicide,Firearm
+NA,161,72,14577373,1.1044513987533968,All States,Homicide,Firearm
+NA,122,73,13611876,0.8962761635501234,All States,Homicide,Firearm
+NA,127,74,12704782,0.9996236062924967,All States,Homicide,Firearm
+NA,109,75,11828416,0.9215096932674671,All States,Homicide,Firearm
+NA,88,76,10474310,0.840150807069869,All States,Homicide,Firearm
+NA,82,77,9823655,0.8347198675034903,All States,Homicide,Firearm
+NA,77,78,9140762,0.842380536764878,All States,Homicide,Firearm
+NA,77,79,8405190,0.9161006473381328,All States,Homicide,Firearm
+NA,63,80,7585263,0.8305578857318461,All States,Homicide,Firearm
+NA,45,81,6901298,0.6520512518079933,All States,Homicide,Firearm
+NA,41,82,6327005,0.648015925386498,All States,Homicide,Firearm
+NA,41,83,5807868,0.7059389090798895,All States,Homicide,Firearm
+NA,35,84,5248646,0.6668386475292866,All States,Homicide,Firearm
+NA,80,15,21245089,0.3765576129146835,All States,Homicide,Non-Firearm
+NA,98,16,21105308,0.46433816554584284,All States,Homicide,Non-Firearm
+NA,127,17,21173695,0.599800837784808,All States,Homicide,Non-Firearm
+NA,188,18,21354828,0.8803629792756935,All States,Homicide,Non-Firearm
+NA,249,19,21434258,1.1616917179964896,All States,Homicide,Non-Firearm
+NA,268,20,21672762,1.2365751997830272,All States,Homicide,Non-Firearm
+NA,272,21,21925009,1.2405924211935329,All States,Homicide,Non-Firearm
+NA,316,22,21868931,1.444972321692359,All States,Homicide,Non-Firearm
+NA,362,23,21850525,1.6567107655308055,All States,Homicide,Non-Firearm
+NA,351,24,22013823,1.594452721819377,All States,Homicide,Non-Firearm
+NA,403,25,22261799,1.8102759799421422,All States,Homicide,Non-Firearm
+NA,413,26,22634351,1.8246602255129825,All States,Homicide,Non-Firearm
+NA,437,27,23077282,1.8936372142958602,All States,Homicide,Non-Firearm
+NA,447,28,23430056,1.9078059395163205,All States,Homicide,Non-Firearm
+NA,450,29,23484168,1.9161845546327212,All States,Homicide,Non-Firearm
+NA,473,30,23340370,2.0265317130790983,All States,Homicide,Non-Firearm
+NA,475,31,23035838,2.0620044297932636,All States,Homicide,Non-Firearm
+NA,441,32,22733807,1.9398422798258117,All States,Homicide,Non-Firearm
+NA,491,33,22473197,2.184824882725853,All States,Homicide,Non-Firearm
+NA,434,34,22233278,1.9520288461287625,All States,Homicide,Non-Firearm
+NA,426,35,22128431,1.9251251930152662,All States,Homicide,Non-Firearm
+NA,429,36,22032152,1.9471543224647323,All States,Homicide,Non-Firearm
+NA,457,37,21924599,2.084416686480788,All States,Homicide,Non-Firearm
+NA,472,38,21905873,2.154673315233773,All States,Homicide,Non-Firearm
+NA,467,39,21705624,2.1515161231946154,All States,Homicide,Non-Firearm
+NA,447,40,21346166,2.0940528617644967,All States,Homicide,Non-Firearm
+NA,465,41,20854639,2.229719728066259,All States,Homicide,Non-Firearm
+NA,400,42,20404970,1.9603067291939171,All States,Homicide,Non-Firearm
+NA,380,43,20076387,1.892770845670588,All States,Homicide,Non-Firearm
+NA,356,44,19793602,1.79856096934757,All States,Homicide,Non-Firearm
+NA,369,45,19637365,1.8790708427530882,All States,Homicide,Non-Firearm
+NA,341,46,19634179,1.7367672974765076,All States,Homicide,Non-Firearm
+NA,319,47,20046939,1.5912653797170728,All States,Homicide,Non-Firearm
+NA,386,48,20462713,1.8863578842160373,All States,Homicide,Non-Firearm
+NA,377,49,20739904,1.8177519047339854,All States,Homicide,Non-Firearm
+NA,376,50,20893890,1.799569156341878,All States,Homicide,Non-Firearm
+NA,383,51,20738251,1.8468288381696218,All States,Homicide,Non-Firearm
+NA,377,52,20481063,1.8407247709750223,All States,Homicide,Non-Firearm
+NA,389,53,20531146,1.8946823523635747,All States,Homicide,Non-Firearm
+NA,416,54,20827365,1.9973722071899156,All States,Homicide,Non-Firearm
+NA,407,55,21187324,1.9209599098026726,All States,Homicide,Non-Firearm
+NA,415,56,21438015,1.9358135536335803,All States,Homicide,Non-Firearm
+NA,393,57,21704921,1.8106492992994536,All States,Homicide,Non-Firearm
+NA,403,58,21852845,1.8441534729230908,All States,Homicide,Non-Firearm
+NA,384,59,21772698,1.7636766927093739,All States,Homicide,Non-Firearm
+NA,394,60,21602736,1.8238430539539066,All States,Homicide,Non-Firearm
+NA,351,61,21253374,1.651502486146435,All States,Homicide,Non-Firearm
+NA,335,62,20828523,1.6083713665150428,All States,Homicide,Non-Firearm
+NA,305,63,20437206,1.4923762083721228,All States,Homicide,Non-Firearm
+NA,286,64,19935709,1.4346116308178456,All States,Homicide,Non-Firearm
+NA,297,65,19290414,1.5396248105406136,All States,Homicide,Non-Firearm
+NA,284,66,18522621,1.5332603307058976,All States,Homicide,Non-Firearm
+NA,232,67,17857988,1.299138514372392,All States,Homicide,Non-Firearm
+NA,222,68,17196069,1.290992726302738,All States,Homicide,Non-Firearm
+NA,201,69,16574211,1.2127274112776771,All States,Homicide,Non-Firearm
+NA,172,70,16008121,1.0744546471131746,All States,Homicide,Non-Firearm
+NA,205,71,15636253,1.3110557881098497,All States,Homicide,Non-Firearm
+NA,152,72,14577373,1.0427118795684243,All States,Homicide,Non-Firearm
+NA,149,73,13611876,1.0946323636800688,All States,Homicide,Non-Firearm
+NA,143,74,12704782,1.1255604385813152,All States,Homicide,Non-Firearm
+NA,121,75,11828416,1.0229603017005828,All States,Homicide,Non-Firearm
+NA,117,76,10474310,1.1170186866724394,All States,Homicide,Non-Firearm
+NA,115,77,9823655,1.1706437166207486,All States,Homicide,Non-Firearm
+NA,108,78,9140762,1.1815207528650238,All States,Homicide,Non-Firearm
+NA,99,79,8405190,1.1778436894347422,All States,Homicide,Non-Firearm
+NA,95,80,7585263,1.2524285578496093,All States,Homicide,Non-Firearm
+NA,82,81,6901298,1.1881822810723432,All States,Homicide,Non-Firearm
+NA,92,82,6327005,1.4540845155014102,All States,Homicide,Non-Firearm
+NA,77,83,5807868,1.325787707296378,All States,Homicide,Non-Firearm
+NA,54,84,5248646,1.0288367704737564,All States,Homicide,Non-Firearm

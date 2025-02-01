@@ -1,170 +1,198 @@
-/* Typography & Layout */
+/* Global Styles */
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  background-color: #f9f9f9; /* Softer background for better readability */
-  color: #333333;
-  line-height: 1.8;
-  font-size: 18px;
-  margin: 0;
-  padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    background-color: #f9f9f9;
+    color: #333333;
+    line-height: 1.8;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Typography */
+h1, h2 {
+    font-weight: 700;
+    text-align: center;
+    color: #121212;
 }
 
 h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-  color: #121212;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
-p,
-ul {
-  max-width: 42em;
-  margin: 0 auto;
-  line-height: 1.6;
-  font-size: 1.1rem;
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
 }
 
-ul {
-  padding-left: 20px;
+p, ul {
+    max-width: 42em;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
 }
 
-.wrapper {
-  max-width: 1100px; /* Wider container for a modern, NYT-style layout */
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem 1.5rem;
-  background: #ffffff; /* Subtle contrast from the body */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+/* Educational Mobility Chart Styles */
+.education-section {
+    margin-bottom: 60px;
 }
 
 .introduction {
-  line-height: 1.8;
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-  color: #555555;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #555555;
 }
 
-/* Chart */
 .chart-wrapper {
-  position: relative;
-  width: 100%;
-  padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    padding: 1rem 0;
 }
 
 .chart-wrapper svg {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 .chart-wrapper canvas {
-  display: block;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
+/* Path Labels and Stats */
 .path-label {
-  font-weight: 600;
-  font-size: 1rem;
-  fill: #000;
-  dominant-baseline: middle;
-  pointer-events: none;
-  z-index: 1000;
-  position: relative;
+    font-weight: 600;
+    font-size: 1rem;
+    fill: #000;
+    dominant-baseline: middle;
+    pointer-events: none;
+    z-index: 1000;
+    position: relative;
 }
 
 .label-background {
-  rx: 4px;
-  ry: 4px;
-  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.1));
+    rx: 4px;
+    ry: 4px;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.1));
 }
 
 .stat-count {
-  font-size: 1.8rem;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
 }
 
 .stat-percentage {
-  font-size: 1.1rem;
-  font-weight: 400;
-  font-variant-numeric: tabular-nums;
-  color: #666666; /* Subtle text contrast */
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+    color: #666666;
 }
 
 .stat-count.category-0 {
-  fill: #ec5903;
+    fill: #ec5903;
 }
 
 .stat-count.category-1 {
-  fill: #39bcb3;
+    fill: #39bcb3;
 }
 
-/* Select Dropdown */
+/* Select Dropdown Styles */
 .select-css {
-  display: inline-block;
-  font-size: 1rem;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  color: #333333;
-  line-height: 1.2;
-  padding: 0.6rem 1.2rem;
-  box-sizing: border-box;
-  margin: 0 0.75rem;
-  border: 1px solid #cccccc;
-  border-radius: 4px;
-  background-color: #ffffff;
-  background-repeat: no-repeat, repeat;
-  background-position: right 0.75rem top 50%, 0 0;
-  background-size: 0.65em auto, 100%;
-  transition: all 0.2s ease-in-out;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    color: #333333;
+    padding: 0.6rem 1.2rem;
+    margin: 0 0.75rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    background-repeat: no-repeat, repeat;
+    background-position: right 0.75rem top 50%, 0 0;
+    background-size: 0.65em auto, 100%;
+    transition: all 0.2s ease-in-out;
 }
 
 .select-css.category-0 {
-  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
     linear-gradient(to bottom, #ec5903 0%, #ec5903 100%);
 }
+
 .select-css.category-1 {
-  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
     linear-gradient(to bottom, #39bcb3 0%, #39bcb3 100%);
 }
 
-.select-css:hover {
-  border-color: #888888;
+/* Mortality Chart Styles */
+.mortality-section {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid #eee;
 }
 
-.select-css:focus {
-  border-color: #555555;
-  outline: none;
-  box-shadow: 0 0 5px rgba(99, 179, 255, 0.5);
+#mortality-chart {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
 }
 
-.select-css option {
-  font-weight: normal;
+.mortality-dot {
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.mortality-dot:hover {
+    opacity: 1;
+}
+
+/* Axis and Labels */
+.axis-label {
+    font-size: 12px;
+    fill: #666;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mode-label {
+    font-size: 24px;
+    text-anchor: middle;
+    font-weight: 600;
+    fill: #333;
 }
 
 /* Source Footer */
 .source {
-  list-style: none;
-  padding: 0;
-  margin: 1.5rem auto;
-  text-align: center;
-  font-size: 0.95rem;
-  color: #555555;
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #555555;
 }
 
 .source a {
-  color: #0066cc;
-  text-decoration: none;
+    color: #0066cc;
+    text-decoration: none;
 }
 
 .source a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }

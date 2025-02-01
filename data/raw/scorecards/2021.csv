@@ -1,0 +1,51 @@
+"Rank","State","Grade","Gun Death Rank","Gun Death Rate (per 100K)"
+1,"California","A",44,8.5
+2,"New Jersey","A",48,5.0
+3,"Connecticut","A-",45,6.0
+4,"Hawaii","A-",50,3.4
+8,"Illinois","A-",27,14.1
+7,"Maryland","A-",33,13.5
+5,"Massachusetts","A-",49,3.7
+6,"New York","A-",46,5.3
+13,"Colorado","B",22,15.4
+12,"Delaware","B",25,14.3
+9,"Rhode Island","B",47,5.1
+11,"Virginia","B",34,13.4
+10,"Washington","B",39,10.9
+15,"Oregon","B-",35,13.0
+14,"Pennsylvania","B-",31,13.6
+18,"Michigan","C+",24,14.6
+17,"Minnesota","C+",43,8.9
+16,"Nevada","C+",18,17.0
+19,"New Mexico","C",7,22.7
+24,"Florida","C-",29,13.7
+20,"Nebraska","C-",41,10.1
+21,"North Carolina","C-",21,16.0
+22,"Vermont","C-",37,11.6
+22,"Wisconsin","C-",36,12.2
+25,"Ohio","D",23,15.2
+26,"Indiana","D-",17,17.3
+31,"Alabama","F",5,23.6
+41,"Alaska","F",6,23.5
+42,"Arizona","F",20,16.7
+50,"Arkansas","F",8,22.6
+28,"Georgia","F",15,17.7
+48,"Idaho","F",16,17.6
+30,"Iowa","F",38,11.2
+45,"Kansas","F",19,16.9
+42,"Kentucky","F",13,20.1
+34,"Louisiana","F",2,26.3
+29,"Maine","F",40,10.4
+45,"Mississippi","F",1,28.6
+47,"Missouri","F",4,23.9
+40,"Montana","F",11,20.9
+27,"New Hampshire","F",42,8.9
+39,"North Dakota","F",28,13.8
+37,"Oklahoma","F",12,20.7
+32,"South Carolina","F",9,22.0
+44,"South Dakota","F",32,13.6
+37,"Tennessee","F",10,21.3
+36,"Texas","F",26,14.2
+33,"Utah","F",30,13.6
+34,"West Virginia","F",14,18.1
+49,"Wyoming","F",3,25.9

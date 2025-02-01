@@ -1,0 +1,179 @@
+"Notes"	"Single-Year Ages"	"Single-Year Ages Code"	Deaths	Population	Crude Rate
+	"< 1 year"	"0"	1240	18613876	6.7
+	"1 year"	"1"	522	18808136	2.8
+	"2 years"	"2"	366	19227296	1.9
+	"3 years"	"3"	221	19556332	1.1
+	"4 years"	"4"	166	19848301	0.8
+	"5 years"	"5"	150	20040186	0.7
+	"6 years"	"6"	73	20158182	0.4
+	"7 years"	"7"	66	20219760	0.3
+	"8 years"	"8"	63	20239499	0.3
+	"9 years"	"9"	45	20272364	0.2
+	"10 years"	"10"	51	20447226	0.2
+	"11 years"	"11"	39	20723232	0.2
+	"12 years"	"12"	48	21009975	0.2
+	"13 years"	"13"	49	21235494	0.2
+	"14 years"	"14"	71	21353914	0.3
+	"15 years"	"15"	80	21245089	0.4
+	"16 years"	"16"	98	21105308	0.5
+	"17 years"	"17"	127	21173695	0.6
+	"18 years"	"18"	188	21354828	0.9
+	"19 years"	"19"	249	21434258	1.2
+	"20 years"	"20"	268	21672762	1.2
+	"21 years"	"21"	272	21925009	1.2
+	"22 years"	"22"	316	21868931	1.4
+	"23 years"	"23"	362	21850525	1.7
+	"24 years"	"24"	351	22013823	1.6
+	"25 years"	"25"	403	22261799	1.8
+	"26 years"	"26"	413	22634351	1.8
+	"27 years"	"27"	437	23077282	1.9
+	"28 years"	"28"	447	23430056	1.9
+	"29 years"	"29"	450	23484168	1.9
+	"30 years"	"30"	473	23340370	2.0
+	"31 years"	"31"	475	23035838	2.1
+	"32 years"	"32"	441	22733807	1.9
+	"33 years"	"33"	491	22473197	2.2
+	"34 years"	"34"	434	22233278	2.0
+	"35 years"	"35"	426	22128431	1.9
+	"36 years"	"36"	429	22032152	1.9
+	"37 years"	"37"	457	21924599	2.1
+	"38 years"	"38"	472	21905873	2.2
+	"39 years"	"39"	467	21705624	2.2
+	"40 years"	"40"	447	21346166	2.1
+	"41 years"	"41"	465	20854639	2.2
+	"42 years"	"42"	400	20404970	2.0
+	"43 years"	"43"	380	20076387	1.9
+	"44 years"	"44"	356	19793602	1.8
+	"45 years"	"45"	369	19637365	1.9
+	"46 years"	"46"	341	19634179	1.7
+	"47 years"	"47"	319	20046939	1.6
+	"48 years"	"48"	386	20462713	1.9
+	"49 years"	"49"	377	20739904	1.8
+	"50 years"	"50"	376	20893890	1.8
+	"51 years"	"51"	383	20738251	1.8
+	"52 years"	"52"	377	20481063	1.8
+	"53 years"	"53"	389	20531146	1.9
+	"54 years"	"54"	416	20827365	2.0
+	"55 years"	"55"	407	21187324	1.9
+	"56 years"	"56"	415	21438015	1.9
+	"57 years"	"57"	393	21704921	1.8
+	"58 years"	"58"	403	21852845	1.8
+	"59 years"	"59"	384	21772698	1.8
+	"60 years"	"60"	394	21602736	1.8
+	"61 years"	"61"	351	21253374	1.7
+	"62 years"	"62"	335	20828523	1.6
+	"63 years"	"63"	305	20437206	1.5
+	"64 years"	"64"	286	19935709	1.4
+	"65 years"	"65"	297	19290414	1.5
+	"66 years"	"66"	284	18522621	1.5
+	"67 years"	"67"	232	17857988	1.3
+	"68 years"	"68"	222	17196069	1.3
+	"69 years"	"69"	201	16574211	1.2
+	"70 years"	"70"	172	16008121	1.1
+	"71 years"	"71"	205	15636253	1.3
+	"72 years"	"72"	152	14577373	1.0
+	"73 years"	"73"	149	13611876	1.1
+	"74 years"	"74"	143	12704782	1.1
+	"75 years"	"75"	121	11828416	1.0
+	"76 years"	"76"	117	10474310	1.1
+	"77 years"	"77"	115	9823655	1.2
+	"78 years"	"78"	108	9140762	1.2
+	"79 years"	"79"	99	8405190	1.2
+	"80 years"	"80"	95	7585263	1.3
+	"81 years"	"81"	82	6901298	1.2
+	"82 years"	"82"	92	6327005	1.5
+	"83 years"	"83"	77	5807868	1.3
+	"84 years"	"84"	54	5248646	1.0
+	"85 years"	"85"	65	Not Applicable	Not Applicable
+	"86 years"	"86"	42	Not Applicable	Not Applicable
+	"87 years"	"87"	54	Not Applicable	Not Applicable
+	"88 years"	"88"	29	Not Applicable	Not Applicable
+	"89 years"	"89"	39	Not Applicable	Not Applicable
+	"90 years"	"90"	25	Not Applicable	Not Applicable
+	"91 years"	"91"	24	Not Applicable	Not Applicable
+	"92 years"	"92"	24	Not Applicable	Not Applicable
+	"93 years"	"93"	26	Not Applicable	Not Applicable
+	"94 years"	"94"	18	Not Applicable	Not Applicable
+	"95 years"	"95"	11	Not Applicable	Not Applicable
+	"96 years"	"96"	14	Not Applicable	Not Applicable
+"Total"			25062	1650072382	1.5
+"---"
+"Dataset: Underlying Cause of Death, 2018-2022, Single Race"
+"Query Parameters:"
+"Injury Intent: Homicide"
+"Injury Mechanism & All Other Leading Causes: Cut/Pierce; Drowning; Fall; Fire/Flame; Hot object/Substance; Machinery; Motor"
+"Vehicle Traffic; Other Pedal cyclist; Other Pedestrian; Other land transport; Other transport; Natural/Environmental;"
+"Overexertion; Poisoning; Struck by or against; Suffocation; Other specified, classifiable Injury; Other specified, not elsewhere"
+"classified Injury; Unspecified Injury; Non-Injury: Intestinal infections; Non-Injury: Tuberculosis; Non-Injury: Whooping cough;"
+"Non-Injury: Scarlet fever and erysipelas; Non-Injury: Meningococcal infection; Non-Injury: Septicemia; Non-Injury: Syphilis;"
+"Non-Injury: Acute poliomyelitis; Non-Injury: Arthropod-borne viral encephalitis; Non-Injury: Measles; Non-Injury: Viral"
+"hepatitis; Non-Injury: Human immunodeficiency virus (HIV) disease; Non-Injury: Malaria; Non-Injury: Other and unspecified"
+"infectious and parasitic diseases and their sequelae; Non-Injury: Malignant neoplasms (Cancers); Non-Injury: In situ neoplasms,"
+"benign neoplasms and neoplasms of uncertain or unknown behavior; Non-Injury: Anemias; Non-Injury: Diabetes mellitus; Non-Injury:"
+"Nutritional Deficiencies; Non-Injury: Meningitis; Non-Injury: Parkinsons disease; Non-Injury: Alzheimers disease; Non-Injury:"
+"Diseases of Heart; Non-Injury: Essential (primary) hypertension and hypertensive renal disease; Non-Injury: Cerebrovascular"
+"diseases, including stroke; Non-Injury: Atherosclerosis; Non-Injury: Other diseases of the circulatory system; Non-Injury: Other"
+"disorders of circulatory system; Non-Injury: Influenza & Pneumonia; Non-Injury: Other acute lower respiratory infections;"
+"Non-Injury: Chronic lower respiratory diseases; Non-Injury: Pneumoconioses and chemical effects; Non-Injury: Pneumonitis due to"
+"solids and liquids; Non-Injury: Other diseases of respiratory system; Non-Injury: Peptic ulcer; Non-Injury: Diseases of"
+"appendix; Non-Injury: Hernia; Non-Injury: Chronic liver disease and cirrhosis; Non-Injury: Cholelithiasis and other disorders of"
+"gallbladder; Non-Injury: Nephritis, nephrotic syndrome and nephrosis; Non-Injury: Infections of kidney; Non-Injury: Hyperplasia"
+"of prostate; Non-Injury: Inflammatory diseases of female pelvic organs; Non-Injury: Pregnancy with abortive outcome; Non-Injury:"
+"Other complications of pregnancy, childbirth and the puerperium; Non-Injury: Certain conditions originating in the perinatal"
+"period; Non-Injury: Congenital malformations, deformations and chromosomal abnormalities; Non-Injury: Symptoms, signs and"
+"abnormal clinical and laboratory findings, not elsewhere classified; Non-Injury: All other diseases (Residual); Non-Injury:"
+"Complications of medical and surgical care"
+"Group By: Single-Year Ages"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd-expanded.html for more information."
+"---"
+"Query Date: Nov 17, 2024 2:24:11 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 2018-2022 on CDC WONDER Online Database, released in 2024. Data are from the Multiple Cause of Death Files,"
+"2018-2022, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/ucd-icd10-expanded.html on Nov 17, 2024 2:24:11 PM"
+"---"
+Messages:
+"1. Rows with suppressed Deaths are hidden, but the Deaths and Population values in those rows are included in the totals. Use"
+"Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Population and rates are labeled 'Not Applicable' when they include a subset of ages 85-100+ because populations are not"
+"available for those ages. More information: http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Ages 85-100."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Unreliable."
+"4. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Not Stated."
+"5. The population figures for years 2022 and later are single-race estimates of the July 1 resident population, from the Vintage"
+"2022 postcensal series released by the Census Bureau on June 22, 2023. The 2022 series is based on the Modified Blended Base"
+"produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count. The Modified Blended Base consists of"
+"the blend of Vintage 2020 postcensal population estimates for April 1, 2020, 2020 Demographic Analysis Estimates, and 2020"
+"Census data from the internal Census Edited File (CEF). The population figures for years 2021 are single-race estimates of the"
+"July 1 resident population, based on the Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial"
+"population count, from the Vintage 2021 postcensal series released by the Census Bureau on June 30, 2022. The population figures"
+"for year 2020 are single-race estimates of the July 1 resident population, from the Vintage 2020 postcensal series based on"
+"April 2010 Census, released by the Census Bureau on July 27, 2021. The population figures for year 2019 are single-race"
+"estimates of the July 1 resident population, from the Vintage 2019 postcensal series based on April 2010 Census, released by the"
+"Census Bureau on June 25, 2020. The population figures for year 2018 are single-race estimates of the July 1 resident"
+"population, from the Vintage 2018 postcensal series based on April 2010 Census, released by the Census Bureau on June 20, 2019."
+"More information: http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Population Data."
+"6. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Age"
+"Group."
+"7. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Caution should be used in interpreting these data. More"
+"information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
+"8. Connecticut population estimates for 2022 are reported for 9 planning regions as county equivalent areas, instead of the"
+"former 8 legacy counties in the Vintage 2022 postcensal series released by the Census Bureau on June 22, 2023. Populations"
+"estimates for the former counties are not available for 2022. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Connecticut-2022."
