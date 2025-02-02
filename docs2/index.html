@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drug Overdose Mortality Visualization</title>
+  <!-- Import Merriweather for an elegant, editorial look -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: 'Merriweather', Georgia, serif;
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #f7f7f7;
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    .container {
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .info {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .info p {
+      font-size: 16px;
+    }
+    /* Chart Styles */
+    #chart, #state-charts {
+      position: relative;
+    }
+    svg {
+      display: block;
+      margin: 0 auto;
+      background: #fafafa;
+    }
+    /* Spike Map Specific */
+    svg.spike-map {
+      border: 1px solid #eee;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    /* Year Label Overlay */
+    .year-label {
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 36px;
+      font-weight: bold;
+      background: rgba(255,255,255,0.9);
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      pointer-events: none;
+    }
+    /* Base Map & Spike Styles */
+    .county {
+      fill: none;
+      stroke: #ddd;
+      stroke-width: 0.5px;
+    }
+    .spike {
+      fill: red;
+      fill-opacity: 0.5;
+      stroke: red;
+      stroke-width: 0.5px;
+    }
+    /* Legend Styles */
+    .legend {
+      font-size: 14px;
+    }
+    .legend-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    /* Annotation Styles */
+    .annotation-text {
+      font-size: 14px;
+      font-weight: bold;
+      fill: black;
+    }
+    /* State Maps Section */
+    #state-charts {
+      margin-top: 40px;
+    }
+    #state-charts h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    #state-charts .state-map-container {
+      display: inline-block;
+      margin: 10px;
+      vertical-align: top;
+    }
+    #state-charts svg {
+      border: 1px solid #eee;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    #state-charts h3 {
+      text-align: center;
+      margin: 5px 0;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>County‑level Drug Overdose Mortality, 2003–2021</h1>
+  </header>
+  <div class="container">
+    <div class="info">
+      <p>
+        The spike map below shows model‑based county estimates of drug overdose mortality in the United States from 2003 to 2021.
+        Each county is represented by a spike whose length (always pointing upward) is proportional to the overdose death rate per 100,000 population.
+        When the animation reaches 2021, it stops and an annotation highlights the county with the highest death rate.
+        <br><br>
+        <small>Data source: National Center for Health Statistics</small>
+      </p>
+    </div>
+    <!-- Spike map chart -->
+    <div id="chart"></div>
+    <!-- The overlaid year label -->
+    <div id="year-label" class="year-label"></div>
+    
+    <!-- State-level comparison: Three square-bin maps -->
+    <div id="state-charts">
+      <h2>State‑Level Comparison</h2>
+      <div id="state-map-2003" class="state-map-container"></div>
+      <div id="state-map-2021" class="state-map-container"></div>
+      <div id="state-map-diff" class="state-map-container"></div>
+    </div>
+  </div>
+  
+  <!-- Load D3 v7 and topojson-client -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+  <!-- Our custom script -->
+  <script src="map.js"></script>
+</body>
+</html>

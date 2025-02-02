@@ -3,75 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Education and Mortality Analysis</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap"
-      rel="stylesheet"
-    />
+    <title>Extensive Data Shows Gender Disparities in Depression Screening Outcomes</title>
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- D3 Library -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
   </head>
   <body>
+    <!-- Header / Intro Section -->
+    <header class="article-header">
+      <h1>Data Shows Gender Disparities in <br> Depression and Suicide</h1>
+      <p class="byline">By Jacob Jameson &mdash; February 1, 2025</p>
+      <p class="intro-text">
+
+      </p>
+    </header>
+
     <div class="wrapper">
-      <section class="education-section">
-        <h1>Intergenerational Educational Mobility by Race and Gender</h1>
-        <div class="introduction">
+      <!-- Sankey Section -->
+      <section id="sankey-section">
+        <h2>NHANES data reveals large gendered differences in depression severity</h2>
+        <br>
+<p> Among 2021-2023 NHANES survey participants who had received no mental treatment in the past year, 
+    <span class="female-text">women</span> were 2x more likely than <span class="male-text">men</span> 
+    to have a PHQ‑9 score that indicates severe depression.
+</p>
+        <p> A nine‑item depression screening questionnaire, called the Patient Health Questionnaire (PHQ‑9), was administered to determine the frequency of depression symptoms over the past 2 weeks.
+</p>
+
+        <div class="chart-wrapper"></div>
+        <!-- Note placed more inward -->
+        <div class="sankey-note">
           <p>
-            Follow the lives of&nbsp;
-            <select
-              name="category-0"
-              id="category-select-0"
-              class="select-css category-select category-0"
-            ></select>
-            &nbsp;and&nbsp;
-            <select
-              name="category-1"
-              id="category-select-1"
-              class="select-css category-select category-1"
-            ></select>
-            &nbsp;from their parents' educational attainment to their own
-            educational attainment.
+            Men <span class="male-dot"></span> <br> Women <span class="female-dot"></span>
           </p>
         </div>
-        <div class="chart-wrapper"></div>
-        <ul class="source">
-          <li>
-            Data source:
-            <a href="https://opportunityinsights.org/">Opportunity Insight</a>
-            <a href="https://opportunityinsights.org/wp-content/uploads/2019/08/table_7.csv"
-              >Intergenerational Transition Matrices of Educational Attainment by
-              Race and Gender</a>
-          </li>
-          <li>
-            Visualization inspiration:
-            <a href="https://www.nytimes.com/interactive/2018/03/19/upshot/race-class-white-and-black-men.html"
-              >Extensive Data Shows Punishing Reach of Racism for Black Boys</a>
-          </li>
-          <li>
-            Code inspiration:
-            <a href="https://observablehq.com/@chekos/animated-sankey"
-              >Animated Sankey</a>
-          </li>
-        </ul>
+        <!-- Live counter -->
+        <div id="child-counter" style="text-align:center; font-size:1.2rem; margin-top:0.5rem;">0</div>
       </section>
-
-      <section class="mortality-section">
+      
+      
+      <!-- Mortality Section (unchanged) -->
+      <section id="mortality-section">
         <h2>Mortality Rates by Gender and Method</h2>
-        <br />
         <div id="mortality-chart" class="chart-container"></div>
-        </section>
+        <div class="button-container">
+          <button id="show-homicide">How does this compare to homicide?</button>
+        </div>
         <p class="source">
           Data source:
-          <a href="https://www.cdc.gov/nchs/nvss/mortality_tables.htm"
-            >National Center for Health Statistics</a
-          >
+          <a href="https://www.cdc.gov/nchs/nvss/mortality_tables.htm">National Center for Health Statistics</a>
         </p>
+      </section>
     </div>
 
-    <!-- Load scripts in the correct order -->
-    <script src="https://d3js.org/d3-array.v2.min.js"></script>
-    <script src="https://d3js.org/d3-random.v2.min.js"></script>
-    <script src="mortality.js"></script>
+    <!-- Auto-start the Sankey simulation on page load -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        if (window.startEducationAnimation) {
+          window.startEducationAnimation();
+        }
+      });
+    </script>
+    <!-- Load additional scripts -->
     <script src="main.js"></script>
+    <script src="mortality.js"></script>
   </body>
 </html>

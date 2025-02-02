@@ -1,198 +1,775 @@
 /* Global Styles */
 body {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
-    background-color: #f9f9f9;
-    color: #333333;
-    line-height: 1.8;
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  background-color: #f9f9f9;
+  color: #333333;
+  line-height: 1.8;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
 /* Layout */
 .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1.5rem;
-    background: #ffffff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-/* Typography */
-h1, h2 {
-    font-weight: 700;
-    text-align: center;
-    color: #121212;
+/* Section Titles & Narrative */
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
+  color: #121212;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 1.2rem;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
 }
 
-p, ul {
-    max-width: 42em;
-    margin: 0 auto;
-    line-height: 1.6;
-    font-size: 1.1rem;
+p,
+ul {
+  max-width: 42em;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Narrative text style */
+.narrative-text {
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #555;
 }
 
 /* Educational Mobility Chart Styles */
 .education-section {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .introduction {
-    line-height: 1.8;
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    color: #555555;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #555555;
 }
 
 .chart-wrapper {
-    position: relative;
-    width: 100%;
-    padding: 1rem 0;
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
 }
 
 .chart-wrapper svg {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .chart-wrapper canvas {
-    display: block;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /* Path Labels and Stats */
 .path-label {
-    font-weight: 600;
-    font-size: 1rem;
-    fill: #000;
-    dominant-baseline: middle;
-    pointer-events: none;
-    z-index: 1000;
-    position: relative;
+  font-weight: 600;
+  font-size: 1rem;
+  fill: #000;
+  dominant-baseline: middle;
+  pointer-events: none;
+  z-index: 1000;
+  position: relative;
 }
 
 .label-background {
-    rx: 4px;
-    ry: 4px;
-    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.1));
+  rx: 4px;
+  ry: 4px;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.1));
 }
 
 .stat-count {
-    font-size: 1.8rem;
-    font-weight: 700;
-    font-variant-numeric: tabular-nums;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #666666;
 }
 
 .stat-percentage {
-    font-size: 1.1rem;
-    font-weight: 400;
-    font-variant-numeric: tabular-nums;
-    color: #666666;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
 }
 
-.stat-count.category-0 {
-    fill: #ec5903;
+.stat-percentage.category-0 {
+  color: #FF9F1C;
 }
 
-.stat-count.category-1 {
-    fill: #39bcb3;
+.stat-percentage.category-1 {
+  color: #1e90ff;
 }
+
 
 /* Select Dropdown Styles */
 .select-css {
-    display: inline-block;
-    font-size: 1rem;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    color: #333333;
-    padding: 0.6rem 1.2rem;
-    margin: 0 0.75rem;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    background-color: #ffffff;
-    background-repeat: no-repeat, repeat;
-    background-position: right 0.75rem top 50%, 0 0;
-    background-size: 0.65em auto, 100%;
-    transition: all 0.2s ease-in-out;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.75rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.75rem top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  transition: all 0.2s ease-in-out;
 }
 
 .select-css.category-0 {
-    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
-    linear-gradient(to bottom, #ec5903 0%, #ec5903 100%);
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22/%3E%3C/svg%3E"),
+    linear-gradient(to bottom, #FF9F1C 0%, #FF9F1C 100%);
 }
 
 .select-css.category-1 {
-    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"),
-    linear-gradient(to bottom, #39bcb3 0%, #39bcb3 100%);
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22/%3E%3C/svg%3E"),
+    linear-gradient(to bottom, #1e90ff 0%, #1e90ff 100%);
 }
 
 /* Mortality Chart Styles */
 .mortality-section {
-    margin-top: 60px;
-    padding-top: 40px;
-    border-top: 1px solid #eee;
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid #eee;
 }
 
 #mortality-chart {
-    width: 100%;
-    height: 500px;
-    margin: 0 auto;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
 }
 
 .mortality-dot {
-    opacity: 0.6;
-    transition: opacity 0.2s;
+  opacity: 0.6;
+  transition: opacity 0.2s;
 }
 
 .mortality-dot:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Axis and Labels */
 .axis-label {
-    font-size: 12px;
-    fill: #666;
-    font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  fill: #666;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .mode-label {
-    font-size: 24px;
-    text-anchor: middle;
-    font-weight: 600;
-    fill: #333;
+  font-size: 24px;
+  text-anchor: middle;
+  font-weight: 600;
+  fill: #333;
 }
 
 /* Source Footer */
 .source {
-    list-style: none;
-    padding: 0;
-    margin: 1.5rem auto;
-    text-align: center;
-    font-size: 0.95rem;
-    color: #555555;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555555;
 }
 
 .source a {
-    color: #0066cc;
-    text-decoration: none;
+  color: #0066cc;
+  text-decoration: none;
 }
 
 .source a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
+/* Additional scrollytelling styling */
+.scrolly-section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+/* Global Styles */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  background-color: #f9f9f9;
+  color: #333333;
+  line-height: 1.8;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Typography */
+h1, h2 {
+  font-weight: 700;
+  text-align: center;
+  color: #121212;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+p, ul {
+  max-width: 42em;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Chart Styles */
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+}
+.chart-wrapper svg, .chart-wrapper canvas {
+  display: block;
+  width: 100%;
+}
+
+/* Source Footer */
+.source {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555555;
+}
+.source a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.source a:hover {
+  text-decoration: underline;
+}
+
+/* Additional sections */
+.intro-section {
+  margin-bottom: 3rem;
+}
+.scrolly-section {
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Global Styles */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  background-color: #f9f9f9;
+  color: #333333;
+  line-height: 1.8;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Typography */
+h1, h2 {
+  font-weight: 700;
+  text-align: center;
+  color: #121212;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+p, ul {
+  max-width: 42em;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Chart Styles */
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+}
+.chart-wrapper svg, .chart-wrapper canvas {
+  display: block;
+  width: 100%;
+}
+
+/* Source Footer */
+.source {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555555;
+}
+.source a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.source a:hover {
+  text-decoration: underline;
+}
+
+/* Additional sections */
+.intro-section {
+  margin-bottom: 3rem;
+}
+.scrolly-section {
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Global Styles */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  background-color: #f9f9f9;
+  color: #333333;
+  line-height: 1.8;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Typography */
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
+  color: #121212;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+p,
+ul {
+  max-width: 42em;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Chart Styles */
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+}
+.chart-wrapper svg,
+.chart-wrapper canvas {
+  display: block;
+  width: 100%;
+}
+
+/* Button Styles */
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+#show-mobility {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+#show-mobility:hover {
+  background-color: #005fa3;
+}
+
+/* Filler (for scrolling) */
+.filler {
+  margin-top: 2rem;
+}
+
+/* Source Footer */
+.source {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555555;
+}
+.source a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.source a:hover {
+  text-decoration: underline;
+}
+
+/* Additional sections */
+.intro-section {
+  margin-bottom: 3rem;
+}
+
+/* Global Styles */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  background-color: #f9f9f9;
+  color: #333333;
+  line-height: 1.8;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Typography */
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
+  color: #121212;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+p,
+ul {
+  max-width: 42em;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Chart Styles */
+.chart-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+}
+.chart-wrapper svg,
+.chart-wrapper canvas {
+  display: block;
+  width: 100%;
+}
+
+/* Button Styles */
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+#show-mobility {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+#show-mobility:hover {
+  background-color: #005fa3;
+}
+
+/* Counter Style */
+#child-counter {
+  font-weight: bold;
+}
+
+/* Filler (for scrolling) */
+.filler {
+  margin-top: 2rem;
+}
+
+/* Source Footer */
+.source {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555555;
+}
+.source a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.source a:hover {
+  text-decoration: underline;
+}
+
+/* Additional sections */
+.intro-section {
+  margin-bottom: 3rem;
+}
+
+/* Sankey note styling */
+.sankey-note {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 300px;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #333;
+  background-color: rgba(255,255,255,0.8);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Inline circles for gender indication */
+.male-dot,
+.female-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 4px;
+  vertical-align: middle;
+}
+
+.male-dot {
+  background-color: #298c8c;
+}
+
+.female-dot {
+  background-color: #800074;
+}
+
+
+/* Article Header (NYT Upshot–style) */
+.article-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f5f5f5;
+  margin-bottom: 2rem;
+}
+
+.article-header h1 {
+  font-size: 2.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.byline {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Sankey note styling: move inward (increase left margin) */
+.sankey-note {
+  position: absolute;
+  left: 150px;
+  top: 110%;
+  transform: translateY(-50%);
+  max-width: 300px;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Inline circles for gender indication */
+.male-dot,
+.female-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 4px;
+  vertical-align: middle;
+}
+
+.male-dot {
+  background-color: #1e90ff;
+}
+
+.female-dot {
+  background-color: #FF9F1C;
+}
+
+.male-dot,
+.female-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 4px;
+  vertical-align: middle;
+}
+.male-dot {
+  background-color: #1e90ff;
+}
+.female-dot {
+  background-color: #FF9F1C;
+}
+
+
+.female-text {
+    color: #FF9F1C; /* Red */
+    font-weight: bold;
+}
+
+.male-text {
+    color: #1e90ff; /* Blue */
+    font-weight: bold;
+}
+
+/* Statistic Styling */
+.stat-percentage {
+  font-size: 1.8rem; /* Large percentage */
+  font-weight: 700;
+  color: inherit;    /* Inherit color (set by container or inline) */
+  margin: 0;
+}
+.stat-count {
+  font-size: 0.8rem; /* Smaller count */
+  font-weight: 400;
+  color: #666666;
+  margin: 0;
+}
+
+/* Select Dropdown Styles (if needed) */
+.select-css {
+  display: inline-block;
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.75rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.75rem top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  transition: all 0.2s ease-in-out;
+}
+.select-css.category-0 {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22/%3E%3C/svg%3E"),
+    linear-gradient(to bottom, #FF9F1C 0%, #FF9F1C 100%);
+}
+.select-css.category-1 {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23121212%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22/%3E%3C/svg%3E"),
+    linear-gradient(to bottom, #1e90ff 0%, #1e90ff 100%);
+}
+
+
+.article-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f5f5f5;
+  margin-bottom: 2rem;
+}
+.article-header h1 {
+  font-size: 2.75rem;
+  margin-bottom: 0.5rem;
+}
+.byline {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+.intro-text {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
