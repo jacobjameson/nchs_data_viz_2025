@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/styles.css" />
     <!-- D3 Library -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+
   </head>
   <body>
     <!-- Header / Intro Section -->
@@ -67,11 +69,18 @@
           Data source: WISQARS
         </p>
       </section>
-    </div>
-
-
-      </section>
       
+      
+            <!-- New Map Section -->
+      <section id="map-section">
+        <h2>US Gun Deaths Scorecard 2022</h2>
+        <!-- This is where map.js will insert the interactive map -->
+        <div id="map"></div>
+      </section>
+
+      
+      
+
       <!-- Mortality Section (unchanged) -->
       <section id="mortality-section">
         <h2>Mortality Rates by Gender and Method</h2>
@@ -86,10 +95,19 @@
       </section>
       
 
+
+      
+    </div>
+
+
+
+      
+
     <!-- Load additional scripts -->
     <script src="main.js"></script>
     <script src="mortality.js"></script>
     <script src="mechanismRegression.js"></script>
+    <script src="map.js"></script>
     <script src="staticChart.js"></script>
   </body>
 </html>

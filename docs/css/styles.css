@@ -773,3 +773,45 @@ ul {
   line-height: 1.6;
 }
 
+
+/* Basic page styling */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+/* Center the map container */
+#map {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Style for the states on the map */
+.state {
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+/* State borders for a clean look */
+.state-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+/* Tooltip styling */
+.tooltip {
+  position: absolute;
+  text-align: left;
+  width: auto;
+  padding: 10px;
+  font: 12px sans-serif;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  pointer-events: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
