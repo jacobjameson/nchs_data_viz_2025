@@ -53,7 +53,6 @@ hist(phq$phq9_score, breaks = 0:27, main = "Distribution of PHQ-9 Scores")
 # ------------------------------------------------------------------------------
 # HUQ: Health care access and utilization
 
-
 download.file("https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HUQ_L.xpt",
               ac <- tempfile(), mode="wb")
 
@@ -105,6 +104,9 @@ data <- demo %>%
   left_join(phq, by = "seqn") %>%
   left_join(ac, by = "seqn")
 
+#creat 10 year age groups
+data$age_group <- cut(data$ridageyr, breaks = c(0, 20, 40, 60, 80, 100), 
+                      labels = c("0-20", "21-40", "41-60", "61-80", "81-100"))
 
 demo_design <- svydesign(
   id = ~sdmvpsu,
@@ -114,21 +116,21 @@ demo_design <- svydesign(
   data = data
 )
 
-prop.table(svytable(~riagendr + ridreth1 + depression_category + huq090, design = demo_design), 1)
+prop.table(svytable(~riagendr + ridreth1 + depression_category + huq090 + age_group, design = demo_design), 1)
 
 # Assume your survey design object is demo_design
-wt_counts <- svytable(~riagendr + ridreth1 + depression_category + huq090, design = demo_design)
+wt_counts <- svytable(~riagendr + ridreth1 + depression_category + huq090 + age_group, design = demo_design)
 
 prop_counts <- prop.table(wt_counts, margin = 1)
 
 df_counts <- as.data.frame.table(wt_counts)
 df_props  <- as.data.frame.table(prop_counts)
 
-names(df_counts) <- c("riagendr", "ridreth1", "depression_category", "huq090", "count")
-names(df_props)  <- c("riagendr", "ridreth1", "depression_category", "huq090", "proportion")
+names(df_counts) <- c("riagendr", "ridreth1", "depression_category", "huq090", 'age_group', "count")
+names(df_props)  <- c("riagendr", "ridreth1", "depression_category", "huq090", 'age_group', "proportion")
 
 df_final <- merge(df_counts, df_props,
-                  by = c("riagendr", "ridreth1", "depression_category", "huq090"))
+                  by = c("riagendr", "ridreth1", "depression_category", 'age_group', "huq090"))
 
 
 df_final <- df_final %>%
@@ -136,23 +138,12 @@ df_final <- df_final %>%
          'Race/Ethnicity' = 'ridreth1',
          'PHQ_c' = 'depression_category',
          'Seen' = 'huq090',
+         'Age' = 'age_group',
          'Count' = 'count',
          'Proportion' = 'proportion')
 
 write.csv(df_final, "docs/NHANES.csv", row.names = FALSE)
 
+write.csv(WISQARS, "docs/WISQARS.csv", row.names = FALSE)
 
 
-
-
-
-data <- read_rds('https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NAMCS_HC/2022/namcshc2022_r.rds')
-
-
-library(haven)
-
-ed22 <- read_dta("src/ed2022.dta")
-
-library(readr)
-NCHS_Drug_Poisoning_Mortality_by_County_United_States <- read_csv("docs2/NCHS_-_Drug_Poisoning_Mortality_by_County__United_States.csv")
-View(NCHS_Drug_Poisoning_Mortality_by_County_United_States)

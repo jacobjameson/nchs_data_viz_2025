@@ -2,7 +2,6 @@
 // Process Data and Setup Animated Sankey Diagram using NHANES.csv
 ////////////////////////////////////////////////////////////
 
-// Global flag to ensure we only start the flow once.
 let educationStarted = false;
 
 // Define the order of PHQ_c categories (end states)
@@ -10,8 +9,8 @@ const phqOrder = ["Minimal (0-4)", "Mild (5-9)", "Moderate (10-14)", "Moderately
 
 d3.csv("NHANES.csv", d3.autoType)
   .then((csv) => {
-    // Filter to rows where Seen equals "No"
-    const filtered = csv.filter(d => d.Seen === "No");
+    // Use all rows regardless of Seen
+    const filtered = csv; // <- Changed here
 
     // We simulate by Gender.
     const genders = ["Female", "Male"];
@@ -24,7 +23,7 @@ d3.csv("NHANES.csv", d3.autoType)
       const counts = phqOrder.map(phq => d3.sum(subset.filter(d => d.PHQ_c === phq), d => d.Count));
       let cumulative = [];
       let sum = 0;
-      counts.forEach((count, i) => {
+      counts.forEach((count) => {
         sum += count;
         cumulative.push(total ? sum / total : 0);
       });
@@ -36,10 +35,10 @@ d3.csv("NHANES.csv", d3.autoType)
     const data = {
       stackedProbabilities: stackedProbabilities,
       categories: genders,           // Two groups: Female and Male.
-      starts: ["Not Seen"],          // Starting state.
+      starts: ["10,000 U.S. Adults"],          // Starting state.
       ends: phqOrder,                // End states.
-      startTitle: "No Mental Health Treatment",
-      endTitle: "PHQ-9 Score"
+      startTitle: "U.S. Adults",
+      endTitle: "Depression (PHQ-9 Score)"
     };
 
     // Create the Sankey diagram base.
@@ -70,6 +69,7 @@ d3.csv("NHANES.csv", d3.autoType)
     window.startEducationAnimation();
   })
   .catch((error) => console.error("Error loading NHANES.csv:", error));
+
 
 ////////////////////////////////////////////////////////////
 // Optional: Category Controls (if needed)

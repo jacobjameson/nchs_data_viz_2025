@@ -1,201 +1,1001 @@
-"Gender","Race/Ethnicity","PHQ_c","Seen","Count","Proportion"
-"Female","Mexican American","Mild (5-9)","Don't know",0,0
-"Female","Mexican American","Mild (5-9)","No",969815.493275,0.011279959139336
-"Female","Mexican American","Mild (5-9)","Refused",0,0
-"Female","Mexican American","Mild (5-9)","Yes",282424.726118,0.0032848922219124
-"Female","Mexican American","Minimal (0-4)","Don't know",0,0
-"Female","Mexican American","Minimal (0-4)","No",2881739.671544,0.0335176185270556
-"Female","Mexican American","Minimal (0-4)","Refused",0,0
-"Female","Mexican American","Minimal (0-4)","Yes",159761.797645,0.00185819525668421
-"Female","Mexican American","Moderate (10-14)","Don't know",0,0
-"Female","Mexican American","Moderate (10-14)","No",648160.924968,0.00753878320160025
-"Female","Mexican American","Moderate (10-14)","Refused",0,0
-"Female","Mexican American","Moderate (10-14)","Yes",200765.03254,0.00233510536732217
-"Female","Mexican American","Moderately Severe (15-19)","Don't know",0,0
-"Female","Mexican American","Moderately Severe (15-19)","No",159655.683868,0.00185696104349935
-"Female","Mexican American","Moderately Severe (15-19)","Refused",0,0
-"Female","Mexican American","Moderately Severe (15-19)","Yes",27417.103724,0.00031888932675358
-"Female","Mexican American","Severe (20-27)","Don't know",0,0
-"Female","Mexican American","Severe (20-27)","No",257793.273402,0.00299840290295884
-"Female","Mexican American","Severe (20-27)","Refused",0,0
-"Female","Mexican American","Severe (20-27)","Yes",70665.913081,0.00082191779531771
-"Female","Non-Hispanic Black","Mild (5-9)","Don't know",13358.957376,0.000155378517244085
-"Female","Non-Hispanic Black","Mild (5-9)","No",1772496.116144,0.0206159665455732
-"Female","Non-Hispanic Black","Mild (5-9)","Refused",0,0
-"Female","Non-Hispanic Black","Mild (5-9)","Yes",570781.360372,0.00663877868227156
-"Female","Non-Hispanic Black","Minimal (0-4)","Don't know",0,0
-"Female","Non-Hispanic Black","Minimal (0-4)","No",4999353.410148,0.0581476606433
-"Female","Non-Hispanic Black","Minimal (0-4)","Refused",17664.857051,0.000205460592369593
-"Female","Non-Hispanic Black","Minimal (0-4)","Yes",494396.562267,0.00575034432804073
-"Female","Non-Hispanic Black","Moderate (10-14)","Don't know",0,0
-"Female","Non-Hispanic Black","Moderate (10-14)","No",786264.073942,0.00914506593088494
-"Female","Non-Hispanic Black","Moderate (10-14)","Refused",0,0
-"Female","Non-Hispanic Black","Moderate (10-14)","Yes",372870.084603,0.00433686546334638
-"Female","Non-Hispanic Black","Moderately Severe (15-19)","Don't know",0,0
-"Female","Non-Hispanic Black","Moderately Severe (15-19)","No",275181.940851,0.00320065112406104
-"Female","Non-Hispanic Black","Moderately Severe (15-19)","Refused",0,0
-"Female","Non-Hispanic Black","Moderately Severe (15-19)","Yes",73023.236338,0.000849335907527252
-"Female","Non-Hispanic Black","Severe (20-27)","Don't know",0,0
-"Female","Non-Hispanic Black","Severe (20-27)","No",85222.311973,0.000991223798218487
-"Female","Non-Hispanic Black","Severe (20-27)","Refused",0,0
-"Female","Non-Hispanic Black","Severe (20-27)","Yes",38310.391078,0.000445589546638933
-"Female","Non-Hispanic White","Mild (5-9)","Don't know",0,0
-"Female","Non-Hispanic White","Mild (5-9)","No",7849912.718959,0.091302619241723
-"Female","Non-Hispanic White","Mild (5-9)","Refused",28800.192077,0.000334976077497525
-"Female","Non-Hispanic White","Mild (5-9)","Yes",3432914.632914,0.0399283544721822
-"Female","Non-Hispanic White","Minimal (0-4)","Don't know",0,0
-"Female","Non-Hispanic White","Minimal (0-4)","No",30420096.445516,0.353817243897937
-"Female","Non-Hispanic White","Minimal (0-4)","Refused",102139.694542,0.00118799048780644
-"Female","Non-Hispanic White","Minimal (0-4)","Yes",4078254.679099,0.047434327930455
-"Female","Non-Hispanic White","Moderate (10-14)","Don't know",0,0
-"Female","Non-Hispanic White","Moderate (10-14)","No",2925827.849097,0.0340304097175183
-"Female","Non-Hispanic White","Moderate (10-14)","Refused",0,0
-"Female","Non-Hispanic White","Moderate (10-14)","Yes",2183216.462821,0.0253930697784422
-"Female","Non-Hispanic White","Moderately Severe (15-19)","Don't know",0,0
-"Female","Non-Hispanic White","Moderately Severe (15-19)","No",840993.877449,0.00978163025837171
-"Female","Non-Hispanic White","Moderately Severe (15-19)","Refused",0,0
-"Female","Non-Hispanic White","Moderately Severe (15-19)","Yes",868006.961833,0.0100958204215439
-"Female","Non-Hispanic White","Severe (20-27)","Don't know",0,0
-"Female","Non-Hispanic White","Severe (20-27)","No",258617.002318,0.00300798372382508
-"Female","Non-Hispanic White","Severe (20-27)","Refused",0,0
-"Female","Non-Hispanic White","Severe (20-27)","Yes",411039.702329,0.00478081767002789
-"Female","Other Hispanic","Mild (5-9)","Don't know",0,0
-"Female","Other Hispanic","Mild (5-9)","No",1803244.421744,0.0209736012020382
-"Female","Other Hispanic","Mild (5-9)","Refused",0,0
-"Female","Other Hispanic","Mild (5-9)","Yes",483034.165422,0.00561818787866941
-"Female","Other Hispanic","Minimal (0-4)","Don't know",0,0
-"Female","Other Hispanic","Minimal (0-4)","No",4046550.336973,0.0470655735785183
-"Female","Other Hispanic","Minimal (0-4)","Refused",26640.865362,0.00030986087024153
-"Female","Other Hispanic","Minimal (0-4)","Yes",424227.289086,0.00493420296939351
-"Female","Other Hispanic","Moderate (10-14)","Don't know",0,0
-"Female","Other Hispanic","Moderate (10-14)","No",346427.662836,0.00402931269774803
-"Female","Other Hispanic","Moderate (10-14)","Refused",0,0
-"Female","Other Hispanic","Moderate (10-14)","Yes",363383.001535,0.0042265208564592
-"Female","Other Hispanic","Moderately Severe (15-19)","Don't know",0,0
-"Female","Other Hispanic","Moderately Severe (15-19)","No",160588.208208,0.00186780726788386
-"Female","Other Hispanic","Moderately Severe (15-19)","Refused",0,0
-"Female","Other Hispanic","Moderately Severe (15-19)","Yes",163647.046467,0.00190338472649801
-"Female","Other Hispanic","Severe (20-27)","Don't know",0,0
-"Female","Other Hispanic","Severe (20-27)","No",120260.472368,0.00139875391122837
-"Female","Other Hispanic","Severe (20-27)","Refused",0,0
-"Female","Other Hispanic","Severe (20-27)","Yes",87404.166088,0.00101660102248006
-"Female","Other Race","Mild (5-9)","Don't know",0,0
-"Female","Other Race","Mild (5-9)","No",1536027.870013,0.0178655958074232
-"Female","Other Race","Mild (5-9)","Refused",0,0
-"Female","Other Race","Mild (5-9)","Yes",440066.397292,0.00511842821079883
-"Female","Other Race","Minimal (0-4)","Don't know",23680.240421,0.000275425734287367
-"Female","Other Race","Minimal (0-4)","No",5141630.153569,0.0598024866008098
-"Female","Other Race","Minimal (0-4)","Refused",0,0
-"Female","Other Race","Minimal (0-4)","Yes",710197.347991,0.00826033108540125
-"Female","Other Race","Moderate (10-14)","Don't know",0,0
-"Female","Other Race","Moderate (10-14)","No",405821.94893,0.00472012979120147
-"Female","Other Race","Moderate (10-14)","Refused",0,0
-"Female","Other Race","Moderate (10-14)","Yes",438097.708349,0.0050955303183759
-"Female","Other Race","Moderately Severe (15-19)","Don't know",0,0
-"Female","Other Race","Moderately Severe (15-19)","No",219960.746433,0.00255837141108502
-"Female","Other Race","Moderately Severe (15-19)","Refused",36782.468178,0.00042781822003138
-"Female","Other Race","Moderately Severe (15-19)","Yes",314941.822023,0.00366309974249927
-"Female","Other Race","Severe (20-27)","Don't know",0,0
-"Female","Other Race","Severe (20-27)","No",34491.512039,0.00040117202617582
-"Female","Other Race","Severe (20-27)","Refused",0,0
-"Female","Other Race","Severe (20-27)","Yes",92813.272188,0.00107951453150464
-"Male","Mexican American","Mild (5-9)","Don't know",0,0
-"Male","Mexican American","Mild (5-9)","No",858098.063134,0.010273741931211
-"Male","Mexican American","Mild (5-9)","Refused",0,0
-"Male","Mexican American","Mild (5-9)","Yes",153620.573235,0.00183925147083642
-"Male","Mexican American","Minimal (0-4)","Don't know",0,0
-"Male","Mexican American","Minimal (0-4)","No",4131655.259842,0.049467026802645
-"Male","Mexican American","Minimal (0-4)","Refused",0,0
-"Male","Mexican American","Minimal (0-4)","Yes",373837.783616,0.00447584382020325
-"Male","Mexican American","Moderate (10-14)","Don't know",0,0
-"Male","Mexican American","Moderate (10-14)","No",228824.116636,0.00273964016812899
-"Male","Mexican American","Moderate (10-14)","Refused",0,0
-"Male","Mexican American","Moderate (10-14)","Yes",17506.448616,0.00020959927884688
-"Male","Mexican American","Moderately Severe (15-19)","Don't know",0,0
-"Male","Mexican American","Moderately Severe (15-19)","No",87414.023121,0.00104658098333666
-"Male","Mexican American","Moderately Severe (15-19)","Refused",0,0
-"Male","Mexican American","Moderately Severe (15-19)","Yes",40071.80428,0.00047976728252611
-"Male","Mexican American","Severe (20-27)","Don't know",0,0
-"Male","Mexican American","Severe (20-27)","No",31387.409074,0.000375791712590396
-"Male","Mexican American","Severe (20-27)","Refused",0,0
-"Male","Mexican American","Severe (20-27)","Yes",23305.309637,0.000279027243067106
-"Male","Non-Hispanic Black","Mild (5-9)","Don't know",0,0
-"Male","Non-Hispanic Black","Mild (5-9)","No",1132451.311823,0.0135584882744503
-"Male","Non-Hispanic Black","Mild (5-9)","Refused",0,0
-"Male","Non-Hispanic Black","Mild (5-9)","Yes",464984.599233,0.00556711637019676
-"Male","Non-Hispanic Black","Minimal (0-4)","Don't know",0,0
-"Male","Non-Hispanic Black","Minimal (0-4)","No",4864859.07717,0.0582454486705316
-"Male","Non-Hispanic Black","Minimal (0-4)","Refused",0,0
-"Male","Non-Hispanic Black","Minimal (0-4)","Yes",248110.755039,0.00297055310708766
-"Male","Non-Hispanic Black","Moderate (10-14)","Don't know",0,0
-"Male","Non-Hispanic Black","Moderate (10-14)","No",281557.010542,0.00337099474932629
-"Male","Non-Hispanic Black","Moderate (10-14)","Refused",0,0
-"Male","Non-Hispanic Black","Moderate (10-14)","Yes",232124.543481,0.00277915515496457
-"Male","Non-Hispanic Black","Moderately Severe (15-19)","Don't know",0,0
-"Male","Non-Hispanic Black","Moderately Severe (15-19)","No",256338.661056,0.00306906327356465
-"Male","Non-Hispanic Black","Moderately Severe (15-19)","Refused",0,0
-"Male","Non-Hispanic Black","Moderately Severe (15-19)","Yes",94932.926193,0.00113660247748314
-"Male","Non-Hispanic Black","Severe (20-27)","Don't know",0,0
-"Male","Non-Hispanic Black","Severe (20-27)","No",9961.099166,0.000119261150420176
-"Male","Non-Hispanic Black","Severe (20-27)","Refused",0,0
-"Male","Non-Hispanic Black","Severe (20-27)","Yes",22501.335145,0.00026940150586416
-"Male","Non-Hispanic White","Mild (5-9)","Don't know",0,0
-"Male","Non-Hispanic White","Mild (5-9)","No",6997142.142247,0.0837746123827586
-"Male","Non-Hispanic White","Mild (5-9)","Refused",0,0
-"Male","Non-Hispanic White","Mild (5-9)","Yes",1975766.549825,0.023655240025931
-"Male","Non-Hispanic White","Minimal (0-4)","Don't know",0,0
-"Male","Non-Hispanic White","Minimal (0-4)","No",34026791.520633,0.40739221989773
-"Male","Non-Hispanic White","Minimal (0-4)","Refused",121519.935714,0.00145492049529079
-"Male","Non-Hispanic White","Minimal (0-4)","Yes",4347118.756497,0.052046704412154
-"Male","Non-Hispanic White","Moderate (10-14)","Don't know",0,0
-"Male","Non-Hispanic White","Moderate (10-14)","No",2489633.271504,0.0298076068851288
-"Male","Non-Hispanic White","Moderate (10-14)","Refused",0,0
-"Male","Non-Hispanic White","Moderate (10-14)","Yes",1209906.945805,0.0144858405536795
-"Male","Non-Hispanic White","Moderately Severe (15-19)","Don't know",0,0
-"Male","Non-Hispanic White","Moderately Severe (15-19)","No",786559.420871,0.0094172319584056
-"Male","Non-Hispanic White","Moderately Severe (15-19)","Refused",0,0
-"Male","Non-Hispanic White","Moderately Severe (15-19)","Yes",349047.363523,0.00417903581032196
-"Male","Non-Hispanic White","Severe (20-27)","Don't know",0,0
-"Male","Non-Hispanic White","Severe (20-27)","No",238608.305728,0.00285678322910999
-"Male","Non-Hispanic White","Severe (20-27)","Refused",0,0
-"Male","Non-Hispanic White","Severe (20-27)","Yes",299429.082798,0.00358497152659985
-"Male","Other Hispanic","Mild (5-9)","Don't know",0,0
-"Male","Other Hispanic","Mild (5-9)","No",1284438.747752,0.0153781866989149
-"Male","Other Hispanic","Mild (5-9)","Refused",0,0
-"Male","Other Hispanic","Mild (5-9)","Yes",399678.781724,0.00478523007477291
-"Male","Other Hispanic","Minimal (0-4)","Don't know",0,0
-"Male","Other Hispanic","Minimal (0-4)","No",4610897.668457,0.0552048475018552
-"Male","Other Hispanic","Minimal (0-4)","Refused",0,0
-"Male","Other Hispanic","Minimal (0-4)","Yes",225337.354958,0.00269789425213825
-"Male","Other Hispanic","Moderate (10-14)","Don't know",0,0
-"Male","Other Hispanic","Moderate (10-14)","No",288861.662011,0.00345845107549006
-"Male","Other Hispanic","Moderate (10-14)","Refused",0,0
-"Male","Other Hispanic","Moderate (10-14)","Yes",132843.951757,0.00159049942670776
-"Male","Other Hispanic","Moderately Severe (15-19)","Don't know",23125.671766,0.000276876494560594
-"Male","Other Hispanic","Moderately Severe (15-19)","No",194409.85454,0.00232760888322427
-"Male","Other Hispanic","Moderately Severe (15-19)","Refused",0,0
-"Male","Other Hispanic","Moderately Severe (15-19)","Yes",78607.612526,0.000941144560997153
-"Male","Other Hispanic","Severe (20-27)","Don't know",0,0
-"Male","Other Hispanic","Severe (20-27)","No",27970.62298,0.000334883592560733
-"Male","Other Hispanic","Severe (20-27)","Refused",0,0
-"Male","Other Hispanic","Severe (20-27)","Yes",24725.345761,0.000296028895090058
-"Male","Other Race","Mild (5-9)","Don't know",0,0
-"Male","Other Race","Mild (5-9)","No",1459147.898355,0.0174699251649834
-"Male","Other Race","Mild (5-9)","Refused",0,0
-"Male","Other Race","Mild (5-9)","Yes",332967.642142,0.00398651829409448
-"Male","Other Race","Minimal (0-4)","Don't know",0,0
-"Male","Other Race","Minimal (0-4)","No",6707601.700203,0.0803080344844883
-"Male","Other Race","Minimal (0-4)","Refused",0,0
-"Male","Other Race","Minimal (0-4)","Yes",415722.539682,0.00497731701209253
-"Male","Other Race","Moderate (10-14)","Don't know",0,0
-"Male","Other Race","Moderate (10-14)","No",425936.328578,0.00509960353826662
-"Male","Other Race","Moderate (10-14)","Refused",0,0
-"Male","Other Race","Moderate (10-14)","Yes",208044.510319,0.00249085238744887
-"Male","Other Race","Moderately Severe (15-19)","Don't know",0,0
-"Male","Other Race","Moderately Severe (15-19)","No",88685.209335,0.00106180050155985
-"Male","Other Race","Moderately Severe (15-19)","Refused",0,0
-"Male","Other Race","Moderately Severe (15-19)","Yes",134657.869693,0.00161221690348518
-"Male","Other Race","Severe (20-27)","Don't know",0,0
-"Male","Other Race","Severe (20-27)","No",64693.704219,0.000774557652877854
-"Male","Other Race","Severe (20-27)","Refused",0,0
-"Male","Other Race","Severe (20-27)","Yes",0,0
+"Gender","Race/Ethnicity","PHQ_c","Age","Seen","Count","Proportion"
+"Female","Mexican American","Mild (5-9)","0-20","Don't know",0,0
+"Female","Mexican American","Mild (5-9)","0-20","No",62407.576637,0.000725864784932575
+"Female","Mexican American","Mild (5-9)","0-20","Refused",0,0
+"Female","Mexican American","Mild (5-9)","0-20","Yes",37772.085641,0.000439328496598026
+"Female","Mexican American","Mild (5-9)","21-40","Don't know",0,0
+"Female","Mexican American","Mild (5-9)","21-40","No",486341.158821,0.00565665163870774
+"Female","Mexican American","Mild (5-9)","21-40","Refused",0,0
+"Female","Mexican American","Mild (5-9)","21-40","Yes",182745.155662,0.00212551552648214
+"Female","Mexican American","Mild (5-9)","41-60","Don't know",0,0
+"Female","Mexican American","Mild (5-9)","41-60","No",355828.191587,0.00413865058823827
+"Female","Mexican American","Mild (5-9)","41-60","Refused",0,0
+"Female","Mexican American","Mild (5-9)","41-60","Yes",47900.460522,0.000557131991796633
+"Female","Mexican American","Mild (5-9)","61-80","Don't know",0,0
+"Female","Mexican American","Mild (5-9)","61-80","No",65238.56623,0.000758792127457377
+"Female","Mexican American","Mild (5-9)","61-80","Refused",0,0
+"Female","Mexican American","Mild (5-9)","61-80","Yes",14007.024293,0.000162916207035604
+"Female","Mexican American","Mild (5-9)","81-100","Don't know",0,0
+"Female","Mexican American","Mild (5-9)","81-100","No",0,0
+"Female","Mexican American","Mild (5-9)","81-100","Refused",0,0
+"Female","Mexican American","Mild (5-9)","81-100","Yes",0,0
+"Female","Mexican American","Minimal (0-4)","0-20","Don't know",0,0
+"Female","Mexican American","Minimal (0-4)","0-20","No",193911.829969,0.00225539551992283
+"Female","Mexican American","Minimal (0-4)","0-20","Refused",0,0
+"Female","Mexican American","Minimal (0-4)","0-20","Yes",11358.113218,0.000132106626350485
+"Female","Mexican American","Minimal (0-4)","21-40","Don't know",0,0
+"Female","Mexican American","Minimal (0-4)","21-40","No",906784.03815,0.0105468380011059
+"Female","Mexican American","Minimal (0-4)","21-40","Refused",0,0
+"Female","Mexican American","Minimal (0-4)","21-40","Yes",82848.428492,0.000963613073443614
+"Female","Mexican American","Minimal (0-4)","41-60","Don't know",0,0
+"Female","Mexican American","Minimal (0-4)","41-60","No",1306630.686692,0.0151974688570055
+"Female","Mexican American","Minimal (0-4)","41-60","Refused",0,0
+"Female","Mexican American","Minimal (0-4)","41-60","Yes",65555.255935,0.000762475556890109
+"Female","Mexican American","Minimal (0-4)","61-80","Don't know",0,0
+"Female","Mexican American","Minimal (0-4)","61-80","No",474413.116733,0.00551791614902138
+"Female","Mexican American","Minimal (0-4)","61-80","Refused",0,0
+"Female","Mexican American","Minimal (0-4)","61-80","Yes",0,0
+"Female","Mexican American","Minimal (0-4)","81-100","Don't know",0,0
+"Female","Mexican American","Minimal (0-4)","81-100","No",0,0
+"Female","Mexican American","Minimal (0-4)","81-100","Refused",0,0
+"Female","Mexican American","Minimal (0-4)","81-100","Yes",0,0
+"Female","Mexican American","Moderate (10-14)","0-20","Don't know",0,0
+"Female","Mexican American","Moderate (10-14)","0-20","No",65709.697229,0.000764271869176132
+"Female","Mexican American","Moderate (10-14)","0-20","Refused",0,0
+"Female","Mexican American","Moderate (10-14)","0-20","Yes",11358.113218,0.000132106626350485
+"Female","Mexican American","Moderate (10-14)","21-40","Don't know",0,0
+"Female","Mexican American","Moderate (10-14)","21-40","No",340589.075593,0.00396140387798884
+"Female","Mexican American","Moderate (10-14)","21-40","Refused",0,0
+"Female","Mexican American","Moderate (10-14)","21-40","Yes",154696.976687,0.00179928614061991
+"Female","Mexican American","Moderate (10-14)","41-60","Don't know",0,0
+"Female","Mexican American","Moderate (10-14)","41-60","No",99173.193955,0.00115348701200078
+"Female","Mexican American","Moderate (10-14)","41-60","Refused",0,0
+"Female","Mexican American","Moderate (10-14)","41-60","Yes",34709.942635,0.000403712600351781
+"Female","Mexican American","Moderate (10-14)","61-80","Don't know",0,0
+"Female","Mexican American","Moderate (10-14)","61-80","No",142688.958191,0.00165962044243451
+"Female","Mexican American","Moderate (10-14)","61-80","Refused",0,0
+"Female","Mexican American","Moderate (10-14)","61-80","Yes",0,0
+"Female","Mexican American","Moderate (10-14)","81-100","Don't know",0,0
+"Female","Mexican American","Moderate (10-14)","81-100","No",0,0
+"Female","Mexican American","Moderate (10-14)","81-100","Refused",0,0
+"Female","Mexican American","Moderate (10-14)","81-100","Yes",0,0
+"Female","Mexican American","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Female","Mexican American","Moderately Severe (15-19)","0-20","No",8909.234771,0.000103623632408948
+"Female","Mexican American","Moderately Severe (15-19)","0-20","Refused",0,0
+"Female","Mexican American","Moderately Severe (15-19)","0-20","Yes",27417.103724,0.00031888932675358
+"Female","Mexican American","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Female","Mexican American","Moderately Severe (15-19)","21-40","No",19682.781203,0.000228931141292227
+"Female","Mexican American","Moderately Severe (15-19)","21-40","Refused",0,0
+"Female","Mexican American","Moderately Severe (15-19)","21-40","Yes",0,0
+"Female","Mexican American","Moderately Severe (15-19)","41-60","Don't know",0,0
+"Female","Mexican American","Moderately Severe (15-19)","41-60","No",88486.604325,0.00102919090083206
+"Female","Mexican American","Moderately Severe (15-19)","41-60","Refused",0,0
+"Female","Mexican American","Moderately Severe (15-19)","41-60","Yes",0,0
+"Female","Mexican American","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Female","Mexican American","Moderately Severe (15-19)","61-80","No",42577.063569,0.00049521536896611
+"Female","Mexican American","Moderately Severe (15-19)","61-80","Refused",0,0
+"Female","Mexican American","Moderately Severe (15-19)","61-80","Yes",0,0
+"Female","Mexican American","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Female","Mexican American","Moderately Severe (15-19)","81-100","No",0,0
+"Female","Mexican American","Moderately Severe (15-19)","81-100","Refused",0,0
+"Female","Mexican American","Moderately Severe (15-19)","81-100","Yes",0,0
+"Female","Mexican American","Severe (20-27)","0-20","Don't know",0,0
+"Female","Mexican American","Severe (20-27)","0-20","No",52484.667981,0.00061045107484112
+"Female","Mexican American","Severe (20-27)","0-20","Refused",0,0
+"Female","Mexican American","Severe (20-27)","0-20","Yes",43842.680982,0.000509935810950866
+"Female","Mexican American","Severe (20-27)","21-40","Don't know",0,0
+"Female","Mexican American","Severe (20-27)","21-40","No",143088.867781,0.00166427180536479
+"Female","Mexican American","Severe (20-27)","21-40","Refused",0,0
+"Female","Mexican American","Severe (20-27)","21-40","Yes",18910.619229,0.000219950097396696
+"Female","Mexican American","Severe (20-27)","41-60","Don't know",0,0
+"Female","Mexican American","Severe (20-27)","41-60","No",62219.73764,0.000723680022752938
+"Female","Mexican American","Severe (20-27)","41-60","Refused",0,0
+"Female","Mexican American","Severe (20-27)","41-60","Yes",0,0
+"Female","Mexican American","Severe (20-27)","61-80","Don't know",0,0
+"Female","Mexican American","Severe (20-27)","61-80","No",0,0
+"Female","Mexican American","Severe (20-27)","61-80","Refused",0,0
+"Female","Mexican American","Severe (20-27)","61-80","Yes",7912.61287,9.20318869701487e-05
+"Female","Mexican American","Severe (20-27)","81-100","Don't know",0,0
+"Female","Mexican American","Severe (20-27)","81-100","No",0,0
+"Female","Mexican American","Severe (20-27)","81-100","Refused",0,0
+"Female","Mexican American","Severe (20-27)","81-100","Yes",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","0-20","Don't know",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","0-20","No",68327.29535,0.000794717247758788
+"Female","Non-Hispanic Black","Mild (5-9)","0-20","Refused",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","0-20","Yes",39512.908152,0.000459576066294614
+"Female","Non-Hispanic Black","Mild (5-9)","21-40","Don't know",13358.957376,0.000155378517244085
+"Female","Non-Hispanic Black","Mild (5-9)","21-40","No",822001.227914,0.00956072606351392
+"Female","Non-Hispanic Black","Mild (5-9)","21-40","Refused",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","21-40","Yes",144780.835532,0.00168395114357777
+"Female","Non-Hispanic Black","Mild (5-9)","41-60","Don't know",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","41-60","No",439405.260968,0.00511073851026098
+"Female","Non-Hispanic Black","Mild (5-9)","41-60","Refused",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","41-60","Yes",259037.24898,0.00301287162797662
+"Female","Non-Hispanic Black","Mild (5-9)","61-80","Don't know",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","61-80","No",442762.331912,0.00514978472403954
+"Female","Non-Hispanic Black","Mild (5-9)","61-80","Refused",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","61-80","Yes",127450.367708,0.00148237984442256
+"Female","Non-Hispanic Black","Mild (5-9)","81-100","Don't know",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","81-100","No",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","81-100","Refused",0,0
+"Female","Non-Hispanic Black","Mild (5-9)","81-100","Yes",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","0-20","Don't know",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","0-20","No",103102.884462,0.00119919338466297
+"Female","Non-Hispanic Black","Minimal (0-4)","0-20","Refused",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","0-20","Yes",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","21-40","Don't know",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","21-40","No",1263447.96161,0.0146952090170382
+"Female","Non-Hispanic Black","Minimal (0-4)","21-40","Refused",17664.857051,0.000205460592369593
+"Female","Non-Hispanic Black","Minimal (0-4)","21-40","Yes",216192.832367,0.00251454666606937
+"Female","Non-Hispanic Black","Minimal (0-4)","41-60","Don't know",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","41-60","No",1962275.552334,0.0228232980437332
+"Female","Non-Hispanic Black","Minimal (0-4)","41-60","Refused",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","41-60","Yes",245648.85371,0.00285715071752086
+"Female","Non-Hispanic Black","Minimal (0-4)","61-80","Don't know",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","61-80","No",1670527.011742,0.0194299601978657
+"Female","Non-Hispanic Black","Minimal (0-4)","61-80","Refused",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","61-80","Yes",32554.87619,0.000378646944450508
+"Female","Non-Hispanic Black","Minimal (0-4)","81-100","Don't know",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","81-100","No",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","81-100","Refused",0,0
+"Female","Non-Hispanic Black","Minimal (0-4)","81-100","Yes",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","0-20","Don't know",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","0-20","No",66209.645268,0.000770086782931188
+"Female","Non-Hispanic Black","Moderate (10-14)","0-20","Refused",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","0-20","Yes",82472.741599,0.000959243445579747
+"Female","Non-Hispanic Black","Moderate (10-14)","21-40","Don't know",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","21-40","No",356297.742508,0.00414411195201256
+"Female","Non-Hispanic Black","Moderate (10-14)","21-40","Refused",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","21-40","Yes",180053.383858,0.00209420743110515
+"Female","Non-Hispanic Black","Moderate (10-14)","41-60","Don't know",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","41-60","No",217546.353093,0.00253028951467242
+"Female","Non-Hispanic Black","Moderate (10-14)","41-60","Refused",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","41-60","Yes",74536.816281,0.000866940410682285
+"Female","Non-Hispanic Black","Moderate (10-14)","61-80","Don't know",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","61-80","No",146210.333073,0.00170057768126878
+"Female","Non-Hispanic Black","Moderate (10-14)","61-80","Refused",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","61-80","Yes",35807.142865,0.000416474175979198
+"Female","Non-Hispanic Black","Moderate (10-14)","81-100","Don't know",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","81-100","No",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","81-100","Refused",0,0
+"Female","Non-Hispanic Black","Moderate (10-14)","81-100","Yes",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","0-20","No",21186.613194,0.000246422265664372
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","0-20","Refused",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","0-20","Yes",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","21-40","No",29863.738415,0.000347346223487788
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","21-40","Refused",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","21-40","Yes",18355.429838,0.000213492669475097
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","41-60","Don't know",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","41-60","No",79225.997639,0.000921480448949314
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","41-60","Refused",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","41-60","Yes",10778.95765,0.000125370446955889
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","61-80","No",144905.591603,0.00168540218595957
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","61-80","Refused",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","61-80","Yes",43888.84885,0.000510472791096267
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","81-100","No",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","81-100","Refused",0,0
+"Female","Non-Hispanic Black","Moderately Severe (15-19)","81-100","Yes",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","0-20","Don't know",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","0-20","No",16225.091756,0.000188714630059803
+"Female","Non-Hispanic Black","Severe (20-27)","0-20","Refused",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","0-20","Yes",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","21-40","Don't know",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","21-40","No",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","21-40","Refused",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","21-40","Yes",38310.391078,0.000445589546638933
+"Female","Non-Hispanic Black","Severe (20-27)","41-60","Don't know",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","41-60","No",36488.642902,0.00042440072760074
+"Female","Non-Hispanic Black","Severe (20-27)","41-60","Refused",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","41-60","Yes",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","61-80","Don't know",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","61-80","No",32508.577315,0.000378108440557944
+"Female","Non-Hispanic Black","Severe (20-27)","61-80","Refused",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","61-80","Yes",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","81-100","Don't know",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","81-100","No",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","81-100","Refused",0,0
+"Female","Non-Hispanic Black","Severe (20-27)","81-100","Yes",0,0
+"Female","Non-Hispanic White","Mild (5-9)","0-20","Don't know",0,0
+"Female","Non-Hispanic White","Mild (5-9)","0-20","No",416629.003268,0.00484582703175346
+"Female","Non-Hispanic White","Mild (5-9)","0-20","Refused",0,0
+"Female","Non-Hispanic White","Mild (5-9)","0-20","Yes",129963.725245,0.00151161279699601
+"Female","Non-Hispanic White","Mild (5-9)","21-40","Don't know",0,0
+"Female","Non-Hispanic White","Mild (5-9)","21-40","No",2558376.761117,0.0297565728002279
+"Female","Non-Hispanic White","Mild (5-9)","21-40","Refused",0,0
+"Female","Non-Hispanic White","Mild (5-9)","21-40","Yes",1597735.66477,0.0185833214039559
+"Female","Non-Hispanic White","Mild (5-9)","41-60","Don't know",0,0
+"Female","Non-Hispanic White","Mild (5-9)","41-60","No",2059493.160063,0.0239540395614872
+"Female","Non-Hispanic White","Mild (5-9)","41-60","Refused",28800.192077,0.000334976077497525
+"Female","Non-Hispanic White","Mild (5-9)","41-60","Yes",1036107.887772,0.0120510083815477
+"Female","Non-Hispanic White","Mild (5-9)","61-80","Don't know",0,0
+"Female","Non-Hispanic White","Mild (5-9)","61-80","No",2815413.794511,0.0327461798482546
+"Female","Non-Hispanic White","Mild (5-9)","61-80","Refused",0,0
+"Female","Non-Hispanic White","Mild (5-9)","61-80","Yes",669107.355127,0.00778241188968256
+"Female","Non-Hispanic White","Mild (5-9)","81-100","Don't know",0,0
+"Female","Non-Hispanic White","Mild (5-9)","81-100","No",0,0
+"Female","Non-Hispanic White","Mild (5-9)","81-100","Refused",0,0
+"Female","Non-Hispanic White","Mild (5-9)","81-100","Yes",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","0-20","Don't know",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","0-20","No",725076.549196,0.00843339161369988
+"Female","Non-Hispanic White","Minimal (0-4)","0-20","Refused",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","0-20","Yes",147371.667235,0.00171408520098291
+"Female","Non-Hispanic White","Minimal (0-4)","21-40","Don't know",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","21-40","No",5997342.635512,0.069755309481316
+"Female","Non-Hispanic White","Minimal (0-4)","21-40","Refused",76050.861896,0.00088455033008522
+"Female","Non-Hispanic White","Minimal (0-4)","21-40","Yes",1807212.155287,0.0210197500546304
+"Female","Non-Hispanic White","Minimal (0-4)","41-60","Don't know",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","41-60","No",9791515.07059499,0.113885466539134
+"Female","Non-Hispanic White","Minimal (0-4)","41-60","Refused",26088.832646,0.000303440157721225
+"Female","Non-Hispanic White","Minimal (0-4)","41-60","Yes",1387848.028443,0.0161421107014692
+"Female","Non-Hispanic White","Minimal (0-4)","61-80","Don't know",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","61-80","No",13906162.190213,0.161743076263788
+"Female","Non-Hispanic White","Minimal (0-4)","61-80","Refused",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","61-80","Yes",735822.828134,0.00855838197337252
+"Female","Non-Hispanic White","Minimal (0-4)","81-100","Don't know",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","81-100","No",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","81-100","Refused",0,0
+"Female","Non-Hispanic White","Minimal (0-4)","81-100","Yes",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","0-20","Don't know",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","0-20","No",148805.962338,0.00173076753929136
+"Female","Non-Hispanic White","Moderate (10-14)","0-20","Refused",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","0-20","Yes",182169.270466,0.00211881738490276
+"Female","Non-Hispanic White","Moderate (10-14)","21-40","Don't know",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","21-40","No",1004335.747199,0.0116814654634175
+"Female","Non-Hispanic White","Moderate (10-14)","21-40","Refused",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","21-40","Yes",1157426.252356,0.0134620666754685
+"Female","Non-Hispanic White","Moderate (10-14)","41-60","Don't know",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","41-60","No",947079.796803,0.0110155194299409
+"Female","Non-Hispanic White","Moderate (10-14)","41-60","Refused",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","41-60","Yes",489805.336458,0.00569694361431312
+"Female","Non-Hispanic White","Moderate (10-14)","61-80","Don't know",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","61-80","No",825606.342757,0.00960265728486854
+"Female","Non-Hispanic White","Moderate (10-14)","61-80","Refused",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","61-80","Yes",353815.603541,0.00411524210375785
+"Female","Non-Hispanic White","Moderate (10-14)","81-100","Don't know",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","81-100","No",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","81-100","Refused",0,0
+"Female","Non-Hispanic White","Moderate (10-14)","81-100","Yes",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","0-20","No",50226.681974,0.000584188357785381
+"Female","Non-Hispanic White","Moderately Severe (15-19)","0-20","Refused",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","0-20","Yes",78582.456173,0.000913995394842336
+"Female","Non-Hispanic White","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","21-40","No",367960.322324,0.00427975984039541
+"Female","Non-Hispanic White","Moderately Severe (15-19)","21-40","Refused",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","21-40","Yes",370633.208122,0.00431084827195236
+"Female","Non-Hispanic White","Moderately Severe (15-19)","41-60","Don't know",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","41-60","No",162530.1848,0.0018903944679845
+"Female","Non-Hispanic White","Moderately Severe (15-19)","41-60","Refused",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","41-60","Yes",274251.274133,0.00318982650574532
+"Female","Non-Hispanic White","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","61-80","No",260276.688351,0.00302728759220642
+"Female","Non-Hispanic White","Moderately Severe (15-19)","61-80","Refused",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","61-80","Yes",144540.023405,0.00168115024900386
+"Female","Non-Hispanic White","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","81-100","No",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","81-100","Refused",0,0
+"Female","Non-Hispanic White","Moderately Severe (15-19)","81-100","Yes",0,0
+"Female","Non-Hispanic White","Severe (20-27)","0-20","Don't know",0,0
+"Female","Non-Hispanic White","Severe (20-27)","0-20","No",0,0
+"Female","Non-Hispanic White","Severe (20-27)","0-20","Refused",0,0
+"Female","Non-Hispanic White","Severe (20-27)","0-20","Yes",0,0
+"Female","Non-Hispanic White","Severe (20-27)","21-40","Don't know",0,0
+"Female","Non-Hispanic White","Severe (20-27)","21-40","No",91228.536763,0.00106108241636046
+"Female","Non-Hispanic White","Severe (20-27)","21-40","Refused",0,0
+"Female","Non-Hispanic White","Severe (20-27)","21-40","Yes",85235.560719,0.000991377894863224
+"Female","Non-Hispanic White","Severe (20-27)","41-60","Don't know",0,0
+"Female","Non-Hispanic White","Severe (20-27)","41-60","No",61765.776715,0.000718399986786959
+"Female","Non-Hispanic White","Severe (20-27)","41-60","Refused",0,0
+"Female","Non-Hispanic White","Severe (20-27)","41-60","Yes",264165.416786,0.0030725175335251
+"Female","Non-Hispanic White","Severe (20-27)","61-80","Don't know",0,0
+"Female","Non-Hispanic White","Severe (20-27)","61-80","No",105622.68884,0.00122850132067766
+"Female","Non-Hispanic White","Severe (20-27)","61-80","Refused",0,0
+"Female","Non-Hispanic White","Severe (20-27)","61-80","Yes",61638.724824,0.000716922241639564
+"Female","Non-Hispanic White","Severe (20-27)","81-100","Don't know",0,0
+"Female","Non-Hispanic White","Severe (20-27)","81-100","No",0,0
+"Female","Non-Hispanic White","Severe (20-27)","81-100","Refused",0,0
+"Female","Non-Hispanic White","Severe (20-27)","81-100","Yes",0,0
+"Female","Other Hispanic","Mild (5-9)","0-20","Don't know",0,0
+"Female","Other Hispanic","Mild (5-9)","0-20","No",158025.523234,0.0018380005861035
+"Female","Other Hispanic","Mild (5-9)","0-20","Refused",0,0
+"Female","Other Hispanic","Mild (5-9)","0-20","Yes",0,0
+"Female","Other Hispanic","Mild (5-9)","21-40","Don't know",0,0
+"Female","Other Hispanic","Mild (5-9)","21-40","No",780244.09596,0.00907504734886854
+"Female","Other Hispanic","Mild (5-9)","21-40","Refused",0,0
+"Female","Other Hispanic","Mild (5-9)","21-40","Yes",279798.832998,0.00325435036389585
+"Female","Other Hispanic","Mild (5-9)","41-60","Don't know",0,0
+"Female","Other Hispanic","Mild (5-9)","41-60","No",509635.609775,0.00592759024172702
+"Female","Other Hispanic","Mild (5-9)","41-60","Refused",0,0
+"Female","Other Hispanic","Mild (5-9)","41-60","Yes",151353.445912,0.00176039741303756
+"Female","Other Hispanic","Mild (5-9)","61-80","Don't know",0,0
+"Female","Other Hispanic","Mild (5-9)","61-80","No",355339.192775,0.00413296302533915
+"Female","Other Hispanic","Mild (5-9)","61-80","Refused",0,0
+"Female","Other Hispanic","Mild (5-9)","61-80","Yes",51881.886512,0.000603440101736011
+"Female","Other Hispanic","Mild (5-9)","81-100","Don't know",0,0
+"Female","Other Hispanic","Mild (5-9)","81-100","No",0,0
+"Female","Other Hispanic","Mild (5-9)","81-100","Refused",0,0
+"Female","Other Hispanic","Mild (5-9)","81-100","Yes",0,0
+"Female","Other Hispanic","Minimal (0-4)","0-20","Don't know",0,0
+"Female","Other Hispanic","Minimal (0-4)","0-20","No",189940.942042,0.002209209978576
+"Female","Other Hispanic","Minimal (0-4)","0-20","Refused",0,0
+"Female","Other Hispanic","Minimal (0-4)","0-20","Yes",0,0
+"Female","Other Hispanic","Minimal (0-4)","21-40","Don't know",0,0
+"Female","Other Hispanic","Minimal (0-4)","21-40","No",1387648.514363,0.0161397901459762
+"Female","Other Hispanic","Minimal (0-4)","21-40","Refused",0,0
+"Female","Other Hispanic","Minimal (0-4)","21-40","Yes",246104.349873,0.00286244860989564
+"Female","Other Hispanic","Minimal (0-4)","41-60","Don't know",0,0
+"Female","Other Hispanic","Minimal (0-4)","41-60","No",1633380.611181,0.0189979090671022
+"Female","Other Hispanic","Minimal (0-4)","41-60","Refused",26640.865362,0.00030986087024153
+"Female","Other Hispanic","Minimal (0-4)","41-60","Yes",83615.658988,0.000972536759139856
+"Female","Other Hispanic","Minimal (0-4)","61-80","Don't know",0,0
+"Female","Other Hispanic","Minimal (0-4)","61-80","No",835580.269387,0.00971866438686401
+"Female","Other Hispanic","Minimal (0-4)","61-80","Refused",0,0
+"Female","Other Hispanic","Minimal (0-4)","61-80","Yes",94507.280225,0.00109921760035802
+"Female","Other Hispanic","Minimal (0-4)","81-100","Don't know",0,0
+"Female","Other Hispanic","Minimal (0-4)","81-100","No",0,0
+"Female","Other Hispanic","Minimal (0-4)","81-100","Refused",0,0
+"Female","Other Hispanic","Minimal (0-4)","81-100","Yes",0,0
+"Female","Other Hispanic","Moderate (10-14)","0-20","Don't know",0,0
+"Female","Other Hispanic","Moderate (10-14)","0-20","No",11035.368966,0.000128352776262236
+"Female","Other Hispanic","Moderate (10-14)","0-20","Refused",0,0
+"Female","Other Hispanic","Moderate (10-14)","0-20","Yes",21703.064747,0.000252429132388695
+"Female","Other Hispanic","Moderate (10-14)","21-40","Don't know",0,0
+"Female","Other Hispanic","Moderate (10-14)","21-40","No",149569.395569,0.00173964705886081
+"Female","Other Hispanic","Moderate (10-14)","21-40","Refused",0,0
+"Female","Other Hispanic","Moderate (10-14)","21-40","Yes",309325.030981,0.00359777064238973
+"Female","Other Hispanic","Moderate (10-14)","41-60","Don't know",0,0
+"Female","Other Hispanic","Moderate (10-14)","41-60","No",141764.636269,0.00164886962067093
+"Female","Other Hispanic","Moderate (10-14)","41-60","Refused",0,0
+"Female","Other Hispanic","Moderate (10-14)","41-60","Yes",16622.019338,0.000193331309146993
+"Female","Other Hispanic","Moderate (10-14)","61-80","Don't know",0,0
+"Female","Other Hispanic","Moderate (10-14)","61-80","No",44058.262032,0.00051244324195406
+"Female","Other Hispanic","Moderate (10-14)","61-80","Refused",0,0
+"Female","Other Hispanic","Moderate (10-14)","61-80","Yes",15732.886469,0.000182989772533784
+"Female","Other Hispanic","Moderate (10-14)","81-100","Don't know",0,0
+"Female","Other Hispanic","Moderate (10-14)","81-100","No",0,0
+"Female","Other Hispanic","Moderate (10-14)","81-100","Refused",0,0
+"Female","Other Hispanic","Moderate (10-14)","81-100","Yes",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","0-20","No",21762.266679,0.000253117712204712
+"Female","Other Hispanic","Moderately Severe (15-19)","0-20","Refused",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","0-20","Yes",15185.050099,0.000176617867865841
+"Female","Other Hispanic","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","21-40","No",37696.055108,0.000438444182714066
+"Female","Other Hispanic","Moderately Severe (15-19)","21-40","Refused",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","21-40","Yes",24493.720196,0.0002848873470233
+"Female","Other Hispanic","Moderately Severe (15-19)","41-60","Don't know",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","41-60","No",24735.538022,0.000287699938918725
+"Female","Other Hispanic","Moderately Severe (15-19)","41-60","Refused",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","41-60","Yes",88368.080708,0.00102781234834855
+"Female","Other Hispanic","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","61-80","No",76394.348399,0.000888545434046356
+"Female","Other Hispanic","Moderately Severe (15-19)","61-80","Refused",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","61-80","Yes",35600.195464,0.000414067163260326
+"Female","Other Hispanic","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","81-100","No",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","81-100","Refused",0,0
+"Female","Other Hispanic","Moderately Severe (15-19)","81-100","Yes",0,0
+"Female","Other Hispanic","Severe (20-27)","0-20","Don't know",0,0
+"Female","Other Hispanic","Severe (20-27)","0-20","No",0,0
+"Female","Other Hispanic","Severe (20-27)","0-20","Refused",0,0
+"Female","Other Hispanic","Severe (20-27)","0-20","Yes",0,0
+"Female","Other Hispanic","Severe (20-27)","21-40","Don't know",0,0
+"Female","Other Hispanic","Severe (20-27)","21-40","No",30231.910098,0.000351628441671864
+"Female","Other Hispanic","Severe (20-27)","21-40","Refused",0,0
+"Female","Other Hispanic","Severe (20-27)","21-40","Yes",87404.166088,0.00101660102248006
+"Female","Other Hispanic","Severe (20-27)","41-60","Don't know",0,0
+"Female","Other Hispanic","Severe (20-27)","41-60","No",69710.993637,0.000810811092667186
+"Female","Other Hispanic","Severe (20-27)","41-60","Refused",0,0
+"Female","Other Hispanic","Severe (20-27)","41-60","Yes",0,0
+"Female","Other Hispanic","Severe (20-27)","61-80","Don't know",0,0
+"Female","Other Hispanic","Severe (20-27)","61-80","No",20317.568633,0.000236314376889324
+"Female","Other Hispanic","Severe (20-27)","61-80","Refused",0,0
+"Female","Other Hispanic","Severe (20-27)","61-80","Yes",0,0
+"Female","Other Hispanic","Severe (20-27)","81-100","Don't know",0,0
+"Female","Other Hispanic","Severe (20-27)","81-100","No",0,0
+"Female","Other Hispanic","Severe (20-27)","81-100","Refused",0,0
+"Female","Other Hispanic","Severe (20-27)","81-100","Yes",0,0
+"Female","Other Race","Mild (5-9)","0-20","Don't know",0,0
+"Female","Other Race","Mild (5-9)","0-20","No",213457.971489,0.00248273740011154
+"Female","Other Race","Mild (5-9)","0-20","Refused",0,0
+"Female","Other Race","Mild (5-9)","0-20","Yes",27401.466762,0.00031870745268202
+"Female","Other Race","Mild (5-9)","21-40","Don't know",0,0
+"Female","Other Race","Mild (5-9)","21-40","No",586872.768621,0.00682593843461801
+"Female","Other Race","Mild (5-9)","21-40","Refused",0,0
+"Female","Other Race","Mild (5-9)","21-40","Yes",282316.829311,0.00328363727024102
+"Female","Other Race","Mild (5-9)","41-60","Don't know",0,0
+"Female","Other Race","Mild (5-9)","41-60","No",549927.128079,0.0063962223509091
+"Female","Other Race","Mild (5-9)","41-60","Refused",0,0
+"Female","Other Race","Mild (5-9)","41-60","Yes",115777.196406,0.00134660876608231
+"Female","Other Race","Mild (5-9)","61-80","Don't know",0,0
+"Female","Other Race","Mild (5-9)","61-80","No",185770.001824,0.00216069762178453
+"Female","Other Race","Mild (5-9)","61-80","Refused",0,0
+"Female","Other Race","Mild (5-9)","61-80","Yes",14570.904813,0.000169474721793487
+"Female","Other Race","Mild (5-9)","81-100","Don't know",0,0
+"Female","Other Race","Mild (5-9)","81-100","No",0,0
+"Female","Other Race","Mild (5-9)","81-100","Refused",0,0
+"Female","Other Race","Mild (5-9)","81-100","Yes",0,0
+"Female","Other Race","Minimal (0-4)","0-20","Don't know",0,0
+"Female","Other Race","Minimal (0-4)","0-20","No",248337.842548,0.00288842644411948
+"Female","Other Race","Minimal (0-4)","0-20","Refused",0,0
+"Female","Other Race","Minimal (0-4)","0-20","Yes",23531.495358,0.000273695675070482
+"Female","Other Race","Minimal (0-4)","21-40","Don't know",0,0
+"Female","Other Race","Minimal (0-4)","21-40","No",2156967.239917,0.0250877641158192
+"Female","Other Race","Minimal (0-4)","21-40","Refused",0,0
+"Female","Other Race","Minimal (0-4)","21-40","Yes",309700.13752,0.0036021335201352
+"Female","Other Race","Minimal (0-4)","41-60","Don't know",23680.240421,0.000275425734287367
+"Female","Other Race","Minimal (0-4)","41-60","No",1432072.076422,0.0166564822057794
+"Female","Other Race","Minimal (0-4)","41-60","Refused",0,0
+"Female","Other Race","Minimal (0-4)","41-60","Yes",295863.384003,0.00344119773866427
+"Female","Other Race","Minimal (0-4)","61-80","Don't know",0,0
+"Female","Other Race","Minimal (0-4)","61-80","No",1304252.994682,0.0151698138350918
+"Female","Other Race","Minimal (0-4)","61-80","Refused",0,0
+"Female","Other Race","Minimal (0-4)","61-80","Yes",81102.33111,0.000943304151531313
+"Female","Other Race","Minimal (0-4)","81-100","Don't know",0,0
+"Female","Other Race","Minimal (0-4)","81-100","No",0,0
+"Female","Other Race","Minimal (0-4)","81-100","Refused",0,0
+"Female","Other Race","Minimal (0-4)","81-100","Yes",0,0
+"Female","Other Race","Moderate (10-14)","0-20","Don't know",0,0
+"Female","Other Race","Moderate (10-14)","0-20","No",25510.501557,0.00029671356787175
+"Female","Other Race","Moderate (10-14)","0-20","Refused",0,0
+"Female","Other Race","Moderate (10-14)","0-20","Yes",34138.695921,0.000397068409124602
+"Female","Other Race","Moderate (10-14)","21-40","Don't know",0,0
+"Female","Other Race","Moderate (10-14)","21-40","No",167069.926958,0.00194319637350205
+"Female","Other Race","Moderate (10-14)","21-40","Refused",0,0
+"Female","Other Race","Moderate (10-14)","21-40","Yes",171681.796807,0.00199683719880685
+"Female","Other Race","Moderate (10-14)","41-60","Don't know",0,0
+"Female","Other Race","Moderate (10-14)","41-60","No",53208.818941,0.000618873700893346
+"Female","Other Race","Moderate (10-14)","41-60","Refused",0,0
+"Female","Other Race","Moderate (10-14)","41-60","Yes",225269.737345,0.00262012047673073
+"Female","Other Race","Moderate (10-14)","61-80","Don't know",0,0
+"Female","Other Race","Moderate (10-14)","61-80","No",160032.701474,0.00186134614893433
+"Female","Other Race","Moderate (10-14)","61-80","Refused",0,0
+"Female","Other Race","Moderate (10-14)","61-80","Yes",7007.478276,8.15042337137119e-05
+"Female","Other Race","Moderate (10-14)","81-100","Don't know",0,0
+"Female","Other Race","Moderate (10-14)","81-100","No",0,0
+"Female","Other Race","Moderate (10-14)","81-100","Refused",0,0
+"Female","Other Race","Moderate (10-14)","81-100","Yes",0,0
+"Female","Other Race","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Female","Other Race","Moderately Severe (15-19)","0-20","No",36347.323741,0.000422757039319063
+"Female","Other Race","Moderately Severe (15-19)","0-20","Refused",0,0
+"Female","Other Race","Moderately Severe (15-19)","0-20","Yes",116406.468951,0.00135392785785216
+"Female","Other Race","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Female","Other Race","Moderately Severe (15-19)","21-40","No",87358.499682,0.00101606987485735
+"Female","Other Race","Moderately Severe (15-19)","21-40","Refused",36782.468178,0.00042781822003138
+"Female","Other Race","Moderately Severe (15-19)","21-40","Yes",111647.353162,0.0012985744096844
+"Female","Other Race","Moderately Severe (15-19)","41-60","Don't know",0,0
+"Female","Other Race","Moderately Severe (15-19)","41-60","No",59695.881418,0.000694324959593882
+"Female","Other Race","Moderately Severe (15-19)","41-60","Refused",0,0
+"Female","Other Race","Moderately Severe (15-19)","41-60","Yes",86887.99991,0.00101059747496271
+"Female","Other Race","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Female","Other Race","Moderately Severe (15-19)","61-80","No",36559.041592,0.000425219537314721
+"Female","Other Race","Moderately Severe (15-19)","61-80","Refused",0,0
+"Female","Other Race","Moderately Severe (15-19)","61-80","Yes",0,0
+"Female","Other Race","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Female","Other Race","Moderately Severe (15-19)","81-100","No",0,0
+"Female","Other Race","Moderately Severe (15-19)","81-100","Refused",0,0
+"Female","Other Race","Moderately Severe (15-19)","81-100","Yes",0,0
+"Female","Other Race","Severe (20-27)","0-20","Don't know",0,0
+"Female","Other Race","Severe (20-27)","0-20","No",0,0
+"Female","Other Race","Severe (20-27)","0-20","Refused",0,0
+"Female","Other Race","Severe (20-27)","0-20","Yes",39925.857407,0.000464379094040942
+"Female","Other Race","Severe (20-27)","21-40","Don't know",0,0
+"Female","Other Race","Severe (20-27)","21-40","No",0,0
+"Female","Other Race","Severe (20-27)","21-40","Refused",0,0
+"Female","Other Race","Severe (20-27)","21-40","Yes",34055.741608,0.000396103564504609
+"Female","Other Race","Severe (20-27)","41-60","Don't know",0,0
+"Female","Other Race","Severe (20-27)","41-60","No",34491.512039,0.00040117202617582
+"Female","Other Race","Severe (20-27)","41-60","Refused",0,0
+"Female","Other Race","Severe (20-27)","41-60","Yes",0,0
+"Female","Other Race","Severe (20-27)","61-80","Don't know",0,0
+"Female","Other Race","Severe (20-27)","61-80","No",0,0
+"Female","Other Race","Severe (20-27)","61-80","Refused",0,0
+"Female","Other Race","Severe (20-27)","61-80","Yes",18831.673173,0.000219031872959092
+"Female","Other Race","Severe (20-27)","81-100","Don't know",0,0
+"Female","Other Race","Severe (20-27)","81-100","No",0,0
+"Female","Other Race","Severe (20-27)","81-100","Refused",0,0
+"Female","Other Race","Severe (20-27)","81-100","Yes",0,0
+"Male","Mexican American","Mild (5-9)","0-20","Don't know",0,0
+"Male","Mexican American","Mild (5-9)","0-20","No",74227.482685,0.000888702625110154
+"Male","Mexican American","Mild (5-9)","0-20","Refused",0,0
+"Male","Mexican American","Mild (5-9)","0-20","Yes",0,0
+"Male","Mexican American","Mild (5-9)","21-40","Don't know",0,0
+"Male","Mexican American","Mild (5-9)","21-40","No",561903.854723,0.00672750055220123
+"Male","Mexican American","Mild (5-9)","21-40","Refused",0,0
+"Male","Mexican American","Mild (5-9)","21-40","Yes",131201.252938,0.00157083190330668
+"Male","Mexican American","Mild (5-9)","41-60","Don't know",0,0
+"Male","Mexican American","Mild (5-9)","41-60","No",111378.817248,0.00133350402963301
+"Male","Mexican American","Mild (5-9)","41-60","Refused",0,0
+"Male","Mexican American","Mild (5-9)","41-60","Yes",22419.320297,0.000268419567529744
+"Male","Mexican American","Mild (5-9)","61-80","Don't know",0,0
+"Male","Mexican American","Mild (5-9)","61-80","No",110587.908478,0.00132403472426663
+"Male","Mexican American","Mild (5-9)","61-80","Refused",0,0
+"Male","Mexican American","Mild (5-9)","61-80","Yes",0,0
+"Male","Mexican American","Mild (5-9)","81-100","Don't know",0,0
+"Male","Mexican American","Mild (5-9)","81-100","No",0,0
+"Male","Mexican American","Mild (5-9)","81-100","Refused",0,0
+"Male","Mexican American","Mild (5-9)","81-100","Yes",0,0
+"Male","Mexican American","Minimal (0-4)","0-20","Don't know",0,0
+"Male","Mexican American","Minimal (0-4)","0-20","No",363446.14915,0.00435142800418655
+"Male","Mexican American","Minimal (0-4)","0-20","Refused",0,0
+"Male","Mexican American","Minimal (0-4)","0-20","Yes",49079.748226,0.000587616601162279
+"Male","Mexican American","Minimal (0-4)","21-40","Don't know",0,0
+"Male","Mexican American","Minimal (0-4)","21-40","No",1705097.573133,0.0204146043284648
+"Male","Mexican American","Minimal (0-4)","21-40","Refused",0,0
+"Male","Mexican American","Minimal (0-4)","21-40","Yes",28156.620413,0.000337110482130359
+"Male","Mexican American","Minimal (0-4)","41-60","Don't know",0,0
+"Male","Mexican American","Minimal (0-4)","41-60","No",1524053.535771,0.0182470202282881
+"Male","Mexican American","Minimal (0-4)","41-60","Refused",0,0
+"Male","Mexican American","Minimal (0-4)","41-60","Yes",296601.414977,0.00355111673691061
+"Male","Mexican American","Minimal (0-4)","61-80","Don't know",0,0
+"Male","Mexican American","Minimal (0-4)","61-80","No",539058.001788,0.00645397424170548
+"Male","Mexican American","Minimal (0-4)","61-80","Refused",0,0
+"Male","Mexican American","Minimal (0-4)","61-80","Yes",0,0
+"Male","Mexican American","Minimal (0-4)","81-100","Don't know",0,0
+"Male","Mexican American","Minimal (0-4)","81-100","No",0,0
+"Male","Mexican American","Minimal (0-4)","81-100","Refused",0,0
+"Male","Mexican American","Minimal (0-4)","81-100","Yes",0,0
+"Male","Mexican American","Moderate (10-14)","0-20","Don't know",0,0
+"Male","Mexican American","Moderate (10-14)","0-20","No",15928.395628,0.000190705739927474
+"Male","Mexican American","Moderate (10-14)","0-20","Refused",0,0
+"Male","Mexican American","Moderate (10-14)","0-20","Yes",17506.448616,0.000209599278846879
+"Male","Mexican American","Moderate (10-14)","21-40","Don't know",0,0
+"Male","Mexican American","Moderate (10-14)","21-40","No",176213.055709,0.00210974425539715
+"Male","Mexican American","Moderate (10-14)","21-40","Refused",0,0
+"Male","Mexican American","Moderate (10-14)","21-40","Yes",0,0
+"Male","Mexican American","Moderate (10-14)","41-60","Don't know",0,0
+"Male","Mexican American","Moderate (10-14)","41-60","No",18683.4814,0.000223691527258705
+"Male","Mexican American","Moderate (10-14)","41-60","Refused",0,0
+"Male","Mexican American","Moderate (10-14)","41-60","Yes",0,0
+"Male","Mexican American","Moderate (10-14)","61-80","Don't know",0,0
+"Male","Mexican American","Moderate (10-14)","61-80","No",17999.183899,0.000215498645545664
+"Male","Mexican American","Moderate (10-14)","61-80","Refused",0,0
+"Male","Mexican American","Moderate (10-14)","61-80","Yes",0,0
+"Male","Mexican American","Moderate (10-14)","81-100","Don't know",0,0
+"Male","Mexican American","Moderate (10-14)","81-100","No",0,0
+"Male","Mexican American","Moderate (10-14)","81-100","Refused",0,0
+"Male","Mexican American","Moderate (10-14)","81-100","Yes",0,0
+"Male","Mexican American","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Male","Mexican American","Moderately Severe (15-19)","0-20","No",21652.958599,0.000259244156642017
+"Male","Mexican American","Moderately Severe (15-19)","0-20","Refused",0,0
+"Male","Mexican American","Moderately Severe (15-19)","0-20","Yes",12325.404217,0.000147568241397538
+"Male","Mexican American","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Male","Mexican American","Moderately Severe (15-19)","21-40","No",13803.039291,0.000165259507781869
+"Male","Mexican American","Moderately Severe (15-19)","21-40","Refused",0,0
+"Male","Mexican American","Moderately Severe (15-19)","21-40","Yes",0,0
+"Male","Mexican American","Moderately Severe (15-19)","41-60","Don't know",0,0
+"Male","Mexican American","Moderately Severe (15-19)","41-60","No",51958.025231,0.000622077318912776
+"Male","Mexican American","Moderately Severe (15-19)","41-60","Refused",0,0
+"Male","Mexican American","Moderately Severe (15-19)","41-60","Yes",27746.400063,0.000332199041128571
+"Male","Mexican American","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Male","Mexican American","Moderately Severe (15-19)","61-80","No",0,0
+"Male","Mexican American","Moderately Severe (15-19)","61-80","Refused",0,0
+"Male","Mexican American","Moderately Severe (15-19)","61-80","Yes",0,0
+"Male","Mexican American","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Male","Mexican American","Moderately Severe (15-19)","81-100","No",0,0
+"Male","Mexican American","Moderately Severe (15-19)","81-100","Refused",0,0
+"Male","Mexican American","Moderately Severe (15-19)","81-100","Yes",0,0
+"Male","Mexican American","Severe (20-27)","0-20","Don't know",0,0
+"Male","Mexican American","Severe (20-27)","0-20","No",16325.374645,0.000195458646556663
+"Male","Mexican American","Severe (20-27)","0-20","Refused",0,0
+"Male","Mexican American","Severe (20-27)","0-20","Yes",0,0
+"Male","Mexican American","Severe (20-27)","21-40","Don't know",0,0
+"Male","Mexican American","Severe (20-27)","21-40","No",15062.034429,0.000180333066033732
+"Male","Mexican American","Severe (20-27)","21-40","Refused",0,0
+"Male","Mexican American","Severe (20-27)","21-40","Yes",23305.309637,0.000279027243067106
+"Male","Mexican American","Severe (20-27)","41-60","Don't know",0,0
+"Male","Mexican American","Severe (20-27)","41-60","No",0,0
+"Male","Mexican American","Severe (20-27)","41-60","Refused",0,0
+"Male","Mexican American","Severe (20-27)","41-60","Yes",0,0
+"Male","Mexican American","Severe (20-27)","61-80","Don't know",0,0
+"Male","Mexican American","Severe (20-27)","61-80","No",0,0
+"Male","Mexican American","Severe (20-27)","61-80","Refused",0,0
+"Male","Mexican American","Severe (20-27)","61-80","Yes",0,0
+"Male","Mexican American","Severe (20-27)","81-100","Don't know",0,0
+"Male","Mexican American","Severe (20-27)","81-100","No",0,0
+"Male","Mexican American","Severe (20-27)","81-100","Refused",0,0
+"Male","Mexican American","Severe (20-27)","81-100","Yes",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","0-20","Don't know",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","0-20","No",140779.168772,0.0016855053185548
+"Male","Non-Hispanic Black","Mild (5-9)","0-20","Refused",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","0-20","Yes",27189.83784,0.000325535494276036
+"Male","Non-Hispanic Black","Mild (5-9)","21-40","Don't know",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","21-40","No",425622.110754,0.00509584150572901
+"Male","Non-Hispanic Black","Mild (5-9)","21-40","Refused",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","21-40","Yes",260369.500587,0.00311732326491851
+"Male","Non-Hispanic Black","Mild (5-9)","41-60","Don't know",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","41-60","No",358655.476651,0.00429407076840406
+"Male","Non-Hispanic Black","Mild (5-9)","41-60","Refused",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","41-60","Yes",127512.386494,0.00152666624964473
+"Male","Non-Hispanic Black","Mild (5-9)","61-80","Don't know",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","61-80","No",207394.555646,0.00248307068176246
+"Male","Non-Hispanic Black","Mild (5-9)","61-80","Refused",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","61-80","Yes",49912.874312,0.000597591361357475
+"Male","Non-Hispanic Black","Mild (5-9)","81-100","Don't know",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","81-100","No",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","81-100","Refused",0,0
+"Male","Non-Hispanic Black","Mild (5-9)","81-100","Yes",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","0-20","Don't know",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","0-20","No",242001.886516,0.0028974135192091
+"Male","Non-Hispanic Black","Minimal (0-4)","0-20","Refused",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","0-20","Yes",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","21-40","Don't know",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","21-40","No",1587067.530371,0.0190014672389371
+"Male","Non-Hispanic Black","Minimal (0-4)","21-40","Refused",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","21-40","Yes",86434.311945,0.00103485120532902
+"Male","Non-Hispanic Black","Minimal (0-4)","41-60","Don't know",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","41-60","No",1849426.348589,0.0221426079867729
+"Male","Non-Hispanic Black","Minimal (0-4)","41-60","Refused",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","41-60","Yes",75146.439507,0.000899705010083116
+"Male","Non-Hispanic Black","Minimal (0-4)","61-80","Don't know",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","61-80","No",1186363.311694,0.0142039599256125
+"Male","Non-Hispanic Black","Minimal (0-4)","61-80","Refused",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","61-80","Yes",86530.003587,0.00103599689167551
+"Male","Non-Hispanic Black","Minimal (0-4)","81-100","Don't know",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","81-100","No",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","81-100","Refused",0,0
+"Male","Non-Hispanic Black","Minimal (0-4)","81-100","Yes",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","0-20","Don't know",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","0-20","No",8164.831472,9.77549945151882e-05
+"Male","Non-Hispanic Black","Moderate (10-14)","0-20","Refused",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","0-20","Yes",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","21-40","Don't know",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","21-40","No",174835.01538,0.0020932454060008
+"Male","Non-Hispanic Black","Moderate (10-14)","21-40","Refused",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","21-40","Yes",134515.949933,0.00161051774222165
+"Male","Non-Hispanic Black","Moderate (10-14)","41-60","Don't know",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","41-60","No",66654.540507,0.000798034137510263
+"Male","Non-Hispanic Black","Moderate (10-14)","41-60","Refused",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","41-60","Yes",33732.457278,0.000403868247312026
+"Male","Non-Hispanic Black","Moderate (10-14)","61-80","Don't know",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","61-80","No",31902.623183,0.000381960211300033
+"Male","Non-Hispanic Black","Moderate (10-14)","61-80","Refused",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","61-80","Yes",63876.13627,0.000764769165430885
+"Male","Non-Hispanic Black","Moderate (10-14)","81-100","Don't know",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","81-100","No",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","81-100","Refused",0,0
+"Male","Non-Hispanic Black","Moderate (10-14)","81-100","Yes",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","0-20","No",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","0-20","Refused",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","0-20","Yes",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","21-40","No",196013.111768,0.00234680418469093
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","21-40","Refused",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","21-40","Yes",87432.744152,0.00104680512443363
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","41-60","Don't know",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","41-60","No",47282.035534,0.00056609314474447
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","41-60","Refused",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","41-60","Yes",7500.182041,8.97973530495019e-05
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","61-80","No",13043.513754,0.000156165944129245
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","61-80","Refused",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","61-80","Yes",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","81-100","No",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","81-100","Refused",0,0
+"Male","Non-Hispanic Black","Moderately Severe (15-19)","81-100","Yes",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","0-20","Don't know",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","0-20","No",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","0-20","Refused",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","0-20","Yes",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","21-40","Don't know",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","21-40","No",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","21-40","Refused",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","21-40","Yes",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","41-60","Don't know",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","41-60","No",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","41-60","Refused",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","41-60","Yes",9446.65878,0.000113101915256011
+"Male","Non-Hispanic Black","Severe (20-27)","61-80","Don't know",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","61-80","No",9961.099166,0.000119261150420176
+"Male","Non-Hispanic Black","Severe (20-27)","61-80","Refused",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","61-80","Yes",13054.676365,0.000156299590608149
+"Male","Non-Hispanic Black","Severe (20-27)","81-100","Don't know",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","81-100","No",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","81-100","Refused",0,0
+"Male","Non-Hispanic Black","Severe (20-27)","81-100","Yes",0,0
+"Male","Non-Hispanic White","Mild (5-9)","0-20","Don't know",0,0
+"Male","Non-Hispanic White","Mild (5-9)","0-20","No",185218.287215,0.00221756109883059
+"Male","Non-Hispanic White","Mild (5-9)","0-20","Refused",0,0
+"Male","Non-Hispanic White","Mild (5-9)","0-20","Yes",98491.989476,0.00117921403816286
+"Male","Non-Hispanic White","Mild (5-9)","21-40","Don't know",0,0
+"Male","Non-Hispanic White","Mild (5-9)","21-40","No",2674220.714838,0.0320176150858575
+"Male","Non-Hispanic White","Mild (5-9)","21-40","Refused",0,0
+"Male","Non-Hispanic White","Mild (5-9)","21-40","Yes",858170.559876,0.0102746099122148
+"Male","Non-Hispanic White","Mild (5-9)","41-60","Don't know",0,0
+"Male","Non-Hispanic White","Mild (5-9)","41-60","No",2271030.235538,0.0271903405453221
+"Male","Non-Hispanic White","Mild (5-9)","41-60","Refused",0,0
+"Male","Non-Hispanic White","Mild (5-9)","41-60","Yes",764267.001749,0.00915033173927987
+"Male","Non-Hispanic White","Mild (5-9)","61-80","Don't know",0,0
+"Male","Non-Hispanic White","Mild (5-9)","61-80","No",1866672.904656,0.0223490956527483
+"Male","Non-Hispanic White","Mild (5-9)","61-80","Refused",0,0
+"Male","Non-Hispanic White","Mild (5-9)","61-80","Yes",254836.998724,0.00305108433627344
+"Male","Non-Hispanic White","Mild (5-9)","81-100","Don't know",0,0
+"Male","Non-Hispanic White","Mild (5-9)","81-100","No",0,0
+"Male","Non-Hispanic White","Mild (5-9)","81-100","Refused",0,0
+"Male","Non-Hispanic White","Mild (5-9)","81-100","Yes",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","0-20","Don't know",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","0-20","No",1337700.89634,0.016015877882247
+"Male","Non-Hispanic White","Minimal (0-4)","0-20","Refused",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","0-20","Yes",83772.20008,0.00100297856574616
+"Male","Non-Hispanic White","Minimal (0-4)","21-40","Don't know",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","21-40","No",8921522.281422,0.106814618853842
+"Male","Non-Hispanic White","Minimal (0-4)","21-40","Refused",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","21-40","Yes",1849040.19604,0.0221379847020868
+"Male","Non-Hispanic White","Minimal (0-4)","41-60","Don't know",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","41-60","No",10732255.464422,0.128493965571488
+"Male","Non-Hispanic White","Minimal (0-4)","41-60","Refused",102776.209697,0.00123050767792039
+"Male","Non-Hispanic White","Minimal (0-4)","41-60","Yes",1556472.988353,0.0186351682776639
+"Male","Non-Hispanic White","Minimal (0-4)","61-80","Don't know",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","61-80","No",13035312.878449,0.156067757590152
+"Male","Non-Hispanic White","Minimal (0-4)","61-80","Refused",18743.726017,0.000224412817370399
+"Male","Non-Hispanic White","Minimal (0-4)","61-80","Yes",857833.372024,0.0102705728666571
+"Male","Non-Hispanic White","Minimal (0-4)","81-100","Don't know",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","81-100","No",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","81-100","Refused",0,0
+"Male","Non-Hispanic White","Minimal (0-4)","81-100","Yes",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","0-20","Don't know",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","0-20","No",52753.080851,0.000631596273227865
+"Male","Non-Hispanic White","Moderate (10-14)","0-20","Refused",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","0-20","Yes",45249.474191,0.00054175791827738
+"Male","Non-Hispanic White","Moderate (10-14)","21-40","Don't know",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","21-40","No",1227823.106796,0.014700345191701
+"Male","Non-Hispanic White","Moderate (10-14)","21-40","Refused",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","21-40","Yes",616737.333773,0.00738400478773426
+"Male","Non-Hispanic White","Moderate (10-14)","41-60","Don't know",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","41-60","No",758960.831502,0.00908680260886598
+"Male","Non-Hispanic White","Moderate (10-14)","41-60","Refused",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","41-60","Yes",446628.481841,0.00534734427065879
+"Male","Non-Hispanic White","Moderate (10-14)","61-80","Don't know",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","61-80","No",450096.252355,0.00538886281133394
+"Male","Non-Hispanic White","Moderate (10-14)","61-80","Refused",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","61-80","Yes",101291.656,0.00121273357700901
+"Male","Non-Hispanic White","Moderate (10-14)","81-100","Don't know",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","81-100","No",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","81-100","Refused",0,0
+"Male","Non-Hispanic White","Moderate (10-14)","81-100","Yes",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","0-20","No",118872.466166,0.00142322316362738
+"Male","Non-Hispanic White","Moderately Severe (15-19)","0-20","Refused",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","0-20","Yes",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","21-40","No",351679.839318,0.00421055362643171
+"Male","Non-Hispanic White","Moderately Severe (15-19)","21-40","Refused",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","21-40","Yes",161663.138164,0.00193554260595888
+"Male","Non-Hispanic White","Moderately Severe (15-19)","41-60","Don't know",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","41-60","No",35020.735585,0.000419292403862801
+"Male","Non-Hispanic White","Moderately Severe (15-19)","41-60","Refused",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","41-60","Yes",106614.264683,0.00127645951971799
+"Male","Non-Hispanic White","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","61-80","No",280986.379802,0.00336416276448371
+"Male","Non-Hispanic White","Moderately Severe (15-19)","61-80","Refused",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","61-80","Yes",80769.960676,0.000967033684645089
+"Male","Non-Hispanic White","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","81-100","No",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","81-100","Refused",0,0
+"Male","Non-Hispanic White","Moderately Severe (15-19)","81-100","Yes",0,0
+"Male","Non-Hispanic White","Severe (20-27)","0-20","Don't know",0,0
+"Male","Non-Hispanic White","Severe (20-27)","0-20","No",31549.300987,0.0003777299942465
+"Male","Non-Hispanic White","Severe (20-27)","0-20","Refused",0,0
+"Male","Non-Hispanic White","Severe (20-27)","0-20","Yes",13865.763637,0.000166010486919678
+"Male","Non-Hispanic White","Severe (20-27)","21-40","Don't know",0,0
+"Male","Non-Hispanic White","Severe (20-27)","21-40","No",107246.017602,0.00128402330144988
+"Male","Non-Hispanic White","Severe (20-27)","21-40","Refused",0,0
+"Male","Non-Hispanic White","Severe (20-27)","21-40","Yes",53691.967243,0.000642837268760362
+"Male","Non-Hispanic White","Severe (20-27)","41-60","Don't know",0,0
+"Male","Non-Hispanic White","Severe (20-27)","41-60","No",19750.825253,0.000236470504124749
+"Male","Non-Hispanic White","Severe (20-27)","41-60","Refused",0,0
+"Male","Non-Hispanic White","Severe (20-27)","41-60","Yes",200784.00619,0.00240392462369258
+"Male","Non-Hispanic White","Severe (20-27)","61-80","Don't know",0,0
+"Male","Non-Hispanic White","Severe (20-27)","61-80","No",80062.161886,0.000958559429288859
+"Male","Non-Hispanic White","Severe (20-27)","61-80","Refused",0,0
+"Male","Non-Hispanic White","Severe (20-27)","61-80","Yes",31087.345728,0.000372199147227224
+"Male","Non-Hispanic White","Severe (20-27)","81-100","Don't know",0,0
+"Male","Non-Hispanic White","Severe (20-27)","81-100","No",0,0
+"Male","Non-Hispanic White","Severe (20-27)","81-100","Refused",0,0
+"Male","Non-Hispanic White","Severe (20-27)","81-100","Yes",0,0
+"Male","Other Hispanic","Mild (5-9)","0-20","Don't know",0,0
+"Male","Other Hispanic","Mild (5-9)","0-20","No",69742.254751,0.000835002382356688
+"Male","Other Hispanic","Mild (5-9)","0-20","Refused",0,0
+"Male","Other Hispanic","Mild (5-9)","0-20","Yes",20460.03299,0.000244961628366359
+"Male","Other Hispanic","Mild (5-9)","21-40","Don't know",0,0
+"Male","Other Hispanic","Mild (5-9)","21-40","No",638308.741549,0.00764227256166925
+"Male","Other Hispanic","Mild (5-9)","21-40","Refused",0,0
+"Male","Other Hispanic","Mild (5-9)","21-40","Yes",200475.069959,0.00240022582602964
+"Male","Other Hispanic","Mild (5-9)","41-60","Don't know",0,0
+"Male","Other Hispanic","Mild (5-9)","41-60","No",280639.274784,0.00336000698377382
+"Male","Other Hispanic","Mild (5-9)","41-60","Refused",0,0
+"Male","Other Hispanic","Mild (5-9)","41-60","Yes",89096.616005,0.00106672614600301
+"Male","Other Hispanic","Mild (5-9)","61-80","Don't know",0,0
+"Male","Other Hispanic","Mild (5-9)","61-80","No",295748.476668,0.00354090477111511
+"Male","Other Hispanic","Mild (5-9)","61-80","Refused",0,0
+"Male","Other Hispanic","Mild (5-9)","61-80","Yes",89647.06277,0.0010733164743739
+"Male","Other Hispanic","Mild (5-9)","81-100","Don't know",0,0
+"Male","Other Hispanic","Mild (5-9)","81-100","No",0,0
+"Male","Other Hispanic","Mild (5-9)","81-100","Refused",0,0
+"Male","Other Hispanic","Mild (5-9)","81-100","Yes",0,0
+"Male","Other Hispanic","Minimal (0-4)","0-20","Don't know",0,0
+"Male","Other Hispanic","Minimal (0-4)","0-20","No",399069.689888,0.0047779376071584
+"Male","Other Hispanic","Minimal (0-4)","0-20","Refused",0,0
+"Male","Other Hispanic","Minimal (0-4)","0-20","Yes",0,0
+"Male","Other Hispanic","Minimal (0-4)","21-40","Don't know",0,0
+"Male","Other Hispanic","Minimal (0-4)","21-40","No",1530670.67096,0.0183262451352963
+"Male","Other Hispanic","Minimal (0-4)","21-40","Refused",0,0
+"Male","Other Hispanic","Minimal (0-4)","21-40","Yes",143616.733199,0.00171947859723779
+"Male","Other Hispanic","Minimal (0-4)","41-60","Don't know",0,0
+"Male","Other Hispanic","Minimal (0-4)","41-60","No",1795846.483238,0.0215011128791919
+"Male","Other Hispanic","Minimal (0-4)","41-60","Refused",0,0
+"Male","Other Hispanic","Minimal (0-4)","41-60","Yes",11040.212037,0.00013218103408803
+"Male","Other Hispanic","Minimal (0-4)","61-80","Don't know",0,0
+"Male","Other Hispanic","Minimal (0-4)","61-80","No",885310.824371,0.0105995518802086
+"Male","Other Hispanic","Minimal (0-4)","61-80","Refused",0,0
+"Male","Other Hispanic","Minimal (0-4)","61-80","Yes",70680.409722,0.000846234620812436
+"Male","Other Hispanic","Minimal (0-4)","81-100","Don't know",0,0
+"Male","Other Hispanic","Minimal (0-4)","81-100","No",0,0
+"Male","Other Hispanic","Minimal (0-4)","81-100","Refused",0,0
+"Male","Other Hispanic","Minimal (0-4)","81-100","Yes",0,0
+"Male","Other Hispanic","Moderate (10-14)","0-20","Don't know",0,0
+"Male","Other Hispanic","Moderate (10-14)","0-20","No",128714.655834,0.00154106064751326
+"Male","Other Hispanic","Moderate (10-14)","0-20","Refused",0,0
+"Male","Other Hispanic","Moderate (10-14)","0-20","Yes",0,0
+"Male","Other Hispanic","Moderate (10-14)","21-40","Don't know",0,0
+"Male","Other Hispanic","Moderate (10-14)","21-40","No",94467.631333,0.00113103164645702
+"Male","Other Hispanic","Moderate (10-14)","21-40","Refused",0,0
+"Male","Other Hispanic","Moderate (10-14)","21-40","Yes",87045.534131,0.00104216917896325
+"Male","Other Hispanic","Moderate (10-14)","41-60","Don't know",0,0
+"Male","Other Hispanic","Moderate (10-14)","41-60","No",65679.374844,0.000786358781519772
+"Male","Other Hispanic","Moderate (10-14)","41-60","Refused",0,0
+"Male","Other Hispanic","Moderate (10-14)","41-60","Yes",38386.601631,0.000459590873952961
+"Male","Other Hispanic","Moderate (10-14)","61-80","Don't know",0,0
+"Male","Other Hispanic","Moderate (10-14)","61-80","No",0,0
+"Male","Other Hispanic","Moderate (10-14)","61-80","Refused",0,0
+"Male","Other Hispanic","Moderate (10-14)","61-80","Yes",7411.815995,8.87393737915487e-05
+"Male","Other Hispanic","Moderate (10-14)","81-100","Don't know",0,0
+"Male","Other Hispanic","Moderate (10-14)","81-100","No",0,0
+"Male","Other Hispanic","Moderate (10-14)","81-100","Refused",0,0
+"Male","Other Hispanic","Moderate (10-14)","81-100","Yes",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","0-20","No",16105.400501,0.000192824964365678
+"Male","Other Hispanic","Moderately Severe (15-19)","0-20","Refused",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","0-20","Yes",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","21-40","No",63361.883458,0.000758612176032037
+"Male","Other Hispanic","Moderately Severe (15-19)","21-40","Refused",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","21-40","Yes",41222.688296,0.000493546459849918
+"Male","Other Hispanic","Moderately Severe (15-19)","41-60","Don't know",23125.671766,0.000276876494560594
+"Male","Other Hispanic","Moderately Severe (15-19)","41-60","No",52554.61032,0.000629220047124991
+"Male","Other Hispanic","Moderately Severe (15-19)","41-60","Refused",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","41-60","Yes",25952.842574,0.000310725333667354
+"Male","Other Hispanic","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","61-80","No",62387.960261,0.000746951695701556
+"Male","Other Hispanic","Moderately Severe (15-19)","61-80","Refused",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","61-80","Yes",11432.081656,0.00013687276747988
+"Male","Other Hispanic","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","81-100","No",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","81-100","Refused",0,0
+"Male","Other Hispanic","Moderately Severe (15-19)","81-100","Yes",0,0
+"Male","Other Hispanic","Severe (20-27)","0-20","Don't know",0,0
+"Male","Other Hispanic","Severe (20-27)","0-20","No",0,0
+"Male","Other Hispanic","Severe (20-27)","0-20","Refused",0,0
+"Male","Other Hispanic","Severe (20-27)","0-20","Yes",0,0
+"Male","Other Hispanic","Severe (20-27)","21-40","Don't know",0,0
+"Male","Other Hispanic","Severe (20-27)","21-40","No",27970.62298,0.000334883592560733
+"Male","Other Hispanic","Severe (20-27)","21-40","Refused",0,0
+"Male","Other Hispanic","Severe (20-27)","21-40","Yes",0,0
+"Male","Other Hispanic","Severe (20-27)","41-60","Don't know",0,0
+"Male","Other Hispanic","Severe (20-27)","41-60","No",0,0
+"Male","Other Hispanic","Severe (20-27)","41-60","Refused",0,0
+"Male","Other Hispanic","Severe (20-27)","41-60","Yes",24725.345761,0.000296028895090057
+"Male","Other Hispanic","Severe (20-27)","61-80","Don't know",0,0
+"Male","Other Hispanic","Severe (20-27)","61-80","No",0,0
+"Male","Other Hispanic","Severe (20-27)","61-80","Refused",0,0
+"Male","Other Hispanic","Severe (20-27)","61-80","Yes",0,0
+"Male","Other Hispanic","Severe (20-27)","81-100","Don't know",0,0
+"Male","Other Hispanic","Severe (20-27)","81-100","No",0,0
+"Male","Other Hispanic","Severe (20-27)","81-100","Refused",0,0
+"Male","Other Hispanic","Severe (20-27)","81-100","Yes",0,0
+"Male","Other Race","Mild (5-9)","0-20","Don't know",0,0
+"Male","Other Race","Mild (5-9)","0-20","No",155776.066873,0.00186505852753842
+"Male","Other Race","Mild (5-9)","0-20","Refused",0,0
+"Male","Other Race","Mild (5-9)","0-20","Yes",26079.487643,0.000312241615793681
+"Male","Other Race","Mild (5-9)","21-40","Don't know",0,0
+"Male","Other Race","Mild (5-9)","21-40","No",735729.145828,0.00880865684267001
+"Male","Other Race","Mild (5-9)","21-40","Refused",0,0
+"Male","Other Race","Mild (5-9)","21-40","Yes",132598.007897,0.00158755481716281
+"Male","Other Race","Mild (5-9)","41-60","Don't know",0,0
+"Male","Other Race","Mild (5-9)","41-60","No",347940.338338,0.00416578174117687
+"Male","Other Race","Mild (5-9)","41-60","Refused",0,0
+"Male","Other Race","Mild (5-9)","41-60","Yes",144262.873563,0.00172721463538572
+"Male","Other Race","Mild (5-9)","61-80","Don't know",0,0
+"Male","Other Race","Mild (5-9)","61-80","No",219702.347316,0.00263042805359811
+"Male","Other Race","Mild (5-9)","61-80","Refused",0,0
+"Male","Other Race","Mild (5-9)","61-80","Yes",30027.273039,0.000359507225752265
+"Male","Other Race","Mild (5-9)","81-100","Don't know",0,0
+"Male","Other Race","Mild (5-9)","81-100","No",0,0
+"Male","Other Race","Mild (5-9)","81-100","Refused",0,0
+"Male","Other Race","Mild (5-9)","81-100","Yes",0,0
+"Male","Other Race","Minimal (0-4)","0-20","Don't know",0,0
+"Male","Other Race","Minimal (0-4)","0-20","No",388749.777911,0.00465438050225447
+"Male","Other Race","Minimal (0-4)","0-20","Refused",0,0
+"Male","Other Race","Minimal (0-4)","0-20","Yes",19170.796095,0.000229525994938811
+"Male","Other Race","Minimal (0-4)","21-40","Don't know",0,0
+"Male","Other Race","Minimal (0-4)","21-40","No",1889411.17349,0.0226213338921749
+"Male","Other Race","Minimal (0-4)","21-40","Refused",0,0
+"Male","Other Race","Minimal (0-4)","21-40","Yes",314071.523093,0.00376028092222367
+"Male","Other Race","Minimal (0-4)","41-60","Don't know",0,0
+"Male","Other Race","Minimal (0-4)","41-60","No",2655619.590901,0.0317949095989563
+"Male","Other Race","Minimal (0-4)","41-60","Refused",0,0
+"Male","Other Race","Minimal (0-4)","41-60","Yes",15744.509723,0.000188504131027604
+"Male","Other Race","Minimal (0-4)","61-80","Don't know",0,0
+"Male","Other Race","Minimal (0-4)","61-80","No",1773821.157901,0.0212374104911025
+"Male","Other Race","Minimal (0-4)","61-80","Refused",0,0
+"Male","Other Race","Minimal (0-4)","61-80","Yes",66735.710771,0.000799005963902434
+"Male","Other Race","Minimal (0-4)","81-100","Don't know",0,0
+"Male","Other Race","Minimal (0-4)","81-100","No",0,0
+"Male","Other Race","Minimal (0-4)","81-100","Refused",0,0
+"Male","Other Race","Minimal (0-4)","81-100","Yes",0,0
+"Male","Other Race","Moderate (10-14)","0-20","Don't know",0,0
+"Male","Other Race","Moderate (10-14)","0-20","No",41223.457946,0.000493555674630625
+"Male","Other Race","Moderate (10-14)","0-20","Refused",0,0
+"Male","Other Race","Moderate (10-14)","0-20","Yes",81882.540457,0.000980354257245067
+"Male","Other Race","Moderate (10-14)","21-40","Don't know",0,0
+"Male","Other Race","Moderate (10-14)","21-40","No",175931.321932,0.00210637114427785
+"Male","Other Race","Moderate (10-14)","21-40","Refused",0,0
+"Male","Other Race","Moderate (10-14)","21-40","Yes",40473.267273,0.000484573874409035
+"Male","Other Race","Moderate (10-14)","41-60","Don't know",0,0
+"Male","Other Race","Moderate (10-14)","41-60","No",139165.403547,0.00166618420809959
+"Male","Other Race","Moderate (10-14)","41-60","Refused",0,0
+"Male","Other Race","Moderate (10-14)","41-60","Yes",12853.808774,0.000153894665249454
+"Male","Other Race","Moderate (10-14)","61-80","Don't know",0,0
+"Male","Other Race","Moderate (10-14)","61-80","No",69616.145153,0.000833492511258542
+"Male","Other Race","Moderate (10-14)","61-80","Refused",0,0
+"Male","Other Race","Moderate (10-14)","61-80","Yes",72834.893815,0.000872029590545312
+"Male","Other Race","Moderate (10-14)","81-100","Don't know",0,0
+"Male","Other Race","Moderate (10-14)","81-100","No",0,0
+"Male","Other Race","Moderate (10-14)","81-100","Refused",0,0
+"Male","Other Race","Moderate (10-14)","81-100","Yes",0,0
+"Male","Other Race","Moderately Severe (15-19)","0-20","Don't know",0,0
+"Male","Other Race","Moderately Severe (15-19)","0-20","No",0,0
+"Male","Other Race","Moderately Severe (15-19)","0-20","Refused",0,0
+"Male","Other Race","Moderately Severe (15-19)","0-20","Yes",0,0
+"Male","Other Race","Moderately Severe (15-19)","21-40","Don't know",0,0
+"Male","Other Race","Moderately Severe (15-19)","21-40","No",81178.66027,0.000971926918107021
+"Male","Other Race","Moderately Severe (15-19)","21-40","Refused",0,0
+"Male","Other Race","Moderately Severe (15-19)","21-40","Yes",42319.443707,0.000506677572176544
+"Male","Other Race","Moderately Severe (15-19)","41-60","Don't know",0,0
+"Male","Other Race","Moderately Severe (15-19)","41-60","No",0,0
+"Male","Other Race","Moderately Severe (15-19)","41-60","Refused",0,0
+"Male","Other Race","Moderately Severe (15-19)","41-60","Yes",92338.425986,0.00110553933130863
+"Male","Other Race","Moderately Severe (15-19)","61-80","Don't know",0,0
+"Male","Other Race","Moderately Severe (15-19)","61-80","No",7506.549065,8.98735834528277e-05
+"Male","Other Race","Moderately Severe (15-19)","61-80","Refused",0,0
+"Male","Other Race","Moderately Severe (15-19)","61-80","Yes",0,0
+"Male","Other Race","Moderately Severe (15-19)","81-100","Don't know",0,0
+"Male","Other Race","Moderately Severe (15-19)","81-100","No",0,0
+"Male","Other Race","Moderately Severe (15-19)","81-100","Refused",0,0
+"Male","Other Race","Moderately Severe (15-19)","81-100","Yes",0,0
+"Male","Other Race","Severe (20-27)","0-20","Don't know",0,0
+"Male","Other Race","Severe (20-27)","0-20","No",9995.818378,0.000119676832775687
+"Male","Other Race","Severe (20-27)","0-20","Refused",0,0
+"Male","Other Race","Severe (20-27)","0-20","Yes",0,0
+"Male","Other Race","Severe (20-27)","21-40","Don't know",0,0
+"Male","Other Race","Severe (20-27)","21-40","No",32073.783841,0.000384009464764895
+"Male","Other Race","Severe (20-27)","21-40","Refused",0,0
+"Male","Other Race","Severe (20-27)","21-40","Yes",0,0
+"Male","Other Race","Severe (20-27)","41-60","Don't know",0,0
+"Male","Other Race","Severe (20-27)","41-60","No",22624.102,0.000270871355337273
+"Male","Other Race","Severe (20-27)","41-60","Refused",0,0
+"Male","Other Race","Severe (20-27)","41-60","Yes",0,0
+"Male","Other Race","Severe (20-27)","61-80","Don't know",0,0
+"Male","Other Race","Severe (20-27)","61-80","No",0,0
+"Male","Other Race","Severe (20-27)","61-80","Refused",0,0
+"Male","Other Race","Severe (20-27)","61-80","Yes",0,0
+"Male","Other Race","Severe (20-27)","81-100","Don't know",0,0
+"Male","Other Race","Severe (20-27)","81-100","No",0,0
+"Male","Other Race","Severe (20-27)","81-100","Refused",0,0
+"Male","Other Race","Severe (20-27)","81-100","Yes",0,0

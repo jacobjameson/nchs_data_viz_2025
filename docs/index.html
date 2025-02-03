@@ -13,35 +13,64 @@
     <!-- Header / Intro Section -->
     <header class="article-header">
       <h1>Data Shows Gender Disparities in <br> Depression and Suicide</h1>
-      <p class="byline">By Jacob Jameson &mdash; February 1, 2025</p>
+      <p class="byline">By Jacob Jameson and Madison Coots &mdash; February 1, 2025</p>
       <p class="intro-text">
-
+        Extensive NHANES data reveals large differences in depression severity between genders.
+        Explore the interactive visualizations below.
       </p>
     </header>
 
     <div class="wrapper">
-      <!-- Sankey Section -->
+      <!-- Sankey Section (existing) -->
       <section id="sankey-section">
-        <h2>NHANES data reveals large gendered differences in depression severity</h2>
+        <h2><span class="female-text">Women</span> have higher depresion severity compared to <span class="male-text">Men</span></h2>
         <br>
-<p> Among 2021-2023 NHANES survey participants who had received no mental treatment in the past year, 
-    <span class="female-text">women</span> were 2x more likely than <span class="male-text">men</span> 
-    to have a PHQ‑9 score that indicates severe depression.
-</p>
-        <p> A nine‑item depression screening questionnaire, called the Patient Health Questionnaire (PHQ‑9), was administered to determine the frequency of depression symptoms over the past 2 weeks.
-</p>
-
+        <p>
+          A nine‑item depression screening questionnaire, called the Patient Health Questionnaire (PHQ‑9), was administered to determine the frequency of depression symptoms over the past 2 weeks.
+        </p>
         <div class="chart-wrapper"></div>
-        <!-- Note placed more inward -->
         <div class="sankey-note">
           <p>
             Men <span class="male-dot"></span> <br> Women <span class="female-dot"></span>
           </p>
+          <p>
+            <br>
+          Among 2021-2023 adult NHANES survey respondents,
+          <span class="female-text">women</span> were more than 3× more likely than
+          <span class="male-text">men</span> to have a PHQ‑9 score that indicates severe depression.
+        </p>
         </div>
-        <!-- Live counter -->
-        <div id="child-counter" style="text-align:center; font-size:1.2rem; margin-top:0.5rem;">0</div>
+        
+      <!-- New Static Chart Section -->
+      <section id="static-grouped-section">
+        <Center>
+        <h3>Percentage of Respondents Who Have Seen a Mental Healthcare Professional in Past Year</h3>
+        </Center>
+        <div id="static-chart" class="chart-container" align = 'center'></div>
+        <p class="source">
+          Data source: NHANES
+        </p>
+                <p class="intro-text">
+          Each chart shows, for a given age group, the percentage of respondents who answered "Yes" to having seen a mental healthcare professional—broken down by gender.
+        </p>
       </section>
       
+      
+            <section id="mechanism-regression-section">
+        <h2>Local Regression of CR by Age, Faceted by Mechanism</h2>
+        <p class="intro-text">
+          For each mechanism (e.g. Firearm, Non-Firearm, etc.), the chart below displays smooth LOESS regression curves of CR (Crude Rate) versus Age.
+          Curves are drawn separately for Female and Male and for three YearGroups. The highlighted YearGroup rotates automatically.
+        </p>
+        <div id="mechanism-chart" class="chart-container"></div>
+        <p class="source">
+          Data source: WISQARS
+        </p>
+      </section>
+    </div>
+
+
+      </section>
       
       <!-- Mortality Section (unchanged) -->
       <section id="mortality-section">
@@ -55,18 +84,12 @@
           <a href="https://www.cdc.gov/nchs/nvss/mortality_tables.htm">National Center for Health Statistics</a>
         </p>
       </section>
-    </div>
+      
 
-    <!-- Auto-start the Sankey simulation on page load -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        if (window.startEducationAnimation) {
-          window.startEducationAnimation();
-        }
-      });
-    </script>
     <!-- Load additional scripts -->
     <script src="main.js"></script>
     <script src="mortality.js"></script>
+    <script src="mechanismRegression.js"></script>
+    <script src="staticChart.js"></script>
   </body>
 </html>
