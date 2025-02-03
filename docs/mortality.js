@@ -1,188 +1,231 @@
-// mortality.js
-// A polished animated scatterplot showing suicide mortality rates by age and gender.
-// A button ("How does this compare to homicide?") now draws a homicide comparison that
-// for each facet connects very small points (like geom_line in ggplot).
+// Mortality visualization comparing suicide and homicide rates
+d3.csv("mortality_data.csv", d3.autoType).then(data => {
+  // Constants and configuration
+  const config = {
+    margin: { top: 120, right: 60, bottom: 100, left: 80 },
+    facetWidth: 500,
+    height: 500,
+    padding: 50,
+    animationDuration: 750,
+    colors: {
+      female: "#FF9F1C",
+      male: "#1e90ff",
+      homicide: "#333333",
+      grid: "#e0e0e0"
+    },
+    fontSize: {
+      title: "24px",
+      subtitle: "18px",
+      label: "18px",
+      axis: "16px"
+    }
+  };
 
-const margin = { top: 120, right: 60, bottom: 100, left: 80 };
-const facetWidth = 400;
-const height = 500;
-const padding = 50;
-// Increase overall SVG width so that the legend and chart have ample room.
-const totalWidth = (facetWidth + margin.left + margin.right) * 2 + padding;
+  // Calculate total width for better organization
+  const totalWidth = (config.facetWidth + config.margin.left + config.margin.right) * 2 + config.padding;
 
-const container = d3.select("#mortality-chart")
-  .style("display", "flex")
-  .style("justify-content", "center")
-  .style("align-items", "center");
+  // Setup container with flex layout
+  const container = d3.select("#mortality-chart")
+    .style("display", "flex")
+    .style("justify-content", "center")
+    .style("align-items", "center");
 
-const svg = container.append("svg")
-  .attr("width", totalWidth)
-  .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-  .attr("transform", `translate(${margin.left},${margin.top})`);
+  // Create main SVG with white background
+  const svg = container.append("svg")
+    .attr("viewBox", `0 0 ${totalWidth} ${config.height + config.margin.top + config.margin.bottom}`)
+    .attr("preserveAspectRatio", "xMidYMid meet")
+    .style("background", "#ffffff")
+    .style("max-width", "100%")
+    .style("height", "auto")
+    .append("g")
+    .attr("transform", `translate(${config.margin.left},${config.margin.top})`);
 
-// Main title and subtitle
-svg.append("text")
-  .attr("class", "chart-title")
-  .attr("x", (totalWidth - margin.left - margin.right) / 2)
-  .attr("y", -80)
-  .attr("text-anchor", "middle")
-  .style("font-size", "24px")
-  .style("font-weight", "bold")
-  .text("Mortality Rates by Gender and Method");
+  // Add titles and labels
+  const titles = {
+    main: "Mortality Rates by Gender and Method",
+    subtitle: "Suicide Mortality Rates by Age and Gender"
+  };
 
-svg.append("text")
-  .attr("class", "chart-subtitle")
-  .attr("x", (totalWidth - margin.left - margin.right) / 2)
-  .attr("y", -50)
-  .attr("text-anchor", "middle")
-  .style("font-size", "18px")
-  .text("Suicide Mortality Rates by Age and Gender");
-
-const policyLabel = svg.append("text")
-  .attr("class", "policy-label")
-  .attr("x", (totalWidth - margin.left - margin.right) / 2)
-  .attr("y", -20)
-  .attr("text-anchor", "middle")
-  .style("font-size", "16px")
-  .style("font-weight", "bold");
-
-// Facet groups for Firearm and Non-Firearm suicides
-const firearmPlot = svg.append("g")
-  .attr("class", "facet firearm");
-
-const nonFirearmPlot = svg.append("g")
-  .attr("class", "facet nonfirearm")
-  .attr("transform", `translate(${facetWidth + margin.left + margin.right + padding},0)`);
-
-// Facet titles
-firearmPlot.append("text")
-  .attr("class", "facet-title")
-  .attr("x", facetWidth / 2)
-  .attr("y", -10)
-  .attr("text-anchor", "middle")
-  .style("font-size", "16px")
-  .text("Firearm Suicides");
-
-nonFirearmPlot.append("text")
-  .attr("class", "facet-title")
-  .attr("x", facetWidth / 2)
-  .attr("y", -10)
-  .attr("text-anchor", "middle")
-  .style("font-size", "16px")
-  .text("Non-Firearm Suicides");
-
-// Scales
-const x = d3.scaleLinear().range([0, facetWidth]);
-const y = d3.scaleLinear().range([height, 0]);
-
-// Add axes to each facet
-const facets = [firearmPlot, nonFirearmPlot];
-facets.forEach(facet => {
-  facet.append("g")
-    .attr("class", "x-axis")
-    .attr("transform", `translate(0,${height})`);
-  facet.append("g")
-    .attr("class", "y-axis");
-
-  // Axis labels with larger fonts
-  facet.append("text")
-    .attr("class", "axis-label")
-    .attr("x", facetWidth / 2)
-    .attr("y", height + 50)
+  svg.append("text")
+    .attr("class", "chart-title")
+    .attr("x", (totalWidth - config.margin.left - config.margin.right) / 2)
+    .attr("y", -80)
     .attr("text-anchor", "middle")
-    .style("font-size", "14px")
-    .text("Age");
+    .style("font-size", config.fontSize.title)
+    .style("font-weight", "bold")
+    .text(titles.main);
 
-  if (facet === firearmPlot) {
+  svg.append("text")
+    .attr("class", "chart-subtitle")
+    .attr("x", (totalWidth - config.margin.left - config.margin.right) / 2)
+    .attr("y", -50)
+    .attr("text-anchor", "middle")
+    .style("font-size", config.fontSize.subtitle)
+    .text(titles.subtitle);
+
+  const policyLabel = svg.append("text")
+    .attr("class", "policy-label")
+    .attr("x", (totalWidth - config.margin.left - config.margin.right) / 2)
+    .attr("y", -20)
+    .attr("text-anchor", "middle")
+    .style("font-size", config.fontSize.label)
+    .style("font-weight", "bold");
+
+  // Create facets for Firearm and Non-Firearm
+  const facets = {
+    firearm: svg.append("g").attr("class", "facet firearm"),
+    nonFirearm: svg.append("g")
+      .attr("class", "facet nonfirearm")
+      .attr("transform", `translate(${config.facetWidth + config.margin.left + config.margin.right + config.padding},0)`)
+  };
+
+  // Add facet titles
+  Object.entries(facets).forEach(([key, facet]) => {
     facet.append("text")
-      .attr("class", "axis-label")
-      .attr("transform", "rotate(-90)")
-      .attr("x", -height / 2)
-      .attr("y", -60)
+      .attr("class", "facet-title")
+      .attr("x", config.facetWidth / 2)
+      .attr("y", -10)
       .attr("text-anchor", "middle")
-      .style("font-size", "14px")
-      .text("Deaths per 100,000");
-  }
-});
-
-// Legend with extra room
-const legendData = [
-  { label: "Female", color: "#FF9F1C" },
-  { label: "Male", color: "#1e90ff" },
-  { label: "Homicide", color: "black", isLine: true }
-];
-
-const legend = svg.append("g")
-  .attr("class", "legend")
-  .attr("transform", `translate(${totalWidth - margin.right - 120}, 0)`);
-
-legendData.forEach((d, i) => {
-  const legendRow = legend.append("g")
-    .attr("transform", `translate(0, ${i * 25})`);
-  if (d.isLine) {
-    legendRow.append("line")
-      .attr("x1", 0)
-      .attr("y1", 0)
-      .attr("x2", 20)
-      .attr("y2", 0)
-      .attr("stroke", d.color)
-      .attr("stroke-width", 2);
-  } else {
-    legendRow.append("circle")
-      .attr("r", 5)
-      .style("fill", d.color);
-  }
-  legendRow.append("text")
-    .attr("x", 30)
-    .attr("y", 5)
-    .text(d.label)
-    .style("font-size", "14px");
-});
-
-// Tooltip for hover details
-const tooltip = d3.select("#mortality-chart")
-  .append("div")
-  .attr("class", "tooltip")
-  .style("opacity", 0)
-  .style("position", "absolute")
-  .style("background-color", "white")
-  .style("border", "1px solid #ddd")
-  .style("border-radius", "4px")
-  .style("padding", "8px")
-  .style("pointer-events", "none");
-
-let mortalityInterval; // For cycling state policies
-
-// Load and process data
-d3.csv("mortality_data.csv").then(function(data) {
-  // Filter suicide data (case-insensitive)
-  const suicideData = data.filter(d => d.method && d.method.toLowerCase() === "suicide");
-  
-  // Filter homicide data for comparison (unsorted initially)
-  const homicideDataAll = data.filter(d => d.method && d.method.toLowerCase() === "homicide");
-  
-  // For homicide data we will sort later per facet.
-  
-  // Set domains for scales
-  x.domain([15, 84]);
-  y.domain([0, d3.max(suicideData, d => +d.deaths_100k)]);
-
-  facets.forEach(facet => {
-    facet.select(".x-axis")
-      .call(d3.axisBottom(x).ticks(8).tickSizeOuter(0))
-      .selectAll("text")
-      .style("font-size", "14px");
-    facet.select(".y-axis")
-      .call(d3.axisLeft(y).ticks(6).tickSizeOuter(0))
-      .selectAll("text")
-      .style("font-size", "14px");
+      .style("font-size", config.fontSize.label)
+      .text(key === "firearm" ? "Firearm Suicides" : "Non-Firearm Suicides");
   });
 
-  // Helper: color coding for suicide circles
-  const getColor = d => d.gender === "Female" ? "#FF9F1C" : "#1e90ff";
+  // Setup scales
+  const scales = {
+    x: d3.scaleLinear().range([0, config.facetWidth]).domain([15, 84]),
+    y: d3.scaleLinear().range([config.height, 0])
+  };
 
-  // Update function for each facet (suicide data)
+  // Add axes and grid to each facet
+  Object.values(facets).forEach(facet => {
+    // Add grid lines
+    facet.append("g")
+      .attr("class", "grid y-grid")
+      .selectAll("line")
+      .data(scales.y.ticks(10))
+      .join("line")
+      .attr("x1", 0)
+      .attr("x2", config.facetWidth)
+      .attr("y1", d => scales.y(d))
+      .attr("y2", d => scales.y(d))
+      .attr("stroke", config.colors.grid)
+      .attr("stroke-width", 1);
+
+    // Add x-grid
+    facet.append("g")
+      .attr("class", "grid x-grid")
+      .selectAll("line")
+      .data(scales.x.ticks(10))
+      .join("line")
+      .attr("x1", d => scales.x(d))
+      .attr("x2", d => scales.x(d))
+      .attr("y1", 0)
+      .attr("y2", config.height)
+      .attr("stroke", config.colors.grid)
+      .attr("stroke-width", 1);
+
+    // Add axes
+    facet.append("g")
+      .attr("class", "x-axis")
+      .attr("transform", `translate(0,${config.height})`)
+      .call(d3.axisBottom(scales.x).ticks(8))
+      .style("font-size", config.fontSize.axis);
+
+    facet.append("g")
+      .attr("class", "y-axis")
+      .call(d3.axisLeft(scales.y).ticks(10))
+      .style("font-size", config.fontSize.axis);
+
+    // Add axis labels
+    facet.append("text")
+      .attr("class", "axis-label")
+      .attr("x", config.facetWidth / 2)
+      .attr("y", config.height + 40)
+      .attr("text-anchor", "middle")
+      .style("font-size", config.fontSize.label)
+      .text("Age (years)");
+
+    if (facet === facets.firearm) {
+      facet.append("text")
+        .attr("class", "axis-label")
+        .attr("transform", "rotate(-90)")
+        .attr("x", -config.height / 2)
+        .attr("y", -60)
+        .attr("text-anchor", "middle")
+        .style("font-size", config.fontSize.label)
+        .text("Suicide Deaths per 100,000 Population");
+    }
+  });
+
+  // Add tooltip
+  const tooltip = d3.select("#mortality-chart")
+    .append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0)
+    .style("position", "absolute")
+    .style("background-color", "rgba(255, 255, 255, 0.95)")
+    .style("padding", "12px")
+    .style("border", "1px solid #ddd")
+    .style("border-radius", "4px")
+    .style("font-size", "14px")
+    .style("pointer-events", "none")
+    .style("box-shadow", "0 2px 4px rgba(0,0,0,0.1)")
+    .style("max-width", "200px");
+
+  // Add legend
+  const legendData = [
+    { label: "Female", color: config.colors.female },
+    { label: "Male", color: config.colors.male }
+  ];
+
+  const legend = svg.append("g")
+    .attr("class", "legend")
+    .attr("transform", `translate(${totalWidth - config.margin.right - 120}, 0)`);
+
+  legendData.forEach((d, i) => {
+    const legendRow = legend.append("g")
+      .attr("transform", `translate(0, ${i * 25})`);
+
+    if (d.isLine) {
+      legendRow.append("line")
+        .attr("x1", 0)
+        .attr("y1", 0)
+        .attr("x2", 20)
+        .attr("y2", 0)
+        .attr("stroke", d.color)
+        .attr("stroke-width", 2);
+    } else {
+      legendRow.append("circle")
+        .attr("r", 5)
+        .style("fill", d.color);
+    }
+
+    legendRow.append("text")
+      .attr("x", 30)
+      .attr("y", 5)
+      .text(d.label)
+      .style("font-size", config.fontSize.label);
+  });
+
+  // Process data and update visualization
+  const suicideData = data.filter(d => d.method?.toLowerCase() === "suicide");
+  const homicideData = data.filter(d => d.method?.toLowerCase() === "homicide");
+
+  // Set y-scale domain based on data
+  scales.y.domain([0, d3.max(suicideData, d => +d.deaths_100k)]);
+
+  // Update axes with new domain
+  Object.values(facets).forEach(facet => {
+    facet.select(".x-axis").call(d3.axisBottom(scales.x).ticks(8));
+    facet.select(".y-axis").call(d3.axisLeft(scales.y).ticks(10));
+  });
+
+  // Helper functions
+  function getColor(d) {
+    return d.gender === "Female" ? config.colors.female : config.colors.male;
+  }
+
+  // Update visualization with data
   function updateFacet(facet, mode, strictness) {
     const filteredData = suicideData.filter(d =>
       d.mode === mode && d.strictness === strictness
@@ -190,140 +233,87 @@ d3.csv("mortality_data.csv").then(function(data) {
 
     policyLabel.text(`Current State Policy: ${strictness}`);
 
-    const circles = facet.selectAll(".mortality-dot")
+    const points = facet.selectAll(".mortality-dot")
       .data(filteredData, d => `${d.gender}-${d.agegroup}`);
 
-    circles.exit()
-      .transition()
-      .duration(750)
-      .style("opacity", 0)
-      .remove();
-
-    const circlesEnter = circles.enter()
+    const pointsEnter = points.enter()
       .append("circle")
       .attr("class", "mortality-dot")
       .attr("r", 5)
-      .attr("cx", d => x(+d.agegroup))
-      .attr("cy", d => y(+d.deaths_100k))
+      .attr("cx", d => scales.x(+d.agegroup))
+      .attr("cy", d => scales.y(+d.deaths_100k))
       .style("fill", getColor)
-      .style("opacity", 0);
-
-    circles.merge(circlesEnter)
-      .transition()
-      .duration(750)
-      .style("opacity", 0.8)
-      .attr("cx", d => x(+d.agegroup))
-      .attr("cy", d => y(+d.deaths_100k))
-      .style("fill", getColor);
-
-    circlesEnter
+      .style("opacity", 0)
+      .style("stroke", "#ffffff")
+      .style("stroke-width", 1)
       .on("mouseover", function(event, d) {
+        // Highlight the point
         d3.select(this)
           .transition()
           .duration(200)
           .style("opacity", 1)
           .attr("r", 8);
+
+        // Show and position tooltip
         tooltip.transition()
           .duration(200)
           .style("opacity", 0.9);
+
         tooltip.html(`
-          Age: ${d.agegroup}<br/>
-          Gender: ${d.gender}<br/>
-          State Policy: ${d.strictness}<br/>
-          Deaths per 100k: ${(+d.deaths_100k).toFixed(2)}<br/>
-          Total Deaths: ${d.deaths}
+          <strong>${d.gender}</strong><br/>
+          <strong>Age:</strong> ${d.agegroup}<br/>
+          <strong>Policy:</strong> ${d.strictness}<br/>
+          <strong>Deaths per 100k:</strong> ${(+d.deaths_100k).toFixed(1)}<br/>
+          <strong>Total Deaths:</strong> ${d.deaths.toLocaleString()}
         `)
           .style("left", (event.pageX + 10) + "px")
           .style("top", (event.pageY - 28) + "px");
       })
       .on("mouseout", function() {
+        // Reset point size
         d3.select(this)
           .transition()
           .duration(200)
           .style("opacity", 0.8)
           .attr("r", 5);
+
+        // Hide tooltip
         tooltip.transition()
           .duration(500)
           .style("opacity", 0);
       });
+
+    points.merge(pointsEnter)
+      .transition()
+      .duration(config.animationDuration)
+      .style("opacity", 0.8)
+      .attr("cx", d => scales.x(+d.agegroup))
+      .attr("cy", d => scales.y(+d.deaths_100k))
+      .style("fill", getColor);
+
+    points.exit()
+      .transition()
+      .duration(config.animationDuration)
+      .style("opacity", 0)
+      .remove();
   }
 
-  // Define state policy conditions for suicide animation
+  // Initialize visualization
   const strictnessCategories = ["Permissive", "Strict"];
-  let currentStrictnessIndex = 0;
+  let currentIndex = 0;
 
-  // Suicide data animation: cycle through policies every 5 seconds.
-  function startAnimation() {
-    updateFacet(firearmPlot, "Firearm", strictnessCategories[currentStrictnessIndex]);
-    updateFacet(nonFirearmPlot, "Non-Firearm", strictnessCategories[currentStrictnessIndex]);
-    mortalityInterval = setInterval(() => {
-      currentStrictnessIndex = (currentStrictnessIndex + 1) % strictnessCategories.length;
-      updateFacet(firearmPlot, "Firearm", strictnessCategories[currentStrictnessIndex]);
-      updateFacet(nonFirearmPlot, "Non-Firearm", strictnessCategories[currentStrictnessIndex]);
-    }, 5000);
+  function animate() {
+    updateFacet(facets.firearm, "Firearm", strictnessCategories[currentIndex]);
+    updateFacet(facets.nonFirearm, "Non-Firearm", strictnessCategories[currentIndex]);
+    currentIndex = (currentIndex + 1) % strictnessCategories.length;
   }
 
-  // Auto-start the suicide animation
-  startAnimation();
+  // Start animation
+  animate();
+  const interval = setInterval(animate, 2500);
 
-  // Homicide line: when the "How does this compare to homicide?" button is clicked,
-  // draw a homicide line that connects very small points in each facet.
-  let homicideShown = false;
-  d3.select("#show-homicide").on("click", function() {
-    if (!homicideShown) {
-      homicideShown = true;
-      drawHomicideLine();
-    }
-  });
-
-  // Function to draw the homicide line for each facet separately.
-  function drawHomicideLine() {
-    [firearmPlot, nonFirearmPlot].forEach(facet => {
-      // Determine the mode for this facet: if the facet has class "firearm", use "Firearm"; otherwise "Non-Firearm"
-      let facetMode = facet.classed("firearm") ? "Firearm" : "Non-Firearm";
-      // Filter homicide data for this mode and sort by agegroup
-      let facetHomicideData = homicideDataAll.filter(d => d.mode === facetMode);
-      facetHomicideData.sort((a, b) => +a.agegroup - +b.agegroup);
-      
-      if (facetHomicideData.length === 0) return; // Skip if no data for this mode
-
-      // Create a line generator for homicide data
-      const homicideLine = d3.line()
-        .x(d => x(+d.agegroup))
-        .y(d => y(+d.deaths_100k))
-        .curve(d3.curveMonotoneX);
-
-      const homicideGroup = facet.append("g").attr("class", "homicide-group");
-
-      // Draw very small points at each homicide data record
-      homicideGroup.selectAll("circle")
-        .data(facetHomicideData)
-        .enter()
-        .append("circle")
-        .attr("cx", d => x(+d.agegroup))
-        .attr("cy", d => y(+d.deaths_100k))
-        .attr("r", 3)
-        .attr("fill", "black")
-        .style("opacity", 0)
-        .transition()
-        .delay((d, i) => i * 50)
-        .duration(500)
-        .style("opacity", 1);
-
-      // Draw the connecting line (like geom_line)
-      homicideGroup.append("path")
-        .datum(facetHomicideData)
-        .attr("d", homicideLine)
-        .attr("fill", "none")
-        .attr("stroke", "black")
-        .attr("stroke-width", 2)
-        .style("opacity", 0)
-        .transition()
-        .duration(2000)
-        .style("opacity", 1);
-    });
-  }
-})
-.catch(function(error) {
+  // Cleanup
+  window.addEventListener('unload', () => clearInterval(interval));
+}).catch(error => {
   console.error("Error loading mortality data:", error);
 });

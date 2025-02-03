@@ -8,11 +8,11 @@ d3.csv("WISQARS.csv", d3.autoType).then(data => {
     if (d.Sex === "1" || d.Sex === 1) d.Sex = "Female";
     else if (d.Sex === "2" || d.Sex === 2) d.Sex = "Male";
   });
-
-  // Filter data for ages 13 and above
+ // Filter for ages 13 and above
   data = data.filter(d => d.Age >= 13);
+  console.log("Filtered data length:", data.length);
 
-  // Aggregate data: average CR per Mechanism, YearGroup, Sex, and Age
+  // Aggregate data using d3.rollup for more reliable aggregation
   const nested = d3.rollup(
     data,
     v => d3.mean(v, d => d.CR),
@@ -22,167 +22,266 @@ d3.csv("WISQARS.csv", d3.autoType).then(data => {
     d => d.Age
   );
 
-  // Flatten the nested structure
+  // Convert nested Map to array format
   let aggregated = [];
-  nested.forEach((yearMap, mech) => {
-    yearMap.forEach((sexMap, yg) => {
-      sexMap.forEach((ageMap, sex) => {
-        ageMap.forEach((avgCR, age) => {
+  for (let [mech, yearMap] of nested) {
+    for (let [year, sexMap] of yearMap) {
+      for (let [sex, ageMap] of sexMap) {
+        for (let [age, cr] of ageMap) {
           aggregated.push({
             Mechanism: mech,
-            YearGroup: yg,
+            YearGroup: year,
             Sex: sex,
             Age: +age,
-            CR: avgCR
+            CR: cr
           });
-        });
-      });
-    });
-  });
+        }
+      }
+    }
+  }
+
+  console.log("Aggregated data sample:", aggregated.slice(0, 5));
+  console.log("Unique sexes in aggregated data:", [...new Set(aggregated.map(d => d.Sex))]);
 
   // Get unique values
-  const mechanisms = Array.from(new Set(aggregated.map(d => d.Mechanism))).sort();
-  const yearGroups = Array.from(new Set(aggregated.map(d => d.YearGroup))).sort();
+  const mechanisms = [...new Set(aggregated.map(d => d.Mechanism))].sort();
+  const yearGroups = [...new Set(aggregated.map(d => d.YearGroup))].sort();
   const sexes = ["Female", "Male"];
 
-  // Set dimensions
-  const facetMargin = { top: 40, right: 40, bottom: 50, left: 70 },
-        facetWidth = 300,
-        facetHeight = 300;
-  const totalWidth = mechanisms.length * (facetWidth + facetMargin.left + facetMargin.right),
-        totalHeight = facetHeight + facetMargin.top + facetMargin.bottom;
+  console.log("Mechanisms:", mechanisms);
+  console.log("Year Groups:", yearGroups);
+  console.log("Sexes:", sexes);
 
-  // Create SVG container with white background
+  // Enhanced dimensions for better visibility
+  const facetMargin = { top: 50, right: 50, bottom: 60, left: 80 };
+  const facetWidth = 300;
+  const facetHeight = 300;
+  const totalWidth = mechanisms.length * (facetWidth + facetMargin.left + facetMargin.right);
+  const totalHeight = facetHeight + facetMargin.top + facetMargin.bottom;
+
+  // Create SVG with responsive sizing
   const svg = d3.select("#mechanism-chart")
     .append("svg")
-      .attr("width", totalWidth)
-      .attr("height", totalHeight + 50)
-      .style("background", "#fff")  // White background
+    .attr("viewBox", `0 0 ${totalWidth} ${totalHeight + 50}`)
+    .attr("preserveAspectRatio", "xMidYMid meet")
+    .style("background", "#ffffff")
+    .style("max-width", "100%")
+    .style("height", "auto")
     .append("g")
-      .attr("transform", `translate(0,50)`);
+    .attr("transform", `translate(0,50)`);
 
-  // Global label for current YearGroup
+  // Add legend
+  const legend = svg.append("g")
+    .attr("class", "legend")
+    .attr("transform", `translate(${totalWidth - 150}, -30)`);
+
+  sexes.forEach((sex, i) => {
+    const legendItem = legend.append("g")
+      .attr("transform", `translate(0, ${i * 20})`);
+
+    legendItem.append("circle")
+      .attr("r", 4)
+      .attr("fill", sex === "Female" ? "#FF9F1C" : "#1e90ff")
+      .attr("opacity", 0.8);
+
+    legendItem.append("text")
+      .attr("x", 10)
+      .attr("y", 4)
+      .text(sex)
+      .style("font-size", "12px")
+      .style("font-family", "sans-serif");
+  });
+
+  // Enhanced global label
   const globalLabel = svg.append("text")
-      .attr("class", "current-yeargroup")
-      .attr("x", totalWidth / 2)
-      .attr("y", -20)
-      .attr("text-anchor", "middle")
-      .style("font-size", "20px")
-      .style("font-weight", "bold")
-      .text("");
+    .attr("class", "current-yeargroup")
+    .attr("x", totalWidth / 2)
+    .attr("y", -30)
+    .attr("text-anchor", "middle")
+    .style("font-size", "24px")
+    .style("font-weight", "bold")
+    .style("font-family", "sans-serif");
 
-  // Y-axis label
+  // Enhanced Y-axis label
   svg.append("text")
-      .attr("class", "y-axis-label")
-      .attr("x", -totalHeight / 2)
-      .attr("y", -50)
-      .attr("transform", "rotate(-90)")
-      .attr("text-anchor", "middle")
-      .style("font-size", "16px")
-      .text("Deaths per 100k");
+    .attr("class", "y-axis-label")
+    .attr("x", -totalHeight / 2)
+    .attr("y", -60)
+    .attr("transform", "rotate(-90)")
+    .attr("text-anchor", "middle")
+    .style("font-size", "18px")
+    .style("font-family", "sans-serif")
+    .text("Suicide Deaths per 100,000 Population");
 
-  // Scales
+  // Enhanced scales
   const x = d3.scaleLinear()
     .domain(d3.extent(aggregated, d => d.Age))
+    .nice()
     .range([0, facetWidth]);
 
   const y = d3.scaleLinear()
-    .domain([0, d3.max(aggregated, d => d.CR)]).nice()
+    .domain([0, d3.max(aggregated, d => d.CR) * 1.1]).nice()
     .range([facetHeight, 0]);
 
-  // Color scale for sexes
+  // Scientific color scheme
   const colorScale = d3.scaleOrdinal()
     .domain(sexes)
-    .range(["#FF9F1C", "#1e90ff"]);  // Yellow for Female, Blue for Male
+    .range(["#FF9F1C", "#1e90ff"]);
 
-  // Create one facet per Mechanism
+  // Create facets with enhanced styling
   const facets = svg.selectAll(".facet")
     .data(mechanisms)
-    .enter()
-    .append("g")
-      .attr("class", "facet")
-      .attr("transform", (d, i) =>
-        `translate(${i * (facetWidth + facetMargin.left + facetMargin.right) + facetMargin.left}, ${facetMargin.top})`
-      );
+    .join("g")
+    .attr("class", "facet")
+    .attr("transform", (d, i) => 
+      `translate(${i * (facetWidth + facetMargin.left + facetMargin.right) + facetMargin.left},${facetMargin.top})`
+    );
 
-  // Add axes, grid lines, and titles to each facet
+  // Add enhanced axes and grid to each facet
   facets.each(function(mech) {
     const g = d3.select(this);
-
-    // X-axis
+    
+    // Vertical grid (for y-axis)
     g.append("g")
+      .attr("class", "grid y-grid")
+      .selectAll("line")
+      .data(y.ticks(10))
+      .join("line")
+      .attr("x1", 0)
+      .attr("x2", facetWidth)
+      .attr("y1", d => y(d))
+      .attr("y2", d => y(d))
+      .attr("stroke", "#e0e0e0")
+      .attr("stroke-width", 1);
+
+    // Horizontal grid (for x-axis)
+    g.append("g")
+      .attr("class", "grid x-grid")
+      .selectAll("line")
+      .data(x.ticks(10))
+      .join("line")
+      .attr("x1", d => x(d))
+      .attr("x2", d => x(d))
+      .attr("y1", 0)
+      .attr("y2", facetHeight)
+      .attr("stroke", "#e0e0e0")
+      .attr("stroke-width", 1);
+
+    // Enhanced X-axis with label
+    const xAxis = g.append("g")
       .attr("class", "x-axis")
-      .attr("transform", `translate(0, ${facetHeight})`)
-      .call(d3.axisBottom(x).ticks(5));
+      .attr("transform", `translate(0,${facetHeight})`)
+      .call(d3.axisBottom(x)
+        .ticks(10)
+        .tickSize(6)
+      )
+      .style("font-size", "12px")
+      .style("font-family", "sans-serif");
 
-    // Y-axis with grid lines
-    g.append("g")
+    // Add X-axis label
+    g.append("text")
+      .attr("class", "x-axis-label")
+      .attr("text-anchor", "middle")
+      .attr("x", facetWidth / 2)
+      .attr("y", facetHeight + 40)
+      .style("font-size", "14px")
+      .style("font-family", "sans-serif")
+      .text("Age (years)");
+
+    // Enhanced Y-axis with more prominent label
+    const yAxis = g.append("g")
       .attr("class", "y-axis")
-      .call(d3.axisLeft(y).ticks(5).tickFormat(d3.format(".2f")))
-      .call(g => g.selectAll(".tick line")
-        .attr("x2", facetWidth)
-        .attr("stroke", "#ddd")
-        .attr("stroke-dasharray", "2,2")
-      );
+      .call(d3.axisLeft(y)
+        .ticks(10)
+        .tickSize(6)
+        .tickFormat(d3.format("d"))
+      )
+      .style("font-size", "12px")
+      .style("font-family", "sans-serif");
 
-    // Facet title
+    // Add Y-axis label if this is the leftmost facet
+    if (mech === mechanisms[0]) {
+      g.append("text")
+        .attr("class", "y-axis-label")
+        .attr("text-anchor", "middle")
+        .attr("transform", "rotate(-90)")
+        .attr("x", -facetHeight / 2)
+        .attr("y", -60)
+        .style("font-size", "14px")
+        .style("font-family", "sans-serif")
+        .text("Suicide Deaths per 100,000 Population");
+    }
+
+    // Enhanced facet title
     g.append("text")
       .attr("class", "facet-title")
       .attr("x", facetWidth / 2)
-      .attr("y", -10)
+      .attr("y", -15)
       .attr("text-anchor", "middle")
-      .style("font-size", "16px")
+      .style("font-size", "18px")
       .style("font-weight", "bold")
+      .style("font-family", "sans-serif")
       .text(mech);
   });
 
-  // Function to update the plot smoothly
+  // Enhanced update function with debugging
   function updateHighlight(currentYG) {
-    globalLabel.text(`Years: ${currentYG}`);
+    globalLabel.text(`${currentYG}`);
 
     facets.each(function(mech) {
       const g = d3.select(this);
-      const facetData = aggregated.filter(d => d.Mechanism === mech && d.YearGroup === currentYG);
+      const facetData = aggregated.filter(d => 
+        d.Mechanism === mech && d.YearGroup === currentYG
+      );
 
-      // Bind new data for the current YearGroup
+      console.log(`Data for ${mech}, ${currentYG}:`, facetData);
+
+      // Enhanced points with smooth transitions
       const points = g.selectAll(".point")
         .data(facetData, d => `${d.Age}-${d.Sex}`);
 
       // ENTER new points
-      points.enter()
+      const pointsEnter = points.enter()
         .append("circle")
-          .attr("class", d => `point ${d.Sex}`)
-          .attr("cx", d => x(d.Age))
-          .attr("cy", d => y(d.CR))
-          .attr("r", 3)
-          .attr("fill", d => colorScale(d.Sex))
-          .attr("opacity", 0)
-        .merge(points) // Merge with existing points
-        .transition()
-          .duration(1000) // Smoother transition duration
-          .ease(d3.easeCubicInOut)
-          .attr("cx", d => x(d.Age))
-          .attr("cy", d => y(d.CR))
-          .attr("fill", d => colorScale(d.Sex))
-          .attr("opacity", 1);
+        .attr("class", d => `point ${d.Sex}`)
+        .attr("cx", d => x(d.Age))
+        .attr("cy", d => y(d.CR))
+        .attr("r", 4)
+        .attr("fill", d => colorScale(d.Sex))
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 1)
+        .attr("opacity", 0);
 
-      // EXIT old points
+      // UPDATE + ENTER
+      points.merge(pointsEnter)
+        .transition()
+        .duration(1000)
+        .ease(d3.easeCubicInOut)
+        .attr("cx", d => x(d.Age))
+        .attr("cy", d => y(d.CR))
+        .attr("fill", d => colorScale(d.Sex))
+        .attr("opacity", 0.8);
+
+      // EXIT
       points.exit()
         .transition()
-          .duration(1000) // Smooth fade out
-          .ease(d3.easeCubicInOut)
-          .attr("opacity", 0)
-          .remove();
+        .duration(1000)
+        .ease(d3.easeCubicInOut)
+        .attr("opacity", 0)
+        .remove();
     });
   }
 
-  // Initial display
+  // Initialize and start animation
   let highlightedYGIndex = 0;
   updateHighlight(yearGroups[highlightedYGIndex]);
 
-  // Rotate highlighted YearGroup every 5 seconds
-  setInterval(() => {
+  // Smoother animation interval
+  const interval = setInterval(() => {
     highlightedYGIndex = (highlightedYGIndex + 1) % yearGroups.length;
     updateHighlight(yearGroups[highlightedYGIndex]);
-  }, 1500);
+  }, 2000);
+
+  // Cleanup on page unload
+  window.addEventListener('unload', () => clearInterval(interval));
 });

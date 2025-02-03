@@ -220,8 +220,8 @@ function animatedSankey({ container, data: { stackedProbabilities, categories, s
   renderStaticWrapper();
 
   // Simulation parameters.
-  const itemCountMax = 10000;
-  const itemCountIncrement = 2;
+  const itemCountMax = 100000;
+  const itemCountIncrement = 10;
   const itemFlowDuration = 10000;
   let items;
   let selectedCategories;
