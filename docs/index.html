@@ -1,91 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Extensive Data Shows Gender Disparities in Depression Screening Outcomes</title>
-    <!-- Link to CSS -->
+    <title>The Gender Paradox: Depression, Treatment, and Suicide in America</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- D3 Library -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/topojson.v3.min.js"></script>
-
-  </head>
-  <body>
-    <!-- Header / Intro Section -->
+</head>
+<body>
     <header class="article-header">
-      <h1>Data Shows Gender Disparities in <br> Depression and Suicide</h1>
-      <p class="byline">By Jacob Jameson and Madison Coots &mdash; February 1, 2025</p>
-      <p class="intro-text">
-        Extensive NHANES data reveals large differences in depression severity between genders.
-        Explore the interactive visualizations below.
-      </p>
+        <h1>Gender, Depression, and Suicide in America</h1>
+        <p class="byline">By Jacob Jameson and Madison Coots — February 1, 2025</p>
+        <p class="intro-text">
+            While women report higher rates of depression and are more likely to seek mental health care, men die by suicide at significantly higher rates — particularly in states with permissive gun laws.
+        </p>
     </header>
 
     <div class="wrapper">
-      <!-- Sankey Section (existing) -->
-      <section id="sankey-section">
-        <h2><span class="female-text">Women</span> have higher depresion severity compared to <span class="male-text">Men</span></h2>
-        <br>
-        <p>
-          A nine‑item depression screening questionnaire, called the Patient Health Questionnaire (PHQ‑9), was administered to determine the frequency of depression symptoms over the past 2 weeks.
-        </p>
-        <div class="chart-wrapper"></div>
-        <div class="sankey-note">
-          <p>
-            Men <span class="male-dot"></span> <br> Women <span class="female-dot"></span>
-          </p>
-          <p>
+        <section id="depression-section">
+            <h2>The Depression Gender Gap</h2>
+            <p>
+                Depression affects Americans differently across gender lines. A nine‑item depression screening questionnaire, called the Patient Health Questionnaire (PHQ‑9), was administered to determine the frequency of depression symptoms over the past 2 weeks.
+            </p>
             <br>
-          Among 2021-2023 adult NHANES survey respondents,
-          <span class="female-text">women</span> were more than 3× more likely than
-          <span class="male-text">men</span> to have a PHQ‑9 score that indicates severe depression.
-        </p>
-        </div>
-        
-      <!-- New Static Chart Section -->
-      <section id="static-grouped-section">
-        <Center>
-        <h3>Percentage of Respondents Who Have Seen a Mental Healthcare Professional in Past Year</h3>
-        </Center>
-        <div id="static-chart" class="chart-container" align = 'center'></div>
-        <p class="source">
-          Data source: NHANES
-        </p>
-                <p class="intro-text">
-          Each chart shows, for a given age group, the percentage of respondents who answered "Yes" to having seen a mental healthcare professional—broken down by gender.
-        </p>
-      </section>
-      
-      
+            <p>
+                        Among 2021-2023 NHANES adult survey respondents, <span class="female-text">women</span> were more than two times as likely as <span class="male-text">men</span> to have PHQ-9 scores indicating severe depression.
+                    </p>
+            <div id="sankey-section">
+                <div class="chart-wrapper"></div>
+                <div class="chart-note">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="treatment-section">
+            <h2>Seeking Help: The Treatment Gap</h2>
+            <p>
+                The disparity in depression rates is matched by a significant gap in mental health care utilization. Research shows that men seek care less frequently, not only for mental health services but for primary care as well.
+            </p>
+            <div id="static-grouped-section">
+              <Center>
+                <h3>Mental Healthcare Visits in the Past Year by Gender and Age</h3>
+                <div id="static-chart" class="chart-container"></div>
+                <p class="source">Data source: NHANES</p>
+              </Center>
+            </div>
+        </section>
+
+        <section id="suicide-section">
+            <h2>The Deadly Paradox: Suicide Rates</h2>
+            <p>
+                Despite lower reported depression rates and less frequent mental health treatment, men die by suicide at substantially higher rates than women. This disparity is particularly pronounced in firearm-related suicides, where males commit suicide at rates up to 8.2 times higher than females among young adults. 
+            </p>
             <section id="mechanism-regression-section">
-        <h2>Local Regression of CR by Age, Faceted by Mechanism</h2>
-        <p class="intro-text">
-          For each mechanism (e.g. Firearm, Non-Firearm, etc.), the chart below displays smooth LOESS regression curves of CR (Crude Rate) versus Age.
-          Curves are drawn separately for Female and Male and for three YearGroups. The highlighted YearGroup rotates automatically.
-        </p>
-        <div id="mechanism-chart" class="chart-container"></div>
-        <p class="source">
-          Data source: WISQARS
-        </p>
-      </section>
-      
-      
-            <!-- New Map Section -->
-      <section id="map-section">
-        <h2>US Gun Deaths Scorecard 2022</h2>
-        <!-- This is where map.js will insert the interactive map -->
-        <div id="map"></div>
-      </section>
+                <div id="mechanism-chart" class="chart-container"></div>
+                <p class="source">
+                    Data source: National Center for Health Statistics
+                </p>
+                                <p>Firearm deaths have increased sharply across all ages since 2015 and recently overtook accidents as the most common cause of death among U.S. children and adolescents.</p>
+        </section>
 
-      
-      
+        <section id="policy-section">
+            <h2>The Role of Gun Laws</h2>
+            <p>
+                State-level firearm policies show a striking correlation with suicide rates, particularly among men. In states with more permissive gun laws, male suicide rates are significantly higher — with the disparity most pronounced among teenagers and young adults.
+            </p>
+            <div id="map-section"> </div>
+                <h3>US Gun Safety Scorecard 2022</h3>
+                <div id="map"></div>
+                <p class="note">
+                    Males aged 15-19 in states with permissive firearm policies are twice as likely to die by firearm suicide compared to those in states with stricter regulations.
+                </p>
+        </section>
+        <br>
+         <br>
+          <br>
+        
 
-      <!-- Mortality Section (unchanged) -->
       <section id="mortality-section">
-        <h2>Mortality Rates by Gender and Method</h2>
+                        <br>
+
         <div id="mortality-chart" class="chart-container"></div>
         <div class="button-container">
+                          <br>
           <button id="show-homicide">How does this compare to homicide?</button>
         </div>
         <p class="source">
@@ -93,21 +92,24 @@
           <a href="https://www.cdc.gov/nchs/nvss/mortality_tables.htm">National Center for Health Statistics</a>
         </p>
       </section>
-      
+ 
 
-
-      
+        <section id="conclusion">
+            <h2>Moving Forward</h2>
+            <p>
+                These findings suggest a critical need for targeted interventions. While women report higher rates of depression and more readily seek treatment, men face unique challenges that may be masked by lower diagnosis rates. The data particularly highlights the need for culturally tailored outreach efforts to engage boys and men in preventive healthcare, alongside policy measures to address firearm access in vulnerable populations.
+            </p>
+        </section>
     </div>
+                </div>
 
 
-
-      
-
-    <!-- Load additional scripts -->
     <script src="main.js"></script>
     <script src="mortality.js"></script>
     <script src="mechanismRegression.js"></script>
     <script src="map.js"></script>
     <script src="staticChart.js"></script>
-  </body>
+</body>
 </html>
+
+

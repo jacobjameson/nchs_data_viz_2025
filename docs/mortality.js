@@ -108,7 +108,7 @@ facets.forEach(facet => {
 
 // Legend with extra room
 const legendData = [
-  { label: "Female", color: "#ffd700" },
+  { label: "Female", color: "#FF9F1C" },
   { label: "Male", color: "#1e90ff" },
   { label: "Homicide", color: "black", isLine: true }
 ];
@@ -180,7 +180,7 @@ d3.csv("mortality_data.csv").then(function(data) {
   });
 
   // Helper: color coding for suicide circles
-  const getColor = d => d.gender === "Female" ? "#ffd700" : "#1e90ff";
+  const getColor = d => d.gender === "Female" ? "#FF9F1C" : "#1e90ff";
 
   // Update function for each facet (suicide data)
   function updateFacet(facet, mode, strictness) {

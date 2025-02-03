@@ -438,7 +438,7 @@ function initGenerateItem({ starts, ends, stackedProbabilities, pathInnerWidth }
   const timeJitter = d3.randomUniform(-0.1, 0.1);
   const yJitter = d3.randomUniform(-pathInnerWidth / 2, pathInnerWidth / 2);
   // Each particle gets a random speed factor between 0.8 and 1.2.
-  const getRandomSpeed = d3.randomUniform(0.8, 1.2);
+  const getRandomSpeed = d3.randomUniform(1.5, 2);
   return function (elapsed, currentCategories) {
     index++;
     const categoryIndex = getRandomCategoryIndex();
